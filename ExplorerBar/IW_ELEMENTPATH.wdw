@@ -1,0 +1,1027 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_ELEMENTPATH
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : Object representing an element of the hierarchy
+ subtype : 0
+window :
+ name : IW_ELEMENTPATH
+ identifier : 0x285801d0074f8840
+ internal_properties : CAAAAAgAAACb5ZK8xrI4tdfE+1BQoOlwmgpiHOVIlpHJpsBM30fXaktrGO5yhhdmZWvvGvhJd/cqMZSOci/aMZXSuI0dREOrwBRLkiq+nwfr2pvPC9ADtKqj0dF+8GzZNE70nVVKPL18sj7AIX4Alp3YqrenJ6xiKKmt086Ua3uR+72+v3+lh4QZ7ka9OtND1FjyqcxbpZaMNPbeQPEdFP9Ja459FdvllBoT4dNti0NL+LAODehU+avqG/CwezMy5elEMxsiHfrpZDC27r9Nntg1lmdbSd08kXQSL1+fdnvTgM6y3hT9zKKfeeREJfc5UCmHMj+4bOkyyBelecZix6nmSA8oMncJGZ9yK/n7RWbg0Rzvwxv8RlL6fXiNQcLcuMRgglcM6DwftDmC1TshEBdLwfPLbnViUcsKbuhFqcjYtEXP4V//GMFZeJrBYjLCPNJ3I4TTXmN+YP53IETXwdOvhVw8HGEZNfiunR266gbc6u05Ovi/sJhWw5WdBTwGNNeXeDs9NX6v28bYXcKDb5tMzfw3gvNGTdv9p8BPwPCaMtG0NymuHAIsjO8+qHxCF/EcDySHjmh8mOZdwI/7wmhP85xcjntF92j1O/vjZZPbb3wjjzwM+FiEIKjzP3d/KfOnvChrQT/89Y2Vr7JOlQgM6V3vDn//aSq7jyib0qx/oeuu7uCy//OpSHN30Bd8JAEMJo/Zet5rGYA/OQPVDzkojb7tdaIJEIRIoxo/YKThZh3uOlddpUZQpp1+QYWjPAst2zskPINOOaC8e/DHr61boL9A78H635ojfSRDN9ex
+ properties :
+  width : 80
+  height : 20
+ controls :
+  -
+    name : IW_ELEMENTPATH
+    identifier : 0x285801d007508840
+    internal_properties : CAAAAAgAAACUx/YaJy3SG1L7btR8gxBrwMirFeXeMnffqJjNTq7W848vnkM5H5wTmKc2V7m9ZcagfMdibS4FyxBWaRVWTBob7zrJN7gMioPrYtKAjZGILtqC2ahydT2QEWWdUt3rFrP+W5Gdpg5hNvMc7794tmz3m+M4O05oc9u8NqVYQyBEDWU/EdS8pI+u6ygR4nGkiaRSZvCxJMqg02cL+BsFduD+nHIbc2001vpSp3YRbNdn9jFAtM6fNSXOK8BZcMKOzVyaPU4I/uTaoxFLSdg+v4JURFHM/oxzbBjteMEUrBU870BteGj2fp2CHOkwqHb9fUb8PvTrrWpQysxe93aK3NKmQo9w6ZHdf2RRRT0BcJLOAMFrm/g29Ks9FuChCmQHzyhOxxyLftbn+sadwVVKIQU0I6Zc6Gs12TUUhwd3RhfQSe+YIkExgWNabyFZqwFsJ/GH5RLpgoifvaiRPXtw2n1eREaYZRMXOY4j+qMo/By7eA==
+    properties :
+     width : 80
+     height : 20
+    controls :
+     -
+       name : IMG_TPL_ELEMENTPATH
+       identifier : 0x285801d007518840
+       internal_properties : CAAAAAgAAABjZ4SOzsPd8G69fhhuTuEz2OV9MHRne1mUjxwmXUyLL/mImqTCV4k5DT9wlabru3eUwFeem+ceJe9nhErerNjhdeL4gNv1lN4KZ4qVzpkEgidYvYLXJcKMu86/IMOtozQ4cmUuXiaMWcz2MicFOCdX7zYBdS2RkJEEbGEqlMkggKikAYIFDAwi48viesPETlUe7IUELv6YhsAu5/qrDDGIARzAFEqs6NuWWo5UAv/+Ys1CsqNXBJV3NRpjS8h4IWNU232/58p2y0hgiTYwoA52sEsBZcDMSMlxzt5ohBQEIVFDr+yNl/wL9GzJJ8b5Ta99vXrJvDmFIP3THbvaAr7+L2epGJYv1mEF3nnnxnJfgEANFrefKJOCvO9PnsjWszLd03d0Z3+MorsHeRgd+9P6xnteQoV2lHJIXxrK+RHEOZRamzh/c/SBi6VAMfaweYhEbpzeh/+pAchgP2NvcTl/o1unjTXGxmecfpsMC6vRg6HbGJ9LWKgmtYlH3sHOdA==
+       properties :
+        width : 66
+        height : 20
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAANK99aT578pqrY5vHKk6We4QlF1n4phI60i5kiJ2ajIXqY8ANw+K+Ev0qF5XyF7/X5nkR47wx/A9HQAdXUtV09qS9IbkPPF7nTWSaUTtcQidvXNTL45w==
+           code : |1-
+            
+           type : 18
+         -
+           code : |1-
+            
+           type : 66048
+         -
+           code : |1-
+            
+            // Reinitialize the image
+            dStartDrawing(IMG_TPL_ELEMENTPATH, dErase)
+           type : 65541
+     -
+       name : IMG_TPL_POPUPPATH
+       identifier : 0x285801d007548840
+       internal_properties : CAAAAAgAAABaCmh0HWzYqfHpdjurxuiTuTQFmDg5wf6aKYFpmJo4l7gBPe3PvgvkgvXnaGuZYoXqZoyul2JK3S8vyLb1NvFQwzSYfvVWMf6scsm4TXfBuI+hvK3ScJDCm7sgxdZJ/d0+v8i+pl0g9v7XdqK9P7di+shDVV9xu1UT4MzLvI+WFo/cT6GD8LxSXOSGvE1hFZWdzp0BEcbaHP0WtO8vIFVjPNDIVF/kvWN6H4sBwB/KmR53GbPiT5snbisx9Ok7XcMWBWRD/sjHNwrsf0QjwhACYpfKUrwbESWSWC/3vnnQV0nBlhvb3Wh/+MYEAHpoXW7pljydOeGx1lr9pQpDnQW0taZzUafm6TPaA/Pk31PepVIk0wrpUgVOBW8ZY9cWNJRrrcsRaNPYinsHNXrs7Myt3qXvDoz64zuTVO8uHN/uxDIi0N0N12l1xfSWL/GbO0GpqpGi3MtPxy3uTMuAngzFzh09mgmXuoowmMNa1FblGpCNwVWiNdaQrs0Uhzp3BtmZFpD/tlrh7tdySn0NwQPilLSWvmE5qgCLtDdh7UVPdfVi6lIoOqRJf36/qgh/bft5RZhrlHSB1AxNmh82HsE9E6VrHpONdMgF9YYd
+       properties :
+        x : 65
+        width : 15
+        height : 20
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAANK99aT578pqrY5vHKk6We4QlF1n4phI60i5kiJ2ajIXqY8ANw+K+Ev0qF5XyF7/X5nkR47wx/A9HQAdXUtV09qS9IbkPPF7nTWSaUTtcQidvXNTL45w==
+           code : |1-
+            
+           type : 18
+     -
+       name : STC_TPL_ELEMENTPATH
+       identifier : 0x285801d007528840
+       internal_properties : CAAAAAgAAADFwC+HbCVaiZNNFUzJQYQBCl/5QlFfdQnANdVFHBo6Sm5m7uYrA1MG6swLcQB8/Zhz2WpIN7iNOwoDraPxQsupoEN4rn5RGkG8C7U5wFhnBhqMH9I8PkiR1pJoszXAJF745cuLFEPJMGUxVoWpPUlPHPgkeiQVpROzRBSSDz03/l2fPPC+EWR206RvmB7lbrUmOxGuYKzIBVXp1yJcCk6VhpB615kIMem8wA9hylbYDTr1A2JQPy8C7jJhaX90u34klnECpdKWvqY2HelF0c8lyF0QZi9Z5D3qfGo0g5Opxo5AyNtL0VJv8FAYG1QZNi9+GNfRIglFiY5gTUZTi+0lfmXsn0bWbYRs
+       properties :
+        x : 4
+        width : 61
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : IMG_TPL_ANIMSOURCE
+       identifier : 0x285801d007538840
+       internal_properties : CAAAAAgAAAAHmBnDw8QlX55GUb12qMGAUKuMmzUyMZv8E70ZWkXSmcF8lU4yiUlR2Dl2AX8KPcjIBieSsbrZneAKy14AVPZFL+cT6dg12upeF594CG5RVwsd5bGhCL55lYSkdUCSxwWxF7cBvbccwJa2D7BkLB6c42MOi6A/wyEVBMoAhJ/JFOucLDFJ5xFC/FU7+8w9WWnUg4fVOONyv8oDhS+NU4cmRA0ICQeVBLZN8r/zXa+iaqxGtcYi53jp7dtxpuaqxLM/ALMRVhmj3DnkhqKmrCJeh7QslhFvQJDYUOVXaL/lJLXjn7DdEQ4I3N9Xow2W18DcJARjG3pzZgAJJFVzJTiJ/gm4W32WOpuAXVzCtWBoQEMg4EMFSduCvDjqjou/3T0w2OF8SDMBjpVHy7qq03Ryg6mEOy9qijEsvtP2SQe6gFc7Ej+gFuy1hKINHvnKQPH4DNQb0AzmTqqzRhVpCumWX14F0Dadki9Jry1GcfyG/roeT483dLqCyjzVWCBNOlLfIqlelpBdoFNaYQnk5dZW3yGGWZmvyBkubY77RgZTJVMdnmN+RuG+G7eg0GCB8jipo3eeHYLrG/FiNQ4mNz2J+kNSlCVzxIVpGlXg8WZ8EgM=
+       properties :
+        y : 26
+        width : 325
+        height : 200
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABNBIxPWZvMLct0Ad84hLJVCpSW3I+6csWTTFKIFAPXbwzhxW1KSe/7tNu80ZOmBY5jl41bVu+ML5LnW6h57fveGHTimCdcmshAsQ9iEuaZoF4Tth4QXFqFKKHw2Hzy3ccQTCufcdRIG1UvXBequ9n9GFddMxUYPRHEuT+WsefCQQ==
+        code : |1-
+         
+         // Variables accessible in read-only mode from the outside
+         PUBLIC CONSTANT
+         
+         MYELEMENT		is cElement dynamic									// <cElement> object associated with the element
+         MYID			is int												// Unique identifier of the bar
+         TIMEROUTID 		is int 	= GetIdentifier()						// Timer for the end of rollover animation
+         TIMEROVERID 	is int 	= GetIdentifier()						// Timer for the rollover animation
+         TIMERDOWNID 	is int 	= GetIdentifier()						// Timer for the left-button-down animation
+         TIMERUPID 		is int 	= GetIdentifier()						// Timer for the left-button-up animation
+         CLICKWL			is PROCEDURE
+         NOPOPUP			is boolean												// Specify whether the popup button is visible or note
+         POPUP			is boolean												// Specify whether a popup is opened
+         POPHANDLER		is boolean												// Specifies whether the element is the owner of the popup that is currently opened
+         CONTAINER		is string	= MySelf..FullName						// Complete name of the internal window
+         ANIMATION 		is boolean = True										// Specify whether the animations are enabled
+         STATUS 			is int = Active										// Status of the element
+         HANDLEBUTTON 	is int = Handle(IMG_TPL_ELEMENTPATH..FullName)		// Handle of the button image
+         HANDLEPOPUP   	is int = Handle(IMG_TPL_POPUPPATH..FullName)		// Handle of the popup button image
+         HANDLECAPTION 	is int = Handle(STC_TPL_ELEMENTPATH..FullName)		// Handle of the caption
+      -
+        code : |1-
+         
+         // Manage the events: rollover, end of rollover, left button down, left button up
+         Event(OnMouseOver	, IMG_TPL_ELEMENTPATH..FullName	, WM_MOUSEMOVE)
+         Event(OnMouseOver	, IMG_TPL_POPUPPATH..FullName		, WM_MOUSEMOVE)
+         Event(OnMouseOut	, IMG_TPL_ELEMENTPATH..FullName	, WM_MOUSEOUT)
+         Event(OnMouseOut	, IMG_TPL_POPUPPATH..FullName		, WM_MOUSEOUT)
+         Event(OnMouseDown	, IMG_TPL_ELEMENTPATH..FullName	, WM_LBUTTONDOWN)
+         Event(OnMouseDown	, IMG_TPL_POPUPPATH..FullName		, WM_LBUTTONDOWN)
+         Event(OnMouseUp		, IMG_TPL_ELEMENTPATH..FullName	, WM_LBUTTONUP)
+         Event(OnMouseUp		, IMG_TPL_POPUPPATH..FullName		, WM_LBUTTONUP)
+         
+         // Default Image
+         IMG_TPL_ANIMSOURCE = "ExplorerBar\Images\btn-path-bar-inactive-anim.png"
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         // Define the element's caption
+         PROCEDURE Set(LOCAL sCaption is string) 
+         SetCaption(sCaption)
+        type : 43
+      -
+        internal_properties : CAAAAAgAAACh6Epp9IDMohUkkkt12xDY16sBe/tD6/x28JtT8Cm23yvnG/1Y3lHj8cJBr3oFBmDPDrLbD0F7YPFPW26kV8mXqLG8szwR6WNaxRohwoo5go3qDLLSemvLQtLpGqxuYWGkOfu+QIdiuwnqpVh7nT/kny2R07i65NouzDKev/VWn/I+9SCSHnIDjbVek1kCzxXbqRle1dMsavgFw/F4QBooCSET6uiFOTBuWMqstKxPpmO38jWQngbphw==
+        code : |1-
+         // Return the element's caption
+         PROCEDURE Get()
+         RESULT STC_TPL_ELEMENTPATH
+        type : 42
+      -
+        code : |1-
+         
+        type : 2
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x27a1f047c51d7b56
+  internal_properties : CAAAAAgAAAC9auouxN3CiS1UHy69pCHJU2hPQP5aPrxDpuMd+folLnKLDclr4k04UVuUGa0eBjiUure/514NXQqvoA3kcE+ZfkAwZN5wuqf91stOSc7rrooKBe5p25+yGTrLtIh9cUvTSVwZqbm0iR8jS067DZVsr/rbKIf2qwSw5b0tai1hxqUFZkxL3IAJ4aLbMzxeRNbeYxe2gATNFCMeY38BgMEzxLp73ck14CZ1r43ovvpL1z80OL3aUfeKHbCfihfJqrDOO8iqc+h05HVbYos4EhHCLmjs/KDqmIik3JDNSn0=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : OnMouseDown
+     internal_properties : CAAAAAgAAADOacCYktbOkcTky/HGiJNKbZJmYq5lKXamaOhJofZaX/DVezJJwNSR/lbiqJZEoZrWrk67pjRZs/bCuQaEQnQFJS5wzGAE69Y0bP75AR4tHtPIuIbKv6xL2fZB6UShMRSwZ4jsUaKOyd0Qy1QlHUBhltzSnzkS1fr98hEFGuK6sz/xKVsoW4Lftdos7CFtSHS2th0a9Z4=
+     procedure_id : 1754154047791532096
+     type_code : 14
+     group : 2
+     code : |1+
+      // Summary: Event: Left button down
+      // Syntax:
+      //OnMouseDown ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE OnMouseDown()
+      
+      	IF STATUS IN (Inactive, Grayed) THEN RETURN
+      
+      	// If no popup is opened
+      	IF NOT POPUP THEN
+      		
+      		// Stop the timers that are running
+      		EndTimerSys(TIMEROVERID)
+      		EndTimerSys(TIMEROUTID)
+      		EndTimerSys(TIMERDOWNID)
+      		EndTimerSys(TIMERUPID)
+      		
+      		// Start the animation
+      		IMG_TPL_ELEMENTPATH..Note = "1"
+      		
+      		TimerSys(TimerDown, 1, TIMERDOWNID) 			
+      	END
+      	
+     type : 458752
+   -
+     name : OnMouseOut
+     internal_properties : CAAAAAgAAADK3+9Qy2UWilTp4KvNuNoZkLA5m+f7ehG9TkHH/HUPXwsPxSQi/JEFWziSUk22ctkgNmqXUhzr8ZIDW2l/GYRuY33h5wC+l8Y3JEYqjr+P7S3cEDlwqqqQ7UH6Qcrpa8v5BjScxQuunfIx63sfjFGGmcSJI8/RRNaNvYCb84GaZmTYtywUhkFbWyr/6EJpQCOPwdhSl/pCk/bzQoYCwtwDLhkXK17OttHdXDFPqLiomFqOsK4AJD0xwppxSKJCZaVOQSHPLY3sk69RdTLvnWkQcheL4hHMKD6BkHEmyM1ENzwLJV9eVmRULDcjszTqljO3mnemnt6rH+Ul/7XzGkv3frUf693vbp3E8YIam+kJSuoqxfh4sM4mjajTtgax4S9EEgLe5GcVu9/6Yh/Fhzh8paqnkA==
+     procedure_id : 1754154047791597632
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Exit from control
+      // Syntax:
+      //[ <Result> = ] OnMouseOut ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: False to cancel the event
+      //
+      PROCEDURE PRIVATE OnMouseOut()
+      
+      	IF STATUS IN (Grayed) THEN RESULT False
+      
+      	// If a popup is opened, don't manage the event
+      	IF POPUP THEN RESULT False
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      
+      	// Retrieve the coordinates of the mouse
+      	nSx, nSy are int
+      	nSx = LoWord(CursorPos(cpScreen))
+      	nSy = HiWord(CursorPos(cpScreen))
+      
+      	// Retrieve the handle of the control being rolled over by the mouse cursor
+      	nControlHandleRollover is int
+      	nControlHandleRollover = API("user32", "WindowFromPoint", nSx, nSy)
+      
+      	// If the control being rolled over is one of the two buttons, we don't start the rollover end animation
+      	IF NOT ControlOver() IN (STC_TPL_ELEMENTPATH..Name, IMG_TPL_POPUPPATH..Name, IMG_TPL_ELEMENTPATH..Name) OR NOT nControlHandleRollover IN (HANDLEBUTTON, HANDLECAPTION, HANDLEPOPUP) THEN 
+      		
+      		// Start the animation
+      		TimerSys(TimerOut, 2, TIMEROUTID) 
+      		
+      	ELSE
+      		// Reinitialize the image
+      		IF ControlOver()  IN (STC_TPL_ELEMENTPATH..Name, IMG_TPL_ELEMENTPATH..Name) THEN
+      			IMG_TPL_ANIMSOURCE = "ExplorerBar\Images\btn-path-bar-active-anim.png"
+      		ELSE
+      			IMG_TPL_ANIMSOURCE = "ExplorerBar\Images\btn-path-bar-inactive-anim.png"
+      		END
+      		
+      		// Re-run the rollover process
+      		TimerSys(TimerOver, 1, TIMEROVERID) 		
+      	END
+     type : 458752
+   -
+     name : OnMouseOver
+     internal_properties : CAAAAAgAAABcZQHaXler1tAdVJ8BfG7NRExn37sPUs1JYjVjlIn3dwd79ZjWMJG5B+x2/u0S6tmEAhLDpujDZUbnbz23LfQuL8FBsxxKDyozKDqm5gMPxcnwmJ1cjvpsUT32TQo1O5Olslyo6dceQQ4l5xcHELmePVBZ5xNVRNLBgdznI1XiHlBEbzAA8mlHTyaLTKrVyKtjjUgOW8Zyx2J31AigXMZ5JHexpdxIILubTkNBvpqyllj0KtCOxteLSDQDkugMp3uk1wsJGw9+bTWLlzQtF/P+wPXldI9OshDHituwlt/OXUJphxGskKZOysmVJTo0SHHNuAEgHMilIXu/mSchzJVtfOOJpRMhkHdiUwScOYPbmEDQPwpW4ujIY+L9UKwjo10a1l5yUHMZv1NuVmNBBEcGLzwxBg==
+     procedure_id : 1754154047791663168
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Control rollover
+      // Syntax:
+      //[ <Result> = ] OnMouseOver ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: False to cancel the event
+      //
+      PROCEDURE PRIVATE OnMouseOver()
+      
+      	IF STATUS IN (Grayed) THEN RESULT False
+      
+      	// If a popup is opened
+      	IF POPUP THEN 
+      
+      		// Stop the timers that are running
+      		EndTimerSys(TIMEROVERID)
+      		EndTimerSys(TIMEROUTID)
+      		EndTimerSys(TIMERDOWNID)
+      		EndTimerSys(TIMERUPID)
+      		
+      		// Run the animation for left button down
+      		TimerSys(TimerDown, 1, TIMERDOWNID) 
+      
+      		// If the control doesn't own the popup
+      		IF POPHANDLER = False THEN
+      			// If an object is associated with the control
+      			IF MYELEMENT <> Null THEN
+      				// Sends a message to notify that the popup is re-opened
+      				sControlName is string = MYELEMENT.m_Control..FullName
+      				SendMessage(Handle(), WM_WDELEMENTPOP + MYID, &sControlName, MYID)
+      			END
+      		END
+      		
+      		// End of event
+      		RESULT False
+      	END
+      
+      	sImageActive, sImageInactive are strings
+      	sImageActive 	= "ExplorerBar\Images\btn-path-bar-active-anim.png"
+      	sImageInactive 	= "ExplorerBar\Images\btn-path-bar-inactive-anim.png"
+      
+      	// If the rolled-over button is not the popup button	
+      	IF _EVE.name IN (IMG_TPL_ELEMENTPATH..Name, STC_TPL_ELEMENTPATH..Name, "") THEN
+      		IMG_TPL_ANIMSOURCE = sImageActive
+      	ELSE
+      		IMG_TPL_ANIMSOURCE = sImageInactive
+      	END
+      	
+      	// We only start the animation if needed
+      	IF IMG_TPL_ELEMENTPATH..Note = "" THEN
+      		
+      	 	// Stop the timers that are running
+      	 	EndTimerSys(TIMEROVERID)
+      	 	EndTimerSys(TIMEROUTID)
+      	 	EndTimerSys(TIMERDOWNID)
+      	 	EndTimerSys(TIMERUPID)
+      	 	
+      	 	// Start the animation	 	
+      	 	IMG_TPL_ELEMENTPATH..Note = 1
+      	 	TimerSys(TimerOver, 2, TIMEROVERID) 
+      	END
+     type : 458752
+   -
+     name : OnMouseUp
+     internal_properties : CAAAAAgAAADC5CdJkeV62dv8sCh/mN8DwGgjRnaht8W9zFpX/9Gc0AwxLUpCBcdv+xk/yGW62LIpZFTdW/CFk/acbwpdgEjK51n1cWSRaD1p8jL6GPf7gXOlPBw/zsYmBdY/OFO6s5lGSHAmJre+th/Wr1ti3JzYILuIe3y9wav1np9oo2lWPntw0V15MJjCzV4S4Rieijc5BnpT4w==
+     procedure_id : 1754154047791728704
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Left button up
+      // Syntax:
+      //OnMouseUp ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE OnMouseUp()
+      
+      	sControlName is string
+      
+      	IF STATUS IN (Inactive, Grayed) THEN RETURN
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      		
+      	// If no popup is opened
+      	IF NOT POPUP THEN
+      		
+      		// Start the animation
+      		TimerSys(TimerUp, 1, TIMERUPID) 
+      		
+      		// If an object is associated with the control
+      		IF MYELEMENT <> Null THEN
+      			
+      			// If the popup button was clicked
+      			IF _EVE.hWnd = HANDLEPOPUP THEN	
+      				// Send a message for the popup opening				
+      				sControlName = MYELEMENT.m_Control..FullName
+      				SendMessage(Handle(), WM_WDELEMENTPOP + MYID, &sControlName, MYID)
+      			ELSE
+      				// Send a message for the path change
+      				IF CLICKWL <> Null THEN
+      					CLICKWL(MYELEMENT.m_Control..FullName, MYID)
+      				ELSE
+      					sControlName = MYELEMENT.m_Control..FullName
+      					SendMessage(Handle(), WM_WDELEMENTCLICK + MYID, &sControlName, MYID)	
+      				END				
+      			END
+      		END
+      	ELSE		
+      		// Start the animation
+      		TimerSys(TimerUp, 1, TIMERUPID) 	
+      		
+      		// If an object is associated with the control
+      		IF MYELEMENT <> Null THEN
+      			
+      			// If the popup button wasn't clicked
+      			IF NOT _EVE.hWnd = HANDLEPOPUP THEN	
+      				// Send a message for the path change
+      				IF CLICKWL <> Null THEN
+      					CLICKWL(MYELEMENT.m_Control..FullName, MYID)
+      				ELSE
+      					sControlName = MYELEMENT.m_Control..FullName
+      					SendMessage(Handle(), WM_WDELEMENTCLICK + MYID, &sControlName, MYID)	
+      				END	
+      			END	
+      		END
+      	END
+     type : 458752
+   -
+     name : SetCaption
+     procedure_id : 1754154047791794240
+     type_code : 14
+     code : |1-
+      // Summary: Define the element's identifier
+      // Syntax:
+      //SetCaption (<sCaption> is string)
+      //
+      // Parameters:
+      //	sCaption (string): Caption of the identifier
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetCaption(LOCAL sCaption is string)
+      
+      	// Modify the caption if needed
+      	IF STC_TPL_ELEMENTPATH <> sCaption THEN 		
+      		STC_TPL_ELEMENTPATH = sCaption
+      	END
+     type : 458752
+   -
+     name : SetNoPopup
+     procedure_id : 1754154047791859776
+     type_code : 14
+     code : |1-
+      // Summary: Define whether the element contains children
+      // Syntax:
+      //SetNoPopup (<bNoPopup> is boolean)
+      //
+      // Parameters:
+      //	bNoPopup (boolean): True if the element contains children, False otherwise
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetNoPopup(LOCAL bNoPopup is boolean)
+      
+      	// Modify the state of the popup button
+      	IF NOPOPUP <> bNoPopup THEN NOPOPUP = bNoPopup				
+      	
+      	IMG_TPL_POPUPPATH..Visible = (NOT NOPOPUP)
+      	
+     type : 458752
+   -
+     name : TimerDown
+     internal_properties : CAAAAAgAAADCbS4IFxaZkcjYV2GmJHs+eQYeSnYxvea6HBRBMYoKmwxJ67oJdBDpouoWGC5Yqe6qkgbDlggVM7IOfQacjhQh2ZoIDAjIP85gaPKTG+AvVJV66vyMwW4N65ijA16DE7r6yWraE9SY08dyDa53l6rX8LbMvUv8pzwnbDs3POxc0SHDezk6lfzZhySGjgOHkjHzvF8e8Zo=
+     procedure_id : 1754154047791925312
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Left button down
+      // Syntax:
+      // TimerDown ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE TimerDown()
+      
+      	x is int
+      	
+      	IF ANIMATION = False THEN IMG_TPL_ELEMENTPATH..Note = "10"
+      
+      	// Disable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = False
+      	IMG_TPL_POPUPPATH..DisplayEnabled = False
+      	
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_03 = CoordinateEditorToScreen(03)
+      	let DPI_06 = CoordinateEditorToScreen(06)
+      	let DPI_01 = CoordinateEditorToScreen(01)
+      		
+      	// We move to the 'down' part
+      	x = CoordinateEditorToScreen(65)
+      	IMG_TPL_POPUPPATH..XImage = 15 
+      	
+      	// Reassign the width
+      	IMG_TPL_POPUPPATH..ImageWidth = IMG_TPL_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_TPL_ELEMENTPATH..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n >= 10 THEN
+      		// Stop the timer
+      		EndTimerSys(TIMERDOWNID)
+      		
+      		STC_TPL_ELEMENTPATH..X = STC_TPL_ELEMENTPATH..XInitial + DPI_01
+      		STC_TPL_ELEMENTPATH..Y = STC_TPL_ELEMENTPATH..YInitial + DPI_01
+      	END
+      	
+      	// Moves the image to the bottom
+      	// Note: we use dCopyBlt rather than ..XImage to stretch the image in 3-image mode
+      	// (using ..XImage would have stretched the image uniformly)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + 0, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, 0, 0, DPI_20, DPI_03)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_03, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, DPI_03, 0, DPI_20, IMG_TPL_ELEMENTPATH..Width - DPI_06)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + CoordinateEditorToScreen(62), Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, IMG_TPL_ELEMENTPATH..Width - DPI_03, 0, DPI_20, DPI_03)
+      	
+      	// Moves the image to the bottom
+      	IMG_TPL_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_TPL_POPUPPATH..ImageHeight = IMG_TPL_ELEMENTPATH..Height
+      	
+      	// Re-enable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = True
+      	IMG_TPL_POPUPPATH..DisplayEnabled = True
+      	
+      	// Next pass
+      	n ++
+      	IMG_TPL_ELEMENTPATH..Note = n 
+     type : 458752
+   -
+     name : TimerOut
+     internal_properties : CAAAAAgAAACCLe5I11ZZsQiY16HmpPu+uYaeCvYxPSY6nFTBMUpK2wyJKzpJNNDp4qoWWO5Yqe7qEoYDFgiV87IOPYYcztRh2drIDEgIf06gKPJzu0APdLUaCpysoY6tS3jDY/7jc9qaaQp6szS4c6dSLQ6Xd4p3kNbsXWvcx1wHzNsX3Ew88cFjm9na9Rz554Qm7iNnUnGz/B/eMVo=
+     procedure_id : 1754154047791990848
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Rollover end
+      // Syntax:
+      // OnOver ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE TimerOut()
+      
+      	bStop is boolean
+      	x is int
+      
+      	IF ANIMATION = False THEN IMG_TPL_ELEMENTPATH..Note = "1"
+      
+      	// Disable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = False
+      	IMG_TPL_POPUPPATH..DisplayEnabled = False	
+      	
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_03 = CoordinateEditorToScreen(03)
+      	let DPI_06 = CoordinateEditorToScreen(06)
+      	let DPI_62 = CoordinateEditorToScreen(62)
+      	
+      	// We move to the 'rollover' part
+      	x = CoordinateEditorToScreen(260)
+      	IMG_TPL_POPUPPATH..XImage = 60
+      	
+      	// Reassign the width
+      	IMG_TPL_POPUPPATH..ImageWidth 	= IMG_TPL_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_TPL_ELEMENTPATH..Note
+      	
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n <= 1 THEN
+      		// Stop the timer
+      		bStop = True
+      		EndTimerSys(TIMEROUTID)
+      	END
+      	
+      	// Moves the image to the top
+      	// Note: we use dCopyBlt rather than ..XImage to stretch the image in 3-image mode
+      	// (using ..XImage would have stretched the image uniformly)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + 0, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, 0, 0, DPI_20, DPI_03)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_03, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, DPI_03, 0, DPI_20, IMG_TPL_ELEMENTPATH..Width - DPI_06)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_62, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, IMG_TPL_ELEMENTPATH..Width - DPI_03, 0, DPI_20, DPI_03)
+      	
+      	// Moves the image to the top
+      	IMG_TPL_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_TPL_POPUPPATH..ImageHeight 	= IMG_TPL_POPUPPATH..Height
+      
+      	// Re-enable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = True
+      	IMG_TPL_POPUPPATH..DisplayEnabled = True
+      		
+      	IF bStop = False THEN
+      		// Next pass
+      		n --
+      		IMG_TPL_ELEMENTPATH..Note = n
+      	ELSE
+      		// We can start a rollover animation again
+      		IMG_TPL_ELEMENTPATH..Note = ""
+      		
+      		STC_TPL_ELEMENTPATH..X = STC_TPL_ELEMENTPATH..XInitial
+      		STC_TPL_ELEMENTPATH..Y = STC_TPL_ELEMENTPATH..YInitial
+      	END
+     type : 458752
+   -
+     name : TimerOver
+     internal_properties : CAAAAAgAAADCbS4IFxaZkcjYV2GmJHs+eQYeSnYxvea6HBRBMYoKmwxJ67oJdBDpouoWGC5Yqe6qkgbDlggVM7IOfQacjhQh2ZoIDAjIP85gaPKTG+AvVJV66vyMwW4N65ijA16DE7r6yWraE9SY08dyDa53l6rX8LbMvUv8pzwnbDs3POxc0SHDezk6lfzZhySGjgOHkjHzvF8e8Zo=
+     procedure_id : 1754154047792056384
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation" Rollover
+      // Syntax:
+      // OnOver ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE TimerOver()
+      
+      	IF ANIMATION = False THEN IMG_TPL_ELEMENTPATH..Note = "10"
+      	
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_03 = CoordinateEditorToScreen(03)
+      	let DPI_06 = CoordinateEditorToScreen(06)
+      	let DPI_62 = CoordinateEditorToScreen(62)
+      
+      	x is int = CoordinateEditorToScreen(260)
+      	
+      	// Disable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = False
+      	IMG_TPL_POPUPPATH..DisplayEnabled = False	
+      	
+      	// We move to the 'Rollover' part
+      	IMG_TPL_POPUPPATH..XImage = 60 
+      	
+      	// Reassign the width
+      	IMG_TPL_POPUPPATH..ImageWidth 	= IMG_TPL_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_TPL_ELEMENTPATH..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      
+      	IF n >= 10 THEN
+      		// Stop the timer
+      		EndTimerSys(TIMEROVERID)
+      	END
+      	
+      	// Moves the image to the bottom
+      	// Note: we use dCopyBlt rather than ..XImage to stretch the image in 3-image mode
+      	// (using ..XImage would have stretched the image uniformly)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + 0, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, 0, 0, DPI_20, DPI_03)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_03, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, DPI_03, 0, DPI_20, IMG_TPL_ELEMENTPATH..Width - DPI_06)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_62, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, IMG_TPL_ELEMENTPATH..Width - DPI_03, 0, DPI_20, DPI_03)
+      	
+      	// Moves the image to the bottom
+      	IMG_TPL_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_TPL_POPUPPATH..ImageHeight 	= IMG_TPL_ELEMENTPATH..Height
+      	
+      	// Re-enable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = True
+      	IMG_TPL_POPUPPATH..DisplayEnabled = True
+      	
+      	// Next pass	
+      	n ++
+      	IMG_TPL_ELEMENTPATH..Note = n
+     type : 458752
+   -
+     name : TimerUp
+     internal_properties : CAAAAAgAAADcJHG95EOEudJdavglLjFqn8KdY1fRe/ckZKq2vQvMDb4OLsbPGhLiQhBT5Fhzccd42UfCn/XnVme6jL4iQvien2N86RI9O4P8+1trDXuhncR33O+f4td0BquWdDfQQmORYH8V3gGtVqgrBqHgWnFY31VZMN53Mkkwrexyaakf1oVPjy1ec7yZTWKERHnlPFcXSGkMJ6OdxYhnHeEGqd1sfkZm+iq3
+     procedure_id : 1754154047792121920
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Left button up
+      // Syntax:
+      // TimerUp ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE TimerUp()
+      
+      	IF ANIMATION = False THEN IMG_TPL_ELEMENTPATH..Note = "1"
+      
+      	bStop is boolean
+      	x is int
+      	
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_03 = CoordinateEditorToScreen(03)
+      	let DPI_06 = CoordinateEditorToScreen(06)
+      	let DPI_62 = CoordinateEditorToScreen(62)
+      	
+      	// Disable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = False
+      	IMG_TPL_POPUPPATH..DisplayEnabled = False	
+      	
+      	// We move to the 'down' part 
+      	x = CoordinateEditorToScreen(65)
+      	IMG_TPL_POPUPPATH..XImage = 15
+      	
+      	// Reassign the width
+      	IMG_TPL_ELEMENTPATH..ImageWidth 	= 65
+      	IMG_TPL_POPUPPATH..ImageWidth = IMG_TPL_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_TPL_ELEMENTPATH..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n <= 1 THEN
+      		// Stop the timer
+      		bStop = True
+      		EndTimerSys(TIMERUPID)
+      	END
+      	
+      	// Moves the image to the top
+      	// Note: we use dCopyBlt rather than ..XImage to stretch the image in 3-image mode
+      	// (using ..XImage would have stretched the image uniformly)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + 0, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, 0, 0, DPI_20, DPI_03)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_03, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, DPI_03, 0, DPI_20, IMG_TPL_ELEMENTPATH..Width - DPI_06)
+      	dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_62, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, IMG_TPL_ELEMENTPATH..Width - DPI_03, 0, DPI_20, DPI_03)
+      
+      	// Moves the image to the top
+      	IMG_TPL_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_TPL_ELEMENTPATH..ImageHeight 	= IMG_TPL_ELEMENTPATH..Height
+      	IMG_TPL_POPUPPATH..ImageHeight 	= IMG_TPL_POPUPPATH..Height
+      		
+      	// Re-enable the update
+      	IMG_TPL_ELEMENTPATH..DisplayEnabled = True
+      	IMG_TPL_POPUPPATH..DisplayEnabled = True
+      	
+      	IF bStop = False THEN
+      		// Next pass
+      		n --
+      		IMG_TPL_ELEMENTPATH..Note = n
+      	ELSE
+      		// Go back to rollover state
+      		IMG_TPL_ELEMENTPATH..Note = 10
+      		
+      		STC_TPL_ELEMENTPATH..X = STC_TPL_ELEMENTPATH..XInitial
+      		STC_TPL_ELEMENTPATH..Y = STC_TPL_ELEMENTPATH..YInitial
+      	END
+     type : 458752
+   -
+     name : GetWidth
+     procedure_id : 1754154047792187456
+     type_code : 14
+     code : |1-
+      // Summary: Return the width needed to display the object
+      // Syntax:
+      //[ <Result> = ] GetWidth ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	int: Width need to display the object
+      //
+      PROCEDURE PUBLIC GetWidth()
+      
+      	// Calculate the width needed to display the entire caption
+      	nWidth is int = TextWidth(STC_TPL_ELEMENTPATH, STC_TPL_ELEMENTPATH..Caption, tSingleLine) + CoordinateEditorToScreen(12)
+      	
+      	// Add the width of the popup button
+      	nWidth += IMG_TPL_POPUPPATH..Width
+      	
+      RESULT nWidth
+     type : 458752
+   -
+     name : SetObject
+     procedure_id : 1754154047792252992
+     type_code : 14
+     code : |1-
+      // Summary: Define the <cElement> object associated with the control
+      // Syntax:
+      //SetObject (<pclElement> is cElement dynamic)
+      //
+      // Parameters:
+      //	pclElement (cElement dynamic): <cElement> object associated with the control
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetObject(pclElement is cElement dynamic)
+      
+      	// Keeps the object
+      	MYELEMENT = pclElement
+     type : 458752
+   -
+     name : GetObject
+     procedure_id : 1754154047792318528
+     type_code : 14
+     code : |1-
+      // Summary: Return the <cElement> object associated with the control
+      // Syntax:
+      //[ <Result> = ] GetObject ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	cElement dynamic: associated <cElement> object
+      //
+      PROCEDURE PUBLIC GetObject()
+      RESULT MYELEMENT
+     type : 458752
+   -
+     name : SetPopupOpen
+     internal_properties : CAAAAAgAAADW92qq0ohNXKm7dzpy/+/AW+wjL4TPl63awBH/Uxg+UPoWXkwE7uIhltcY/9BfCWuFskJuvKItIDydvKig8jQYM17bOZZYWjrFsjJ/M1g5/zakNv1S9KPUo56OT0gccCmtkDLRHUMP3N2+lPgDrEdWdVcykme9gAOppCYF2r0nwocNKLX52x4nYsUywwL1wCbYpWD4GKF5ja2OT6QrBzHbt3JbLA==
+     procedure_id : 1754154047792384064
+     type_code : 14
+     code : |1-
+      // Summary: Specify whether the popup is open or not
+      // Syntax:
+      //SetPopupOpen (<bOpenedPopup> is boolean [, <bOwner> is boolean])
+      //
+      // Parameters:
+      //	bOpenedPopup (boolean): True if the popup is opened, False otherwise
+      //	bOwner (boolean - default value=0): <specify the role of bOwner here>
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetPopupOpen(LOCAL bOpenedPopup is boolean, LOCAL bOwner is boolean = False)
+      
+      	// Keep the popup's state
+      	bWasOpen is boolean
+      	bWasOpen = POPUP
+      
+      	// Modify the popup state and the ownership state
+      	POPUP 		= bOpenedPopup
+      	POPHANDLER	= bOwner
+      	
+      	// If the popup was opened and if it is AND if the control is not owner
+      	IF bWasOpen _AND_ (NOT bOpenedPopup AND NOT bOwner) THEN
+      		
+      		// Stop the timers that are running
+      		EndTimerSys(TIMEROVERID)
+      		EndTimerSys(TIMEROUTID)
+      		EndTimerSys(TIMERDOWNID)
+      		EndTimerSys(TIMERUPID)
+      		
+      		// Start the end of rollover animation
+      		TimerSys(TimerOut, 1, TIMEROUTID) 
+      	END
+     type : 458752
+   -
+     name : SetAnimationActive
+     internal_properties : CAAAAAgAAACaFYaNpzCrEcqK55WKdsvitxRUzIpTpb6w2hQ1NVxKK4bTcQQBUnD9YNg6uI4WtQ4s3Ly1tg61ExiUbS6kpMz9N8g6IiwKr2rGnurIarvUhxTpx2/bfEFeKkeiXNEyjDHBILc9AvfjHG6phMNC/m8SKxmtpD7r7pVem5pUEz8t4NwmUDR9fKP++pdZv3I6g3YoySfGWXI=
+     procedure_id : 1754154047792449600
+     type_code : 14
+     code : |1-
+      // Summary: Enables or disables the animation on the elements
+      // Syntax:
+      //SetAnimationActive ([<bAnimationActive>])
+      //
+      // Parameters:
+      //	bAnimationActive (default value=1): True to enable element animation, False to disable it
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetAnimationActive(LOCAL bAnimationEnabled = True)
+      
+      	ANIMATION = bAnimationEnabled
+      	
+      	IF NOT ANIMATION THEN
+      		// Stop the timers that are running
+      		EndTimerSys(TIMEROVERID)
+      		EndTimerSys(TIMEROUTID)
+      		EndTimerSys(TIMERDOWNID)
+      		EndTimerSys(TIMERUPID)
+      	END
+     type : 458752
+   -
+     name : SetStatus
+     internal_properties : CAAAAAgAAADoOmyGw493HzksyPLtAHOPSgSRDizzs0u/cIpxHaEUSMbdW+qsRwOBPU1r2pOqmHo31LplQRb1tcgohziHzLzufZEfjaJrLP/bfnU9pXh4inoioaOQ31Wx0KG+M7A7aNLRXeVJwxyZlT4VMl5PjTX133ANuh0esJIslTZrSKqPS3b1dvyqYeeV0BENdI2fvvXVmVh1zQ==
+     procedure_id : 1754154047792515136
+     type_code : 14
+     code : |1-
+      // Summary: Defines the status of the element
+      // Syntax:
+      //SetStatus (<nStatus>)
+      //
+      // Parameters:
+      //	nStatus: Status of the element (Active, Grayed, Disabled)
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetStatus(LOCAL nStatus)
+      	
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_03 = CoordinateEditorToScreen(03)
+      	let DPI_06 = CoordinateEditorToScreen(06)
+      	let DPI_62 = CoordinateEditorToScreen(62)
+      
+      	// Keep the state
+      	IF STATUS <> nStatus THEN
+      	
+      		STATUS = nStatus
+      		STC_TPL_ELEMENTPATH..State = STATUS
+      		
+      		n is int = 1
+      		x is int
+      		
+      		SWITCH STATUS
+      			CASE Active, Inactive
+      							
+      				x = 0
+      				n = 1
+      				IMG_TPL_POPUPPATH..XImage = 0			
+      				
+      			CASE Grayed
+      	
+      				x = CoordinateEditorToScreen(130)
+      				n = 1
+      				IMG_TPL_POPUPPATH..XImage = 30
+      				
+      			OTHER CASE
+      				// Active by default
+      				SetStatus(Active) 
+      				RETURN
+      		END
+      		
+      		// Reinitialize the image
+      		dStartDrawing(IMG_TPL_ELEMENTPATH, dErase)
+      		
+      		// (using ..XImage would have stretched the image uniformly)
+      		dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + 0, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, 0, 0, DPI_20, DPI_03)
+      		dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_03, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, DPI_03, 0, DPI_20, IMG_TPL_ELEMENTPATH..Width - DPI_06)
+      		dCopyBlt(IMG_TPL_ANIMSOURCE, IMG_TPL_ELEMENTPATH, copySrcCopy, x + DPI_62, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_03, IMG_TPL_ELEMENTPATH..Width - DPI_03, 0, DPI_20, DPI_03)
+      		
+      		IMG_TPL_POPUPPATH..YImage = 0
+      		
+      		// Reassign the height and width
+      		IMG_TPL_POPUPPATH..ImageWidth = IMG_TPL_POPUPPATH..Width
+      		IMG_TPL_POPUPPATH..ImageHeight = IMG_TPL_POPUPPATH..Height
+      		
+      		TimerOut()
+      
+      	END
+     type : 458752
+   -
+     name : SetID
+     procedure_id : 1754154047792580672
+     type_code : 14
+     code : |1-
+      // Summary: Specify the bar's identifier
+      // Syntax:
+      //SetID (<LE_ID>)
+      //
+      // Parameters:
+      //	EL_ID: Identifier of the bar
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE SetID(EL_ID)
+      
+      	MYID = EL_ID
+     type : 458752
+   -
+     name : SetClick
+     procedure_id : 1754154047792646208
+     type_code : 14
+     code : |1-
+      // Summary: Defines the WL procedure that must be called during a click
+      // Syntax:
+      //SetClick (<WLProc> is procedure)
+      //
+      // Parameters:
+      //	WLProc (procedure): WL procedure to call
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE SetClick(WLProc is PROCEDURE)
+      
+      	CLICKWL = WLProc
+     type : 458752
+   -
+     name : SetWidth
+     internal_properties : CAAAAAgAAABc7s0URFs15aLA1HSwiLPIrOiclk6Mcp6Succ9hnvRIloUC31RMh8LWYe/VVcTk5+Ffd9QYBT6yrKxsaG4Q2+6r91Ruk7oeHDqk2q3sa4Kl6Ik9Lp+xyHLo9YpTUS/fgTu1pqiVlr+5/kFBNWNyyEFGluKB2EL0arFb8IUvi4M+BFKt6H6b3+J/+zgHT8st31DIdz2XzcoSLijV6nJZaN5hiAPArDeGPbs
+     procedure_id : 1980498235851981658
+     type_code : 14
+     code : |1-
+      // Résumé : Set the element's width
+      // Syntaxe :
+      // SetWidth (<nWidth> est entier)
+      //
+      // Paramètres :
+      //	nWidth (entier) : New element width
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SetWidth(nWidth est un entier)
+      
+      	IMG_TPL_ELEMENTPATH..Width = nWidth - IMG_TPL_POPUPPATH..Width
+      	IMG_TPL_POPUPPATH..X = IMG_TPL_ELEMENTPATH..X + IMG_TPL_ELEMENTPATH..Width
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACnupEZbK2OyDJs8bN4jyBomuQ46944AbfyBp2jZiH+3qFJT+VvGKh+QbSELuzyiTxq87KlMyL5uHoIYWyL5KFnPa2j
+  original_name : FI_FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x17a1f0130176abb2
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

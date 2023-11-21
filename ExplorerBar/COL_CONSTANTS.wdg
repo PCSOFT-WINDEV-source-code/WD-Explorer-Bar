@@ -1,0 +1,55 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_CONSTANTS
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x185801d004008a83
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAARMmFmVAUTC0MSMexGjCBdwgTJhRYkmJKvoNGPGw7hQmbK4dpsle8mr1axW5dhyvsyFflIaS2ZDN22NhF25Tk+EW40PfNV3L7aXa2+ZrLi8UeegBgBIxl3sdIaZu9XaoJLCXSO98CA7LtVeTT+GP2SMHbmHx/jqtLnncLwNTWcfHn/
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADw/9RIFf0++HPOE67iF0xvu4ARDeRVNB6Z4ydTFR+GT2f4vBlNbXevPuobucVCr+Q34L9P08V9fEfYqgUneKuzMHvSHyKWW/htUcp4TZjRtUYNrPUNVa3zTyW3FsTn9nkawcOXvmU0SyDJYQ==
+     code : |1-
+      
+      EXTERN "keyconst.wl"
+      
+      // Constants for managing events
+      CONSTANT
+      	WM_CREATE			= 0x0001
+      	WM_MOUSEMOVE 		= 0x0200
+      	WM_MOUSEOUT  		= 0x06c7
+      	WM_PAINT 	 		= 0x000f
+      	WM_TIMER 	 		= 0x0113
+      	WM_LBUTTONDOWN 		= 0x0201
+      	WM_RBUTTONDOWN 		= 0x0204
+      	WM_LBUTTONUP 		= 0x0202
+      	WM_ACTIVATE			= 0x0006
+      	WM_NCACTIVATE		= 0x0086
+      	WM_MOUSEACTIVATE	= 0x0021
+      	MA_NOACTIVATE		= 0x0003
+      	WM_PARENTNOTIFY		= 0x0210 
+      	WM_ENTERSIZEMOVE	= 0x0231 
+      	WM_NCLBUTTONDOWN	= 0x00A1 
+      	WM_NCRBUTTONDOWN	= 0x00A4 
+      	WM_WDELEMENTCLICK	= 0x0100 + 24510
+      	WM_WDELEMENTPOP 	= 0x0100 + 24520
+      	WM_WDELEMENTPOPEND 	= 0x0100 + 24530
+      	WM_WDELEMENTPAINT 	= 0x0100 + 24500
+      END
+     type : 720896
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x15671e8806c6de5a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,707 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cElément
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x17a2089f0b358f6d
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      cElement is Class
+      
+      	PUBLIC CONSTANT
+      		m_vIdentifier		is variant										// Identifier
+      		m_sCaption			is string										// Displayed caption
+      		m_sInternalCaption	is string										// Stored caption
+      		m_sEditCaption	is string										// Caption displayed during input
+      		m_Image_status				is an Image										// Image of the element
+      		m_arrChild			is array of 0 cElement dynamic				// Child elements
+      		m_Control				is Control										// Associated IW_PATHELEMENT control
+      		m_pclParentElement	is cElement dynamic, weak					// Parent object
+      
+      END
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     procedure_id : 1702933088280416109
+     type_code : 27
+     code : |1-
+      // Summary: Instantiate a <cElement> object
+      // Syntax:
+      //cElement (<pclParentElement> is cElement dynamic, <sCaption> is string [, <vIdentifier> is variant [, <sInputCaption> is string]])
+      //
+      // Parameters:
+      //	pclParentElement (cElement dynamic): parent object of the element
+      //	sCaption (string): Caption of the element
+      //	vIdentifier (variant): Identifier of the element
+      //	sInputCaption (string): Caption of the element for input
+      // Return value:
+      // 	None
+      //
+      PROCEDURE Constructor(pclParentElement is cElement dynamic, LOCAL sCaption is string, LOCAL vIdentifier is variant = "", LOCAL sEditCaption is string = "")
+      
+      	// Stores the properties
+      	m_sCaption 			= sCaption
+      	m_sInternalCaption	= Lower(NoSpace(sCaption))
+      	m_vIdentifier 		= vIdentifier
+      	m_pclParentElement	= pclParentElement
+      	
+      	// Default Image
+      	m_Image_status				= "ExplorerBar\Images\btn-icon.png"
+      	
+      	// Assigns the caption for the input
+      	IF MyParameters..NbReceived < 4 THEN
+      		m_sEditCaption = sCaption
+      	ELSE
+      		m_sEditCaption = sEditCaption
+      	END
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 1702933088280481645
+     type_code : 28
+     code : |1-
+      PROCEDURE Destructor()
+     type : 655360
+   -
+     name : AddChild
+     internal_properties : CAAAAAgAAAB3QaE5t0CwMgUGs4wo04bvLWeGEF7b/9/tHAfqXIEpgUfq6Ny9JmXdtoXDmigWi2SN+EiIxh6bXzsKsSLTHdl5sFSN+NTVTT+dBzOJ8YezPw4EXVwdyBeGzfVOebounkUUDPCeGTaRd8eaSxA=
+     procedure_id : 1702934204972041872
+     type_code : 12
+     code : |1-
+      // Summary: Add a child element
+      // Syntax:
+      //[ <Result> = ] AddChild (<sCaption> is string [, <vIdentifier> is variant [, <sCaptionInEdit> is string]])
+      //
+      // Parameters:
+      //	sCaption (ANSI string): Path and caption of the element
+      //	vIdentifier (variant - default value=""): Element identifier
+      //	sCaptionInEdit (ANSI string - default value=""): Caption of the element that will be used for the input
+      // Return value:
+      //	cElement:   <cElement dynamic> if the element was successfully added, Null otherwise
+      //
+      PROCEDURE PUBLIC AddChild(LOCAL sCaption is string, LOCAL vIdentifier is variant = "", LOCAL sCaptionInEdit is string <useful> = "") : cElement
+      
+      	sPath 	is string
+      	nSubscript 	is int
+      	pclElement 	is cElement dynamic
+      
+      	IF StringCount(sCaption, TAB) > 0 THEN
+      		
+      		// Extract path's root
+      		sPath 	= ExtractString(sCaption, 1)
+      		
+      		// Extract the rest of the path
+      		sCaption 	= sCaption[[Position(sCaption, TAB) + 1 TO]]
+      	ELSE
+      		
+      		// The path becomes the caption and the caption is cleared
+      		sPath		= sCaption
+      		sCaption	= ""
+      	END
+      	
+      	// Delete the spaces
+      	sPath = NoSpace(sPath)
+      	sCaption = NoSpace(sCaption)
+      	
+      	// Checks whether the element already exists	
+      	nSubscript = Seek(m_arrChild, asLinear, "m_sInternalCaption", Lower(sPath))
+      	
+      	// The element does not exist, we create it
+      	IF nSubscript < 1 THEN
+      		
+      		IF sCaption = "" THEN
+      			
+      			// Create an element with the specified identifier
+      			IF MyParameters[3]..Default THEN
+      				pclElement = new cElement(object, sPath, vIdentifier)
+      			ELSE
+      				pclElement = new cElement(object, sPath, vIdentifier, MyParameters[3])	
+      			END
+      			
+      		ELSE
+      			
+      			// Create an element without identifier to store the rest
+      			IF MyParameters[3]..Default THEN
+      				pclElement = new cElement(object, sPath)
+      			ELSE
+      				pclElement = new cElement(object, sPath, *, MyParameters[3])
+      			END
+      			
+      		END
+      		
+      		// Keep the element
+      		Add(m_arrChild, pclElement)		
+      	ELSE		
+      		
+      		// Retrieves the element
+      		pclElement = m_arrChild[nSubscript]	
+      		
+      		IF sCaption = "" THEN
+      			
+      			// The element already exists
+      			RESULT Null
+      		END			
+      	END
+      	
+      	// If the parent element is valid
+      	IF pclElement <> Null THEN
+      	
+      		// If there're several levels in the path
+      		IF sCaption <> "" THEN
+      		
+      			// We ask the retrieved/created object to create the rest of the path
+      			IF MyParameters[3]..Default THEN
+      				RESULT pclElement.AddChild(sCaption, vIdentifier)		
+      			ELSE
+      				RESULT pclElement.AddChild(sCaption, vIdentifier, MyParameters[3])		
+      			END
+      			
+      		ELSE
+      			
+      			// Return the created object
+      			RESULT pclElement			
+      		END
+      	ELSE
+      		
+      		// Invalid element
+      		RESULT Null
+      	END
+     type : 458752
+   -
+     name : SetControl
+     procedure_id : 1703169414374629069
+     type_code : 12
+     code : |1-
+      // Summary: Define the name of the control associated with this element
+      // Syntax:
+      //SetControl (<sControlName> is string)
+      //
+      // Parameters:
+      //	sControlName (ANSI string): Name of the associated control
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetControl(LOCAL sControlName is string)
+      
+      	// Keep the name of the associated control
+      	m_Control <- {sControlName, indControl}
+     type : 458752
+   -
+     name : SetControl
+     procedure_id : 1703169414374629069
+     type_code : 12
+     code : |1-
+      PROCEDURE PUBLIC SetControl(oControl is Control)
+      
+      	// Keep the control
+      	m_Control <- oControl
+     type : 458753
+   -
+     name : SetImage
+     procedure_id : 1703170496706573453
+     type_code : 12
+     code : |1-
+      // Summary: Define the image associated with the element
+      // Syntax:
+      //SetImage (<sImagePath> is string)
+      //
+      // Parameters:
+      //	sImagePath (ANSI string): <specify the role of sImagePath>
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetImage(LOCAL sImagePath is string)
+      
+      	// Stores the path of the image
+      	m_Image_status = sImagePath
+     type : 458752
+   -
+     name : SetImage
+     procedure_id : 1703170496706573453
+     type_code : 12
+     code : |1-
+      PROCEDURE PUBLIC SetImage(oImage is an Image)
+      
+      	// Keeps the image
+      	m_Image_status = oImage
+     type : 458753
+   -
+     name : GetElements
+     procedure_id : 1703174349307552729
+     type_code : 12
+     code : |1-
+      // Summary: Retrieve the objects corresponding to the path passed in parameter
+      // Syntax:
+      //GetElements (<sPath> is string, <arrElement>)
+      //
+      // Parameters:
+      //	sPath (string): Path
+      // 	tabElement: Array of elements to fill
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC GetElements(LOCAL sPath is string, arrElement)
+      
+      	sRoot is string
+      	nSubscript is int
+      
+      	IF sPath = "" THEN
+      		// No element to add
+      		RETURN
+      	END
+      	
+      	IF StringCount(sPath, TAB) > 0 THEN
+      		
+      		// Extract path's root
+      		sRoot 	= ExtractString(sPath, 1)
+      		
+      		// Extract the rest of the path
+      		sPath 	= sPath[[Position(sPath, TAB) + 1 TO]]
+      	ELSE
+      		
+      		// The path becomes the caption and the caption is cleared
+      		sRoot		= sPath
+      		sPath	= ""
+      	END
+      	
+      	// Delete the spaces
+      	sRoot = NoSpace(sRoot)
+      	sPath = NoSpace(sPath)
+      	
+      	// Check whether the element exists
+      	nSubscript = Seek(m_arrChild, asLinear, "m_sInternalCaption", Lower(sRoot))
+      	
+      	// The element does not exist, cancel
+      	IF nSubscript < 1 THEN
+      		// No element to add
+      		RETURN
+      	END
+      	
+      	// Adds the element into the array
+      	Add(arrElement, m_arrChild[nSubscript])
+      	
+      	// If there's still a path
+      	IF sPath <> "" THEN
+      		
+      		// Ask the root element that was found to keep searching
+      		m_arrChild[nSubscript].GetElements(sPath, arrElement)		
+      	END
+     type : 458752
+   -
+     name : GetPath
+     procedure_id : 1703184244924009527
+     type_code : 12
+     code : |1-
+      // Summary: Returns the full path of the object
+      // Syntax:
+      //[ <Result> = ] GetPath ([<bForEdit> is boolean])
+      //
+      // Parameters:
+      // 	bForInput (boolean - default value=0): True if the path must return the edit captions, False otherwise
+      // Return value:
+      // 	string:  Full path of the object
+      //
+      PROCEDURE PUBLIC GetPath(LOCAL bForEdit is boolean = False) : string
+      
+      	sPath is string
+      	
+      	// Complete the path
+      	IF m_pclParentElement <> Null THEN
+      		sPath = m_pclParentElement.GetPath(bForEdit) + [TAB] + (bForEdit ? m_sEditCaption ELSE m_sCaption)
+      	END
+      	
+      RESULT sPath
+     type : 458752
+   -
+     name : IsChild
+     procedure_id : 1703188127574562694
+     type_code : 12
+     code : |1-
+      // Summary: Find out whether a <cElement> object is part of the path
+      // Syntax:
+      //[ <Result> = ] IsChild (<pclElement> is cElement dynamic)
+      //
+      // Parameters:
+      //	pclElement (cElement dynamic): object <cElement> to test
+      // Return value:
+      // 	boolean:    True if the element is part of the tree, False otherwise
+      //
+      PROCEDURE PUBLIC IsChild(pclElement is cElement dynamic) : boolean
+      
+      	bIsChild is boolean	
+      	pclObject is cElement dynamic
+      	
+      	// Read the children
+      	FOR ALL ELEMENT pclObject of m_arrChild
+      		
+      		// If the object corresponds
+      		IF pclObject = pclElement THEN
+      			bIsChild = True
+      			BREAK
+      		END
+      		
+      		// Otherwise we ask the child
+      		IF pclObject.IsChild(pclElement) THEN
+      			bIsChild = True
+      			BREAK
+      		END
+      	END
+      	
+      RESULT bIsChild
+     type : 458752
+   -
+     name : GetChild
+     procedure_id : 1703188952208345017
+     type_code : 12
+     code : |1-
+      // Summary: Return the list of children of an element
+      // Syntax:
+      //[ <Result> = ] GetChild ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	array: List of the child <cElement>
+      //
+      PROCEDURE PUBLIC GetChild() : array of cElement dynamic
+      RESULT m_arrChild
+     type : 458752
+   -
+     name : DefineRealPath
+     internal_properties : CAAAAAgAAADISqO1MTdpAqe66d1DRs5TqwTsGUCqMFMEZbT4kgLSaEyzSH/QyfKvrH7SFf5MaeHtlJER+0RJVl68QnLGdh8Lvlwu8bxS2Wr29/8o7Mu55FeUA0ilBWvOY9jWIlD1YoWDl+DI9+DHrOkw4uq3WYbmzdDFPDLJTH2dQs1MFmA8xRj+Wj9u+oy5RVH7P1xj4YRjagP89M7FhbKHvSKSmUlPJZHLhdyj3VGLWNEyo1qTmjGBJsLBXbMMhcOxgH+IYdj0nbuSO3rNyGjpSt0eqvvbpwJu42sBtl11uoYV/Zv56MQ9mnsAOTyvVsjhL2BaETLulf2w0URxk9JlzjTDpsKcDdeKTqY2KVCMUMd/yU205g89TU/fyZtCIDfHaSljeVatmXhV7Q==
+     procedure_id : 1703200935170087433
+     type_code : 12
+     code : |1-
+      // Summary: Attempt to figure out the path corresponding to what was entered by the user
+      // Syntax:
+      //[ <Result> = ] DefineRealPath (<sPathEntered> is string)
+      //
+      // Parameters:
+      //	sEnteredPath (string): Path entered by the user
+      // Return value:
+      // 	string:  Found corresponding path or ("") if an error occurred
+      //
+      PROCEDURE PUBLIC DefineRealPath(sPathEntered is string) : string
+      
+      	sPathFound is string
+      	
+      	pclElement is cElement dynamic
+      	
+      	// If the entered path corresponds to the object path being entered
+      	IF sPathEntered ~= GetPath(True) THEN
+      		
+      		// Rebuild the original path
+      		sPathFound = GetPath()
+      	ELSE
+      		sPathFound = ""
+      		
+      		// Compare the path of each child with the entered path
+      		FOR EACH ELEMENT pclElement of m_arrChild
+      			
+      			sPathFound = pclElement.DefineRealPath(sPathEntered)
+      			IF sPathFound <> "" THEN
+      				BREAK
+      			END
+      			
+      		END		
+      	END	
+      	
+      RESULT sPathFound
+     type : 458752
+   -
+     name : HasChild
+     procedure_id : 1703253252162713336
+     type_code : 12
+     code : |1-
+      // Summary: Used to find out whether the object has children
+      // Syntax:
+      //[ <Result> = ] HasChild ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if the element has children, False otherwise
+      //
+      PROCEDURE PUBLIC HasChild() : boolean
+      RESULT (m_arrChild..Occurrence > 0)
+     type : 458752
+   -
+     name : DeleteChild
+     internal_properties : CAAAAAgAAACxCVOvzxfQb5xpZYIvT/QMeq0l4fivt6JRVKh7Bn/HxE7DZ6XpqDMYaEoHW5lXoq2LeupiYX7xc14WNS0brB083AwOqXNUkeAT6PL6psqR9pvkvbiVWQi7avXTGquBd9L0d/FgzGw2hXonVdG+oRqrUIol39Dkx8jSUbNckSdPitVNKoO7hceOHEuaepZ5UFDop7tK
+     procedure_id : 1704675311568095625
+     type_code : 12
+     code : |1-
+      // Summary: Delete an element among the object's children
+      // Syntax:
+      //[ <Result> = ] DeleteChild (<sPath> is string)
+      //
+      // Parameters:
+      //	sPath (ANSI string): Path of the element to delete
+      // Return value:
+      //	boolean:   True if the element was deleted, False otherwise
+      //
+      PROCEDURE DeleteChild(LOCAL sPath is string) : boolean
+      
+      	sCaption 	is string
+      	nSubscript 	is int
+      	
+      	IF StringCount(sPath, TAB) > 0 THEN
+      
+      		// Extract the rest of the path
+      		sCaption 	= sPath[[Position(sPath, TAB) + 1 TO]]
+      		
+      		// Extract path's root
+      		sPath 	= ExtractString(sPath, 1)
+      	ELSE
+      		
+      		// The path becomes the caption and the caption is cleared
+      		sCaption	= ""
+      	END
+      	
+      	// Delete the spaces
+      	sPath = NoSpace(sPath)
+      	sCaption = NoSpace(sCaption)
+      	
+      	// Checks whether the element already exists	
+      	nSubscript = Seek(m_arrChild, asLinear, "m_sInternalCaption", Lower(sPath))
+      	
+      	// The element does not exist, we check the children
+      	IF nSubscript < 1 THEN
+      		
+      		// Element not found
+      		RESULT False		
+      	ELSE
+      		
+      		IF sCaption = "" THEN
+      			
+      			// Deletes the object
+      			Delete(m_arrChild, nSubscript)
+      			RESULT True
+      		ELSE
+      								
+      			// Ask the child to delete
+      			RESULT m_arrChild[nSubscript].DeleteChild(sCaption)
+      		END
+      	END
+     type : 458752
+   -
+     name : DeleteAll
+     internal_properties : CAAAAAgAAACVME34GtpFBnOz/rwyPmGFNuKpe/3kvnO7yubgrh11FAMpSUBN/oXjDARPdT/X6koVPoTGd6+/E2GwbJQhIHuPm5xbZEzLK/Iuzri5tCLS0CSnHNLuMgf9gFwcYEh7x/iBe4d/XlwHq4dpJFzfY8cYY4c2G2QOtlTBYQo3zKbwweuKiSRpgZDq5Gk8ONMG9DYYejhZjDB535Fup57vNtJH6jKjSsOzA5uGeAfnshmIOreG+om/CWOQ1D0MMQ1fgPnqgLqcCTfPUC6gTbmpOojz2ZMeUI0DpaNf8taxsCS+s9iUymkeliKBqeliOOh1mykm327u+fSPWBzrn9d1QNc45yoJXLvKP1Dhpqiaz7PqLBVaOs1Pt0dxpKYjVnxw+EDR
+     procedure_id : 1704677042439991343
+     type_code : 12
+     code : |1-
+      // Summary: Delete all the object's children
+      // Syntax:
+      //DeleteAll ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DeleteAll()
+      
+      	// Delete all the children
+      	wl.DeleteAll(m_arrChild)
+     type : 458752
+   -
+     name : RetrieveIdentifier
+     internal_properties : CAAAAAgAAABTr03kXzE+ycyBizLzf8xklkmVu0KpQfAJNPJbkn+flLrHc9vnnoVCpF6loxXDYp1nVv44z6wXUTKK2zWPQKW0XJTilwlCp/5TaAPLHUMobxwdop30ijkyjbws60ISdjNVYNIR35FToOG6GnZBdklUeQuueIsh7C8FTMhZdEwCL+JaizQW4gyNf7LXD2mWr1+KwV0o
+     procedure_id : 1704679198513880139
+     type_code : 12
+     code : |1-
+      // Summary: Retrieve an element's identifier among its children
+      // Syntax:
+      //[ <Result> = ] RetrieveIdentifier (<sPath> is string)
+      //
+      // Parameters:
+      //	sPath (ANSI string): Path of the element whose identifier must be retrieved
+      // Return value:
+      // 	Undefined type:   Identifier of the element found or empty string ("") if the element was not found
+      //
+      PROCEDURE RetrieveIdentifier(LOCAL sPath is string)
+      
+      	sCaption 	is string = sPath
+      	nSubscript 	is int
+      	
+      	IF StringCount(sCaption, TAB) > 0 THEN
+      		
+      		// Extract path's root
+      		sPath 	= ExtractString(sCaption, 1)
+      		
+      		// Extract the rest of the path
+      		sCaption 	= sCaption[[Position(sCaption, TAB) + 1 TO]]
+      	ELSE
+      		
+      		// The path becomes the caption and the caption is cleared
+      		sPath		= sCaption
+      		sCaption	= ""
+      	END
+      	
+      	// Delete the spaces
+      	sPath = NoSpace(sPath)
+      	sCaption = NoSpace(sCaption)
+      	
+      	// Checks whether the element already exists	
+      	nSubscript = Seek(m_arrChild, asLinear, "m_sInternalCaption", Lower(ExtractString(sPath, 1)))
+      	
+      	// The element does not exist, we check the children
+      	IF nSubscript < 1 THEN
+      		
+      		// Element not found
+      		RESULT ""		
+      	ELSE
+      		
+      		IF sCaption = "" THEN
+      			// Return the object identifier
+      			RESULT m_arrChild[nSubscript].m_vIdentifier
+      		ELSE		
+      			// Ask the children to send the identifier
+      			RESULT m_arrChild[nSubscript].RetrieveIdentifier(sCaption)
+      		END
+      	END
+     type : 458752
+   -
+     name : ModifyChild
+     procedure_id : 1704680860666347906
+     type_code : 12
+     code : |1-
+      // Summary: Add a child element
+      // Syntax:
+      //[ <Result> = ] ModifyChild (<sPath> is string [, ...])
+      //
+      // Parameters:
+      //	sPath (ANSI string): Path of the element to modify
+      //	<*>: Path and caption of the element, identifier of the element, Caption of the element for input
+      // Return value:
+      // 	cElement :  Modified element
+      //
+      PROCEDURE PUBLIC ModifyChild(LOCAL sPath is string, *) : cElement
+      
+      	sCaption 	is string
+      	nSubscript 	is int
+      	pclElement 	is cElement dynamic
+      
+      	IF StringCount(sPath, TAB) > 0 THEN
+      		
+      		// Extract the rest of the path
+      		sCaption 	= sPath[[Position(sPath, TAB) + 1 TO]]
+      				
+      		// Extract path's root
+      		sPath 	= ExtractString(sPath, 1)		
+      	ELSE
+      		
+      		// The path becomes the caption and the caption is cleared
+      		sCaption	= ""
+      	END
+      	
+      	// Delete the spaces
+      	sPath = NoSpace(sPath)
+      	sCaption = NoSpace(sCaption)
+      	
+      	// Checks whether the element already exists	
+      	nSubscript = Seek(m_arrChild, asLinear, "m_sInternalCaption", Lower(sPath))
+      	
+      	// The element does not exist
+      	IF nSubscript < 1 THEN		
+      		RESULT Null
+      	ELSE		
+      		
+      		// Retrieves the element
+      		pclElement = m_arrChild[nSubscript]	
+      		
+      		IF sCaption = "" THEN
+      			
+      			// Modify the element's properties
+      			IF MyParameters..NbReceived >= 2 _AND_ (MyParameters[2]..Default = False _AND_ NOT MyParameters[2] IN (Default, "")) 	THEN pclElement.SetCaption(MyParameters[2])
+      			IF MyParameters..NbReceived >= 3 _AND_ (MyParameters[3]..Default = False _AND_ NOT MyParameters[3] IN (Default)) 		THEN pclElement.SetIdentifier(MyParameters[3])
+      			IF MyParameters..NbReceived >= 4 _AND_ (MyParameters[4]..Default = False _AND_ NOT MyParameters[4] IN (Default, "")) 	THEN pclElement.SetEditCaption(MyParameters[4])
+      			IF MyParameters..NbReceived >= 5 _AND_ (MyParameters[5]..Default = False _AND_ NOT MyParameters[5] IN (Default)) 		THEN pclElement.SetImage(MyParameters[5])
+      			
+      			// Return the modified element
+      			RESULT pclElement			
+      		ELSE
+      			// Ask the child to modify
+      			RESULT pclElement.ModifyChild(sCaption)
+      		END			
+      	END
+     type : 458752
+   -
+     name : SetCaption
+     procedure_id : 1704684558633264330
+     type_code : 12
+     code : |1-
+      // Summary: Defines the caption of the element
+      // Syntax:
+      //SetCaption (<sCaption> is string)
+      //
+      // Parameters:
+      //	sCaption (string): Caption of the element
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetCaption(LOCAL sCaption is string)
+      
+      	// Stores the caption
+      	m_sCaption = sCaption
+      	m_sInternalCaption = Lower(NoSpace(m_sCaption))
+     type : 458752
+   -
+     name : SetEditCaption
+     procedure_id : 1704684580108171346
+     type_code : 12
+     code : |1-
+      // Summary: Define the caption of the element for input
+      // Syntax:
+      //SetEditCaption (<sEditCaption> is string)
+      //
+      // Parameters:
+      //	sInputCaption (string): Caption of the element for input
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetEditCaption(LOCAL sEditCaption is string)
+      
+      	// Keep the input caption
+      	m_sEditCaption = sEditCaption	
+     type : 458752
+   -
+     name : SetIdentifier
+     procedure_id : 1704684597288044937
+     type_code : 12
+     code : |1-
+      // Summary: Define the identifier associated with the element
+      // Syntax:
+      //SetIdentifier (<vIdentifier> is variant)
+      //
+      // Parameters:
+      //	vIdentifier (variant): Identifier of the element
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetIdentifier(LOCAL vIdentifier is variant)
+      
+      	// Stores the identifier
+      	m_vIdentifier = vIdentifier
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : CClasse1
+resources :
+ string_res :
+  identifier : 0x17a208980b3274d0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

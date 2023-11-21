@@ -1,0 +1,2609 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_EXPLORERBAR
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : Object representing the hierarchy
+ subtype : 0
+window :
+ name : IW_EXPLORERBAR
+ identifier : 0x285801ce071a818a
+ internal_properties : CAAAAAgAAADjmwHntHvknFKp+MgC1KGd+wgvzatxJw3p/4iNf6mDKfzgBC5LWW7ikLAUNgd6EDD8xVro9vIkqgGH0o4xBCoD3kPH4+5q+p1+Rat7exzjnWv+FhZyHLa7EJWwPxg7EXknep5ZGYj9Bixy940ifDbT5STslvHw4aslY2UR4kRvo8wueJa4hfZnBynB8CUw4rAuRChz3rbeYGb9JGAfhS2wnfglYdhtZfNIENef2MObDnRHl8QkEXdFqfWC0ynUo8gsL/njX0slQJTfd9TCfanfKi+logkxqZc1hwYrnHpXvRHBVcbgMzCXrNBqd/3RoyRh0LQHsrMyszlec6z21/0YjKbIt93GylY+cOtWB1UKDM5PmQ35VkMhSlWAG09PslAGZRgrN0Op6kFW1moVnEQP5qPF57gHXr3e5hRXvMQ9Yfkxk4xiqJCEMNxUt9dAcAD4mhN/y/A3UcmL/IiDZV08Bxh93VwkfKiwEJ7/JT2vcQTEPLvq16Y8HOEsRsay2y/VxWW28BDJxf020FL6D52FGxcwc2X76OSoIro2wp76FwoQleelosZIFx+nbdWG/rEaGO3H3w9nhgzn7kbbf73cEQLKydRxCz2jj/cPQsmEUWBU/zwIyTmhm78UWK/k0y7m/baJOJKicR7ocnm298WIpU7bFJfxj4Ub4/5CRH5ouswfSV/1044Q4MSLHeX1M61FJoWjJprSfhSRSUr70NTtj00egI15EahbqABwRYDfRGWQSs0hx3zrnYeweKZsd4VTV9q5yZGnV4l/+NL9jb0FR+2fwQ17HEJsSOmRqOyeBWWZM+fvR1IjMbK2w/g8lBLwcA==
+ properties :
+  width : 402
+  height : 22
+ controls :
+  -
+    name : IW_EXPLORERBAR
+    identifier : 0x285801ce071e818a
+    internal_properties : CAAAAAgAAABe5eYAddDxl5vcLM7NhEo4+ExTUQOxeoFRZraDiN13ocKo4ci6wOqga0Hj1+6+gFUQXeDsb+Q/9tuhS54Fl0RuCSHlry63fasVf0TgWIoN1KlfUmAGLeX20CQyKCPKUJtCUGCHQca3sh1JFXzGRveOgLmIoVF2BElYNgTZmJa9DgDhmjMmwhrbwlUVXY7eN9moGE4pONC1B9QaoBzrdF3nZFas/uJL7eLVFXKmg3EvMx1xZwdetcbuKxyjUnBngax1NbQE7OT5dNhavur/5STI8mbjoPc//pjUkOd4B/reKDQ/RauTje0ZoSS/2DAx1YQa/UK2+uZkrnx5kH9rBQpeyg+bc0sCr2GphjdYQD7OzgOnwqHvMd+Zxo2uxAZFcm/+hve+Us9O2mQ0spwXjQmhWLDjyMupNF8/yhpSZsW2KUX1HAAtmoW867D++I0SkezNPN1DXsPnek4R2v/JXzl285/Pn0zeuS6+IPILZt682+WAelPQ7GktHo/Q9L/HcufAmtVtlQ9kgBXjw4ScmlHS
+    properties :
+     width : 402
+     height : 22
+    controls :
+     -
+       name : IMG_ICON
+       identifier : 0x285801ce0720818a
+       internal_properties : CAAAAAgAAABYD1ezuba8dGtvvT9XGCxSB+pTioxU+8FiI5Km3g6ZWKmGjxv00Dzd+cBIrbKcjMNfp5LZKKBEs3QSQ3hsv00gKhUm/9HevT16WzI5RmFGAwwRzPnuP7t7e5S6k5ZITpgmBRDoog+a5ytyOYaI3O6teXsSMwo8mhG+862QQMd+XGs7rvpgOTWaySAFCB/U7RGj7BtMpN3xGVtbCQZbkhcL+eTlT7KhfASq4tcV9A25hDXeqqBQXhlPD8pzmhnCVKzh6pggMu7ypy8fiHBpsrTvH47Kkfd5wQ2/F1NryRUsMLzsRdNvUKVKUXp+C5vbHztL8OP3qpbRzzMun8K4wxZyosafseafHDb53f6sfyDvEeOovB/aOJsXF4IOorLc2+88QA0IhWKqvGxP62gcLWpf+oOZFBe6Vd+a2czLv1fM+zITNt1hWxCzl9OglCfwYunESP4tNlZuTyaWpaQjazBadgvc7X2gOs4OO4qaUVL11cu5Zfhf1yHisHVja1gUM5ziOCOUx+B3ZaP2F5qpWkKNuCutrVDEQtoCTqM5Nmyt8Cmq6obHgj1O+EwjMjuOyQe3XJS/5/J+UfmwbcecZfHFOJblfDpsLfLo
+       properties :
+        x : 1
+        y : 1
+        width : 20
+        height : 20
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAAxtQ3bDT8f25HAu7bcGpXpgT7sUA0RiILobdJR8dBXecWrXPr9MWGvDsgkFP89wXKNkPAfZJ/O7t0GUmgsuPyzl+7gAaZd6Hn0aa/+kOwcTVa45x3x0TtX6fdz1SJCcsfQ08x/zd05VT+705W95OGGWPfnXWFqDl0sAuDxMFvpmVEuOKwYxEUrfKCnh71c7EqkoA==
+           code : |1-
+            
+            SetFocus(IMG_ICON)
+            
+            // If the combo box is not visible
+            IF (EXIT = -1) _AND_ (COMBO_EXPLOREHISTORY..Visible = False) THEN
+            
+            	oControl is Control
+            
+            	// End of the popup's life
+            	EndPopup()
+            		 
+            	 // Hide the bar elements
+            	IWC_ELEMENTPATH..Visible = False
+            	IMG_COMBO..Visible = False
+            	IMG_POPUPPATH..Visible = False
+            	
+            	FOR ALL ELEMENT oControl of ARRCONTROLS
+            		oControl..Visible = False
+            	END	
+            	 
+            	 // Display the combo box
+            	 COMBO_EXPLOREHISTORY..Visible = True
+            	 COMBO_EXPLOREHISTORY..Cursor = 1
+            	 COMBO_EXPLOREHISTORY..CursorEnd = Length(COMBO_EXPLOREHISTORY) + 1
+            	 SetFocus(COMBO_EXPLOREHISTORY)
+            ELSE	
+            	// Hide the combo box
+            	COMBO_EXPLOREHISTORY..Visible = False	
+            	
+            	// Display the bar's elements
+            	IWC_ELEMENTPATH..Visible = True
+            	IMG_COMBO..Visible = True
+            	IMG_POPUPPATH..Visible = True
+            	
+            	FOR ALL ELEMENT oControl of ARRCONTROLS
+            		oControl..Visible = True
+            	END
+            	
+            	SetFocus(IMG_POPUPPATH)
+            END
+            
+            // No exit
+            EXIT = -1
+           type : 18
+         -
+           code : |1-
+            
+            ExecuteProcess(IMG_ICON, trtClick)
+            RESULT False
+           type : 66053
+         -
+           code : |1+
+            RESULT False
+           type : 65659
+     -
+       name : IMG_ANIMSOURCE
+       identifier : 0x285801ce0721818a
+       internal_properties : CAAAAAgAAAA0ELHOuNtB/cZd6Mzl6RrHonoTFg1D7LEWBVlzT0/rebVcPCfOU6W9YMVgAUzdOG5WXNGasUiuc1Tsl2KeMFtKcCrHfut3RMJ+XnMHT1ehDpMd0BgzG11aKmPBVTFcSAbNXBlhLEV866RcJcLowGTvxdesQvcLNxRy26eFta3eWjTk2P5jfyEcWiw2TGIzFVrGia+N3y62RNbOJwynVI2CZYroWDUogwy90RBHaFVg7V1uchSe4YkXWirZXfa/z4g/JQheGc5SCGkMj+95dIdQG2Zwd96iFmF3tXFboVvI1uqTRD2RpzaFK2jw5J2HBgqKm4JhrWJHC+Iie4bQ9dr5YZNa+7liAGb5kK7vn6ZNijs++8PE/zjzbEl+iR1xDWv9V2vanf9P60yEXy85B74Ze1N1P9OzL73kJ4ZlqZlTN7u9jnXMdrK63w9JprvlHysUoDF73/RvKxVsGYc/h5sQWkKWxBdQYNqI6EsMGsL1RXWpLCUOuyv1GZF0XNxN3iZGRMf8HRyIhUFcyAzG0j5ICYvXpmuP8lZbWRebgYj7N139Co/ZURl4CflZZ6pJYRGPiAEjiwsnqhA7ar6WHFdbISU=
+       properties :
+        y : -206
+        width : 95
+        height : 200
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_COMBO
+       identifier : 0x285801ce0722818a
+       internal_properties : CAAAAAgAAADJjtt2HsEMt527m7VJ/PvtY3Ea9jQ/oVQhyaAyF4C5AxBdziJKaRBnxtLmDSJpIJ9UacJ9wNlt2mtz7iOAdXwqmb8/swZxOTmB+cyJSkWeJWlzYtcCyU8gd/ghcfSETcFZllSgwsznMK3uysYyCgv8zlJEsegqbGQKxN5H3FlBtu4gNMuI/uSr7o0ok24RIFOOsKw9TF6w5l9dOi5MT2CaquxaeRCpHmiv0bHsuhqwG4WY6NO+vdcuC1kKk0fHUt31jb8LeYQQMXpAD5hkYz4xKmnWKQejXZ24Q6rm/sdJNTBxr7tXOr68qYrGysvOmYSIAot3kXdyOUqau9ZUYR5B9hlS/pnX7K4LEYLcOLT3jzhFlJwJWzKjlzuOTody3ERKc63GoZA9gIUMT+3A8Ti1KIEkp+aWOKy/TAQzOTyWBsGgWjsNgdO9yEzQNBzNI408LefZR1VfGv2JUTc+8N3aqAVfMW59bZk5z0cXaZ8sJqhAvC+iOOtV+RbnG3tzxoRRQ2CsTuKdtYgEDFundv298tHFu7fZ5Euyci0pf+L767lLgvoqoz48ekJY2hZjLLeXmONTnl50vNVMwyMHQcpP1j1Pv1Nsx6e2H3uAvveLtFqwhx13oC1MIxeSpqeDhnFy6fgEFrBRvAsj
+       properties :
+        x : 382
+        y : 1
+        width : 19
+        height : 20
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_POPUPPATH
+       identifier : 0x285801ce0723818a
+       internal_properties : CAAAAAgAAADKDZETovAqcjss1WqH+csmEVnmCN0kYFRvEt16YVT1FfGdlcpoZxcgpqoEJZi0tBzhIELDeUYn+xi64CS+P5OKZpSP6trb00JsnuSuWD2DdWMZ0LPRELSyMuKi4kOzUsKkZyGYo5QaJJI8VlbEYk1pJPKZGUUqDiPzAnymH84ZbslgslnG6xtchtBEBiQLc3ZWCRYEpy6cQIg3pP5bQUQXg5IoqdW+z4D3/PsDoCltp4YMBxMEj74JUTKJcO8cJiwlokBx/rRE22L50DdAqGsCb/M6+rUSCDaIXJ/lQphFijC9gBF5CAkwS+gj9YjVQHHQX7pUSExQYIep2V5ENouAYtfk/qozwKJddMjMflydbi2FrhhFmqNxPbthjkPx+s4ddJWiFPFNyR0yhQjJAVz1zwSm4zmW1bBxLr3F7U9QiTxTQbvJulVQMQxe0jfz5C2aGR0egTlCYlFY/KgbaouBCMTVPDggrp1W3aoClk7TnlWLQFTVK4skxFYKp0XFSLOZZckcnfTGXmMx2HyxtfOQ9FqWzkB+trWVaKp4CCId568JQcEtXPINE4YG1xi897/kV5BnOnMJPyoHRACEGXDBIB9UG9fNRi33zJKOFMgRPwJ6xiT7HafCleTQjIxUNXKGsAFZ7Q==
+       properties :
+        x : 21
+        y : 1
+        width : 15
+        height : 20
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1-
+            
+            IF IMG_POPUPPATH..State = Grayed THEN RETURN
+           type : 18
+     -
+       name : STC_BORDER
+       identifier : 0x285801ce071f818a
+       internal_properties : CAAAAAgAAAAV9pfrv9FFvn1t0Jqhk5/sfD8XJ5FiNz2pWPwRlwAOG8jUmG2Tvj764hBswHFEOGW4wKTBKWicjRhYH2AkTyedRPiYrT6tVferbEnhAocn6uFK/OEThFWpmXBl7R2y3pxEm5YXfCcKUfb+TBuSD8KGCf1jRzUXAs+ywnl7i2SkaWmH+yVBD99S9H3J0AzWUddLBH3jcVDOgYQ+5fljcbYVV4t4PzDsNU6YBX4nk+cmMC1itEfJleKEw5JSUTZwZWphsxUNt+zQkgT8Uv/ngzyvB3eeBlAfF4/O38h2Y0PAKrKofWA9qhb0N6IILDqh/5WyhtTNUzBiihh96bI=
+       properties :
+        width : 402
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : COMBO_EXPLOREHISTORY
+       identifier : 0x285801ce0724818a
+       internal_properties : CAAAAAgAAABTivYk+j/Pt76ewdr7l+4gSkGZDK5MWgB+ZEQZlhqvouuN9ub5P5SrFjVMk19cNZBlDxYrDZt3kKkaGE4tKAthKDgsZtsQfgP8sMe0VeyL3a7/vIWgSpRLGX67p9DXEjVgu8zX+0jlOtzEQe0mFPyqhcmODpVDpGSEi1FqjxHL1ofpfve32EuT585Nvh8ZIKOMmiqA1CaJvT4+igsyg8wDmzOe6YC/lS9OLclB4KHo+lf0NS6CyspqLtOju/7J/naOFhODm8j9j/AcVkSOM9TjQNNI2uhbCQ2g0VLPsBYeXX99lr91dpnjXYsVAYp8s1191gRHP2gzrneyvKb+zCtLCU9GRo/w0U6qaStglvw86bIvp3L7JTsh+lP4reO6zfdjYrZ6zjMKQWxWbV3fq+xyl/zx1jtUbqgyGES6BizGN3/9TPGqZfTmNZGTKRyRFTM6THJ6tPorxBOtB+ExsjMRBoMUitWIhYj1a5EMVYI9goPGe+v7x1hQcr88ZDKES0A9g9D8IzJPQKN6xVbX5DTPdXh23i6QoLeD91zkwGpEdcT/4yoVESFnAUOm/tOPBpV+VDlOaOqNLzdebX4EqYYULKusFuD8qcu+fOZiyEvTeXb4IjF4WCRWCYcoGlsdoR7rQGQpi1aKtulx0h1AwWVtAY7KoI6yKduv+jHrRYi/kclLK+0HWWawS+oEpImPsVHLa/2cxKZiq2ck5+eBM1bPAbhPz6NULnyEDzTUnj9oUTLytCMKXG1p2HOwzzSxpO3/epeqSHD1+vFg0w06ncucuP6+KSvHJudEFtilxjOpYslSwB1klcXiyBURCot6QoBiRdJiVbjCONYFxaj/5pEjmlf16eK/juqaI08lQaQS7YL49lttRM3/ZEJ3v+Oxrp5I3TC4tdIvMr4RzOOoUBnxfba7qAuYjToe60Vq9kfuiAuDVllzoCInLo6qOEtugsFMao7PSGkpWfjHdUhBO1/93u9gM+ghIaD7h4PA1Xigp/RBbmschrG1I2Dc+kfJwxKdzYUuYwRunedgIqGu+6Y7ndx/NIn8U8AQItYEiRpS3NFDHgO2nIm18Ew27MqJseNiOqCXPRvqiRc0pco7BqrCanVGrIXa4Y4XDqVg8Te/yc1U5738ply1indLG48R+yYAH1kyd4iRp8eR2jHfxiyDE+YoA+hiyVmynvv0gQ0T/gUKI44+VBiXGaGkFOL3cH7ctWaDSEfxWbIORjJpHadjxCTtBk+NWh/JvpjsY/cNG62FgwFEYwhyB4AijRmVHfq06t1gf+em0pu3
+       properties :
+        x : 21
+        width : 378
+        height : 22
+       input :
+        internal_properties : CAAAAAgAAAD6M4yJ9rOliDnYQ2AaQFXCpvZeX5L3YD9pzxIBlca6it4RPpa/vEk43/6H3d/6j16HljXQ1RNWL0O829mfVGNdx92j5b7iIDK4W8a8twWFeqFzuZeYLpnyD2QSo74kNdi8y1aFj9m2wDwo9K0n9arWwe4AqZLgutPRvYh++FVZNf7PqylzD0NtkrceO7jcoLNrEynJzjOrxYdzjC8WZQ/jSrxCH/b8DlUgIXseio8yUYeJAY91gCYfNVTua0VX8YH/YoN9B8AWm7OTPVPq6i/gHWBbNh/aINDrk0lW81IZHhMbQT9GSadDp406KFqYVgeTmwP70RaF3LHppUxeyo0J+Jif7PL8wN/vG48IpJEWGhVSc5aWLGW9FHjmZxVUIbl7y6b3IOPlZdfEo+7FpqpzM2iYyAmkxkcNAQRzmcqkFXt27SOzmNX4eGiq1xnvaA2qAJ4AoHyKIjfbwQSXvnJBwJ8yhwZI9Bu4extHKziyCNcXe1JvxAwmc6sSfblHmCjInImhIzx4wNglQJWXxgCpH7GiKsbDjRMncAGCVlkwSxHkNqdvlwU5T/SRalFCL2mZ85tR1Q==
+        type : 2
+       dropdown :
+        internal_properties : CAAAAAgAAACh9e7e/0l5K4W49tRO84TOjBQNlO2S/E5TRgsU3/+IgWYhQf0dZJ880PMdmi50eMiT0S4w+2Mdu2AymjaFoZ70YVORga6SuHRDabSKXMpI3+dds566ofNzpV2AwVT6lhvaIcCFyxACiFDhJg54IrwmzSheJpeVPCMX8NpGF3WwjEISj9MhQR1ma4gWrWTXCT8OSuGtghdbo5GlQEqi/4JfnoV2Nhrj0crSnBQd2MbBNVzRmY2X9nDxZmtTeJAJgYdslmAJtlE2XRGeoPVwL4I5Wlbpbvs2GHXHDzQCmk9Ecbl7U3cuce9sBEfJpqcbjvXH//HokSon7t/nqhkCZ3SK4zta5gegLfUJHcpFDfqyWy033OJe2dbQMpzVYWEIK0hZR0xazililNyiX9SLyBMKKriEYVWwFwda/mZuhePg+yIPhWSR0aECwMb/4ufSlndqro7JmUn4aosVrcDTGH0KuxEqZbpN+0tiblJ2CFHShZKWnKjcfAjihuZ2zdqU7PhoW2snLPjuBXV44zpBjFcz406C
+        type : 7
+       type : 14
+       code_elements :
+        type_code : 23
+        p_codes :
+         -
+           type : 35
+           enabled : false
+         -
+           internal_properties : CAAAAAgAAABBM1crzZrd8nsAu044wyC53wGkMPhRA+cTfk+khNHHZyWIjuzr9GnhLC+/cNRiJc7DftKcgLigcojX3oNSnlw+V5+iMY/Sbj4euKhCiJC2BFX35tm8afz9yrrLkrHXZY7Po30vrHDXHbmMveY=
+           code : |1-
+            
+            IF KeyPressed(VK_RETURN) THEN
+            	// Retrieve the path corresponding to the input
+            	sPath is string
+            	sPath = DefineRealPath(COMBO_EXPLOREHISTORY)
+            	
+            	IF sPath <> ""  THEN	
+            		// Build the path
+            		IF Callback(sPath) THEN
+            			PathDisplay(sPath)
+            			
+            			// Add the entered path to the history
+            			IF ListSeek(COMBO_EXPLOREHISTORY, COMBO_EXPLOREHISTORY) = -1 THEN
+            				ListAdd(COMBO_EXPLOREHISTORY, COMBO_EXPLOREHISTORY)		
+            			END
+            		ELSE
+            			Beep
+            			ReturnToCapture()	
+            		END
+            	ELSE
+            		Beep
+            		ReturnToCapture()
+            	END	
+            END
+            
+            // Display the bar's elements
+            IWC_ELEMENTPATH..Visible = True
+            IMG_COMBO..Visible = True
+            IMG_POPUPPATH..Visible = True
+            
+            oControl is Control
+            FOR ALL ELEMENT oControl of ARRCONTROLS
+            	oControl..Visible = True
+            END
+            
+            // Hide the combo box
+            COMBO_EXPLOREHISTORY..Visible = False
+            
+            // Exit in progress
+            EXIT = 1
+           type : 16
+         -
+           code : |1-
+            
+            // Retrieve the path corresponding to the input
+            sPath is string
+            sPath = DefineRealPath(COMBO_EXPLOREHISTORY)
+            
+            IF sPath <> ""  THEN	
+            	IF Callback(sPath) THEN
+            		// Build the path
+            		PathDisplay(sPath)
+            	
+            		// Validates the input
+            		ExecuteProcess(COMBO_EXPLOREHISTORY, trtExit)	
+            	ELSE
+            		Beep
+            	END
+            ELSE
+            	Beep
+            END
+           type : 33
+         -
+           code : |1-
+            
+            IF _EVE.wParam = VK_RETURN THEN
+            
+            	// Retrieve the path corresponding to the input
+            	sPath is string
+            	sPath = DefineRealPath(COMBO_EXPLOREHISTORY)
+            	
+            	IF sPath <> ""  THEN	
+            		IF Callback(sPath) THEN
+            			// Build the path
+            			PathDisplay(sPath)
+            			
+            			// Add the entered path to the history
+            			IF ListSeek(COMBO_EXPLOREHISTORY, COMBO_EXPLOREHISTORY) = -1 THEN
+            				ListAdd(COMBO_EXPLOREHISTORY, COMBO_EXPLOREHISTORY)		
+            			END
+            			
+            			// Validates the input
+            			ExecuteProcess(COMBO_EXPLOREHISTORY, trtExit)	
+            		ELSE
+            			Beep
+            		END
+            	ELSE
+            		Beep
+            	END
+            END
+           type : 65793
+     -
+       name : IWC_ELEMENTPATH
+       identifier : 0x285801ce0725818a
+       internal_properties : CAAAAAgAAAB7vZ5Q+GevQfROM+oh9ERiXzFiGxRYIKGzstgT4kfzASQPzFXWoBwue80h7ANf8kdB6iTyG8eZ2CRK95Uezbu13LdM92ZA5QH1DEmxAKhcYhq35CzHksPWBak+aRNbqFRz7rShan9p4gstx0pK+fopgozeW3iwBu2XCebhi8fnDWDYoCan9jSeWRCt41qqDdsXWtX4la2l4JkFy9Q98CBnp7Mq9XMKChk/mPWWJQQnJ5XqKbdjTn/3JSRt7LlBh3dZuUnB6rgfDlKhLqThHPfqbHgSBVbheJqoHccOsamiWNXreATwRYg+Z9MEm4lFjo0TJLWzJ2/Xu4aG36cKy44N7mvUNPdOAZ37A3GbreHf3c47j5qhIzrQnl9jYI7IRPLd252mjkhi5QjxY0tjj37EfmUIjwslxwprKCUKn9BOdWfHQCckqFKvwVQll1xkL6dH9IAMOa7xjol47gj1xNF2ajJdcJXEPyDV70rBuhHf6MqoS1IwRtm5Y7IsUtWZe2upQ9J5cxVe
+       properties :
+        x : 103
+        y : -26
+        width : 80
+        height : 20
+       controls : []
+       type : 31
+       code_elements :
+        type_code : 73
+        p_codes :
+         -
+           type : 33
+           enabled : false
+         -
+           type : 234
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABZIaMSYLFxC2aTh46PCsy2BCv7OSySwD2hwAh7KPmsJ8Q35Pk/PyAxB+nuB3DpR2aMmNtFlV4flJ5TyOK+wHRxv9nXltAdCve5u1Vy8D5u1HbqJltlhehHhjX80wE9B0mJ9259AUm7EB4E/uFM2OGDunR+IgFjSMFKo1caiOvc6ENPgbR4JAxPQB4yoiEu24MOOPyRv2YD6hheXzIguKps7iDuxj/0JMAag+hzk5+El1imx5XwoE/Q
+        code : |1-
+         // Internal window managing an address bar in the Windows Vista way ('Explorer breadcrumb bar')
+         PROCEDURE MyWindow()
+         
+         
+         PRIVATE
+         
+         // Variables accessible in read-only mode	
+         MYROOT	 	is cElement(Null, "", Instance)							// Object <cElement> representing the root
+         CALLBACKCLICKWL	is PROCEDURE											// WLanguage procedure associated with the click on the address bar
+         CALLBACKPOPWL	is PROCEDURE											// WLanguage procedure associated with the click on the address bar
+         TIMEROUTID 	 	is int = GetIdentifier()							// Timer for the end of rollover animation
+         TIMEROVERID  	is int = GetIdentifier()							// Timer for the rollover animation
+         TIMERDOWNID  	is int = GetIdentifier()							// Timer for the left-button-down animation
+         TIMERUPID 	 	is int = GetIdentifier()							// Timer for the left-button-up animation
+         HANDLECOMBO	 	is int = Handle(IMG_COMBO..FullName)				// Handle of the opening button for the combo box	
+         HANDLEPOPUP	 	is int = Handle(IMG_POPUPPATH..FullName)			// Handle of the root button
+         EXIT		 	is int = -1											// Indicate whether we're done with the input in the combo
+         ARRCONTROLS	 	is array of Control										// List the <FI_PATHELEMENT> controls displayed
+         CURRENTPATH	 	is string												// Current path
+         SEPARATOR   	is string = "\"											// Separator of elements in the path displayed in input
+         POPUP		 	is boolean												// Specify whether the popup is open
+         POPHANDLER 	 	is boolean												// Specify whether the root owns the popup
+         CONTAINER	 	is Control <- {MySelf..FullName}						// Complete name of the internal window
+         MYID			is int  = GetIdentifier()							// Unique identifier of the bar
+         TRUNCATEDPATH	 	is boolean												// Specify whether the path is truncated in the address bar
+         ANIMATION 		is boolean = True										// Specify whether the animations are enabled
+         STATUS			is int  = Active
+         
+         // By default, no element, therefore we gray out the root button
+         IMG_POPUPPATH..XImage = 30
+         IMG_POPUPPATH..ImageWidth = IMG_POPUPPATH..Width
+         IMG_POPUPPATH..State = Grayed
+         
+         // Display the controls of the address bar
+         IWC_ELEMENTPATH..Visible = True
+         IMG_COMBO..Visible = True
+         IMG_POPUPPATH..Visible = True
+         
+         // Hide the history combo box
+         COMBO_EXPLOREHISTORY..Visible = False
+         
+         // Define the popup button of the root
+         MYROOT:SetControl(IMG_POPUPPATH) 
+      -
+        internal_properties : CAAAAAgAAABZGwyHN+x5VlFqB0js54bfMatubMa3xwsJcEsmiNVJCZvW2FilQnWhkvnPVgwyy5yBPNjUxhpZne00l8ilq2eLIiq7zq4zOx03ifE/Q8WJGShiW3I3Nu2Mxx+kHyTEdGd2onYsa/XgPDKEpf4=
+        code : |1-
+         
+         // Manage the events: rollover, end of rollover, left button down, left button up, click, popup display and popup close
+         Event(OnMouseOver	, IMG_COMBO..FullName			, WM_MOUSEMOVE)
+         Event(OnMouseOut	, IMG_COMBO..FullName			, WM_MOUSEOUT)
+         Event(OnMouseDown	, IMG_COMBO..FullName			, WM_LBUTTONDOWN)
+         Event(OnMouseUp		, IMG_COMBO..FullName			, WM_LBUTTONUP)
+         Event(OnMouseOverPop, IMG_POPUPPATH..FullName		, WM_MOUSEMOVE)
+         Event(OnMouseOutPop	, IMG_POPUPPATH..FullName		, WM_MOUSEOUT)
+         Event(OnMouseDownPop, IMG_POPUPPATH..FullName		, WM_LBUTTONDOWN)
+         Event(OnMouseUpPop	, IMG_POPUPPATH..FullName		, WM_LBUTTONUP)
+         Event(OnClick		, "*.*"							, WM_WDELEMENTCLICK + MYID)
+         Event(OnPopup		, "*.*"							, WM_WDELEMENTPOP + MYID)
+         Event(OnPopupEnded	, "*.*"							, WM_WDELEMENTPOPEND + MYID)
+         Event(OnPaint		, "*.*"							, WM_WDELEMENTPAINT)
+         
+         // Load the input history
+         // The history is kept by using the name of the internal window followed by a subscript:
+         // <Internal Window>_<Subscript>
+         i is int = 1
+         LOOP
+         	// If the parameter is empty, it does not exist, we stop the browse
+         	IF LoadParameter(MySelf..Name + "_" + i, "") = "" BREAK
+         	
+         	// Add the path into the combo box
+         	ListAdd(COMBO_EXPLOREHISTORY, LoadParameter(MySelf..Name + "_" + i))
+         	i ++
+         END
+        type : 14
+      -
+        type : 15
+      -
+        code : |1-
+         
+         // End of the popup
+         EndPopup()
+        type : 16
+      -
+        code : |1-
+         
+         // Build the path
+         PathDisplay(MySelf..Value)
+        type : 43
+      -
+        code : |1-
+         
+         // Returns the path displayed
+         RESULT CURRENTPATH
+        type : 42
+      -
+        code : |1-
+         
+         // Save the input history
+         // The history is kept by using the name of the internal window followed by a subscript:
+         // <Internal Window>_<Subscript>
+         FOR i = 1 _TO_ ListCount(COMBO_EXPLOREHISTORY)
+         	SaveParameter(MySelf..Name + "_" + i, COMBO_EXPLOREHISTORY[i])
+         END
+        type : 2
+      -
+        code : |1-
+         
+         // End of the popup
+         EndPopup()
+        type : 17
+      -
+        code : |1-
+         
+         // Switch to input
+         ExecuteProcess(IMG_ICON, trtClick)
+        type : 66050
+      -
+        internal_properties : CAAAAAgAAAANK99aT578pqrY5vHKk6We4QlF1n4phI60i5kiJ2ajIXqY8ANw+K+Ev0qF5XyF7/X5nkR47wx/A9HQAdXUtV09qS9IbkPPF7nTWSaUTtcQidvXNTL45w==
+        code : |1-
+         
+         // Automatic process of exceptions:   run CASE EXCEPTION:
+         
+         // Refresh the path
+         PathDisplay()
+         
+         CASE EXCEPTION:
+        type : 65541
+      -
+        internal_properties : CAAAAAgAAAANK99aT578pqrY5vHKk6We4QlF1n4phI60i5kiJ2ajIXqY8ANw+K+Ev0qF5XyF7/X5nkR47wx/A9HQAdXUtV09qS9IbkPPF7nTWSaUTtcQidvXNTL45w==
+        code : |1-
+         
+         // Automatic process of exceptions:   run CASE EXCEPTION:
+         
+         // End of the popup
+         EndPopup()
+         
+         CASE EXCEPTION:
+        type : 65544
+ menu :
+  name : _Menu
+  identifier : 0x27a1ec1fa6e34001
+  internal_properties : CAAAAAgAAAC9auouxN3CiS1UHy69pCHJU2hPQP5aPrxDpuMd+folLnKLDclr4k04UVuUGa0eBjiUure/514NXQqvoA3kcE+ZfkAwZN5wuqf91stOSc7rrooKBe5p25+yGTrLtIh9cUvTSVwZqbm0iR8jS067DZVsr/rbKIf2qwSw5b0tai1hxqUFZkxL3IAJ4aLbMzxeRNbeYxe2gATNFCMeY38BgMEzxLp73ck14CZ1r43ovvpL1z80OL3aUfeKHbCfihfJqrDOO8iqc+h05HVbYos4EhHCLmjs/KDqmIik3JDNSn0=
+  options : []
+ popup_menus :
+  -
+    name : MENU_Default
+    identifier : 0x285801ce0726818a
+    internal_properties : CAAAAAgAAADptV3TOi99HcmBoJmLL6kHZNHD2CU9io38qyj4GeL3kcM86DSB4mESUfv6g/7J79q2NXNIXqRLLZuqNSOFuvuuTSwGBjUYku+wOR8DRCCGj1mGJttZlgb7qwH4XrR8H/HqKJnKRzqfk4kzkZQ5ZITkMYILlcejSew5ovlCWl5ZF2mIRPp7Ex0FazRVX+RdNXVNb10FX5cevMGvWlXkGbFd6VQdibkf1/3DWYP4/o2dHDNLibq4slSuDbur94k+yY4P+DfQkcCwPzeUlUWZEtbBRYtx4MPJKk3ds0yHUitc/rQetlPqgILA5VEZdaWvrsl28MKnIPRtdsUM118IcrqaQwKiT6SDruSdOr0r63coOKNKl53gkQYB8Ah4pHvY6LTwx6AQtkGZ3o5qtJDw
+    options :
+     -
+       name : OPT_IW_Copy_Address
+       identifier : 0x285801ce0727818a
+       internal_properties : CAAAAAgAAACqu0FAWztCyBIiS4DxsEQ3LJh8tsZefHbIdI9LG9oglHV2F327EcN8myVmqDrxXmwoPtTa7DG20GHNTTbr6MA54iJH6LpuHvLyHTQXmqH0J7kJ8pjih5EDtaANHc6Q6lbC750Lf1wJ0R3SiYaIribA7VFfdZS6xf+c4XZW950d+UV5bRyqO1GhFob9R7W2AS7PQ5BLSkyNJUq7pTW5HOULL5XPg9Ht9moDjM3uRug5DRyxTca9M3kjwSxP2GKvnhAA9NpNa2lOlNI7ozzz2WEm5IY60bJrgGWg4yNew/6nfKIt+0Fnh6GxnxdZFfzKBACoXTtW7ekwcRdwuLZ0UczrjKbj9h3fZiaJBPHsGHsw+5CxWqQjNl3bcEKSqZduJvF1s0i1pNFEd9XlJfKd7zfyicjNOBfF3+OaPVjbjfaruaw=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            sAddress	is string
+            arrElements is array of cElement dynamic
+            
+            // Retrieve the objects corresponding to the current address
+            MYROOT:GetElements(CURRENTPATH, arrElements)
+            
+            // If there's at least one object
+            IF arrElements..Occurrence > 0 THEN
+            	
+            	// Retrieve the current address
+            	sAddress = Replace(arrElements[arrElements..Occurrence].GetPath(True), TAB, SEPARATOR)
+            	
+            	// Copy the address into the clipboard
+            	ToClipboard(sAddress)
+            END
+           type : 32
+     -
+       name : OPT_IW_Modify_Address
+       identifier : 0x285801ce0728818a
+       internal_properties : CAAAAAgAAADwUb+usYv+PDZOH2B9oP4DHLgeuxP+r58Z94dF2Vw8g8MFuNGbVw0GMc5mucI4pZLLvnOZCXUMaKGsXiAjDNOgC+5nXdf1YxhnbCTfmexupLJBGnzetVfgSegse5CjgjcpZ5vtVupxcsL507DwSxfLWJ7RuJJcz8u1CHVieJMs+qk66G07EYv87ZsFzG559ggnRsO0gPuEuRp0xkdMg62/DE+iJFTCKVBrwfYsX/JAo9VBuuSCcoGR5SJrmLvBtdpWuTzffhjeKbg/o9D/7lxSdRTsulWr5Qd/Ql4gqu+0xmqKfsHr2z+ty2GrG47mZdMqxto4DNrXL72ay6Zzk8CRYUB20w4OcL0wQb6hqgwA68MswM1WINkCNQ+7ytT/nP48MdzFfDGCTr3Aj9pKObcmkRj/4nEzTTGwN1p1Z4xN33I=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            ExecuteProcess(IMG_ICON, trtClick)
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : OnMouseDown
+     internal_properties : CAAAAAgAAABw+0oWDEDToTqqd7VKpivSZ6QkLBqjBR5watQFRfx6awZT0VQhkiDNMHiKmK7GFR4c7Iy1Zn4Vs/gkjd60ZHy916jaEkwKf1r2npqQkmOM/zyhjwdDJKm2Qm8q5NkapMnpON9Vqn8rVEbxjCvqBsfqk9HVfIazVu2WA8K8W8dl2ET+uGxFpOtWMp/BB9qCuxa4QJeQgwg=
+     procedure_id : 1754154039197467018
+     type_code : 14
+     group : 2
+     code : |1+
+      // Summary: Event: Left button down
+      // Syntax:
+      //OnMouseDown ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   OnMouseDown()
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      	
+      	IF STATUS IN (Inactive, Grayed) THEN RETURN
+      	
+      	// Start the animation	
+      	IMG_COMBO..Note = "1"
+      	TimerSys(TimerDown, 1, TIMERDOWNID) 
+      	SetFocus(IMG_COMBO)
+     type : 458752
+   -
+     name : OnMouseOut
+     internal_properties : CAAAAAgAAAC1D68cZfBoxOG7mvzel2611owZMrgWpPz0Mi/hRPHdIRBuQlZOBaX064HEVLgcZa5y6GLkg0tG0WmFeqsLdftxjL9qEwWekadJXxaKp3KZmxbpRZylbmTAOXKEffj5KkSzRW39LagtKcL5RmJrhT1rpcDdVmXwfuQyC1iXkJ7TD3OZpgHxl0oFWDrTWPD4xxzBEXp/yciyRdW5wlp/qrpvlOm40M/5QYv0jCN6ZPbl+vViIeZS
+     procedure_id : 1754154039197532554
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Exit from control
+      // Syntax:
+      //OnMouseOut ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   OnMouseOut()
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      	
+      	IF STATUS IN (Grayed) THEN RETURN
+      
+      	// Retrieve the coordinates of the mouse
+      	nSx, nSy are int
+      	nSx = LoWord(CursorPos(cpScreen))
+      	nSy = HiWord(CursorPos(cpScreen))
+      
+      	// Retrieve the handle of the control being rolled over by the mouse cursor
+      	nControlHandleRollover is int
+      	nControlHandleRollover = API("user32", "WindowFromPoint", nSx, nSy)
+      
+      	// If the control being rolled over is the combo box, we don't start the rollover end animation
+      	IF NOT ControlOver() IN (IMG_COMBO..Name) OR NOT nControlHandleRollover IN (HANDLECOMBO) THEN 
+      		
+      		// Start the animation
+      		TimerSys(TimerOut, 2, TIMEROUTID) 		
+      	END
+     type : 458752
+   -
+     name : OnMouseOver
+     internal_properties : CAAAAAgAAABknwDWXkgrKXoa1+0q1puib8Rs3CKDbX7oMsxVjdQSgzabMYyR6rC14IiKMB621S7knHRlbn4to/DcpR7svMTlxzDqepxSbxIGXpqMvn+gy9g1k1snaPUCnvP+8NUGuNX1LDNJ/vOnYKJV4Hdmoos2LxWZELqHYnlil6ZYt0Mp1FDyLODp6PdiDmOlczZejwrcjqlE3/Q=
+     procedure_id : 1754154039197598090
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Control rollover
+      // Syntax:
+      //OnMouseOver ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   OnMouseOver()
+      
+      	// We only start the animation if needed
+      	IF IMG_COMBO..Note = "" THEN
+      		
+      	 	// Stop the timers that are running
+      	 	EndTimerSys(TIMEROVERID)
+      	 	EndTimerSys(TIMEROUTID)
+      	 	EndTimerSys(TIMERDOWNID)
+      	 	EndTimerSys(TIMERUPID)
+      	 	
+      	 	IF STATUS IN (Grayed) THEN RETURN
+      	 	
+      	 	// Start the animation	 	
+      	 	IMG_COMBO..Note = 1
+      	 	TimerSys(TimerOver, 2, TIMEROVERID) 
+      	END
+     type : 458752
+   -
+     name : OnMouseUp
+     internal_properties : CAAAAAgAAAAuzkpN8gqlcancdmiyaHVPaMDygT5pJlcPRRJZwQ+ZPmMWt7l80cOdtA+2dAjKI/HNEAdDaRDcc6nfXUJzxH0cQRoSz7okdvyLmI8P5U+t3tkUeG85Aib1qj7idQEGy1HSQzr7bnOWkeR4hOqi0kqIJKjqUup3q0AYzoihLzFKnL6WvDmcC5m0URVK0V3PD1EsorNFOpiHaeqoFriIve2iduFt
+     procedure_id : 1754154039197663626
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Left button up
+      // Syntax:
+      //OnMouseUp ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   OnMouseUp()
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      	
+      	IF STATUS IN (Inactive, Grayed) THEN RETURN
+      	
+      	// Start the animation
+      	TimerSys(TimerUp, 1, TIMERUPID) 
+      
+      	// Display and open the history combo box
+      	ExecuteProcess(IMG_ICON, trtClick)
+      	ComboOpen(COMBO_EXPLOREHISTORY)
+     type : 458752
+   -
+     name : TimerDown
+     internal_properties : CAAAAAgAAAA8h3jeYXiMGcr6x80qhvuyP/R8/HKTLT5IoowFfbTiQ1a7EdxxKmBFcMiasP5GlZ5U7KTFHq4Ng3BMpQ78vLRFZ9DKqrwSn+J2PurkNvcIs1BdS2P/QC1KxusWyM0+QB0N1OuxNksfSErNOG8e+jOeJ31xGPI/GkEKz16Qz3txnOgaxEhhQI9qFnudC67WdxvdprFMx8w=
+     procedure_id : 1754154039197729162
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Left button down
+      // Syntax:
+      //TimerDown ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerDown()
+      
+      	x is int
+      	
+      	IF ANIMATION = False THEN IMG_COMBO..Note = "10"
+      
+      	// Disable the update
+      	IMG_COMBO..DisplayEnabled = False
+      		
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_19 = CoordinateEditorToScreen(19)
+      		
+      	// We move to the 'down' part
+      	x = DPI_19
+      	
+      	// Current position in the animation
+      	n is int = IMG_COMBO..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n >= 10 THEN
+      		// Stop the timer
+      		EndTimerSys(TIMERDOWNID)
+      	END
+      	
+      	// Moves the image to the bottom
+      	dCopyBlt(IMG_ANIMSOURCE, IMG_COMBO, copySrcCopy, x, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_19, 0, 0, DPI_20, DPI_19)
+      	
+      	// Re-enable the update
+      	IMG_COMBO..DisplayEnabled = True
+      	
+      	// Next pass
+      	n ++
+      	IMG_COMBO..Note = n
+     type : 458752
+   -
+     name : TimerOut
+     internal_properties : CAAAAAgAAAB8x7ieoTjMOQq6Rw3qBnsyf3R8PPITrX5IoswF/XQiA1b7Udyx6iDFsIiacL5GlZ6UbCSFnq6NQ/DMZY58fPQF55AKqnzS3+I2furE1ldo0/D964MfIM3qpsu2qO0eoD2tdAtR1iu/6Cqt2E++WpM+x50RuBIfuuHqr/5wb9tRPIi6ZOiBIC+Kdlu9a042t9sdZvGMhww=
+     procedure_id : 1754154039197794698
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Rollover end
+      // Syntax:
+      //TimerOut ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerOut()
+      
+      	bStop is boolean
+      	x is int
+      	
+      	IF ANIMATION = False THEN IMG_COMBO..Note = "1"
+      
+      	// Disable the update
+      	IMG_COMBO..DisplayEnabled = False
+      	
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_19 = CoordinateEditorToScreen(19)
+      		
+      	// We move to the 'rollover' part
+      	x = CoordinateEditorToScreen(76)
+      	
+      	// Current position in the animation
+      	n is int = IMG_COMBO..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n <= 1 THEN
+      		// Stop the timer
+      		bStop = True
+      		EndTimerSys(TIMEROUTID)
+      	END
+      	
+      	// Moves the image to the top
+      	dCopyBlt(IMG_ANIMSOURCE, IMG_COMBO, copySrcCopy, x, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_19, 0, 0, DPI_20, DPI_19)
+      
+      	// Re-enable the update
+      	IMG_COMBO..DisplayEnabled = True
+      		
+      	IF bStop = False THEN
+      		// Next pass
+      		n --
+      		IMG_COMBO..Note = n
+      	ELSE
+      		// We can start a rollover animation again
+      		IMG_COMBO..Note = ""
+      	END
+     type : 458752
+   -
+     name : TimerOver
+     procedure_id : 1754154039197860234
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation" Rollover
+      // Syntax:
+      //TimerOver ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerOver()
+      
+      	x is int = CoordinateEditorToScreen(76)
+      	
+      	IF ANIMATION = False THEN IMG_COMBO..Note = "10"
+      	
+      	// Disable the update
+      	IMG_COMBO..DisplayEnabled = False
+      	
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_19 = CoordinateEditorToScreen(19)
+      	
+      	// Current position in the animation
+      	n is int = IMG_COMBO..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      
+      	IF n >= 10 THEN
+      		// Stop the timer
+      		EndTimerSys(TIMEROVERID)
+      	END
+      	
+      	// Moves the image to the bottom
+      	dCopyBlt(IMG_ANIMSOURCE, IMG_COMBO, copySrcCopy, x, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_19, 0, 0, DPI_20, DPI_19)
+      	
+      	// Re-enable the update
+      	IMG_COMBO..DisplayEnabled = True
+      	
+      	// Next pass	
+      	n ++
+      	IMG_COMBO..Note = n
+     type : 458752
+   -
+     name : TimerUp
+     internal_properties : CAAAAAgAAABAqJXZiHfZL6ahDL7vQoskC1bNu03F1jeQkC7uFcec+UoyHnanftYiDmyfBNjnGWvUjY+6xym7nmO2kK5STpA6M9ekSdIBn+PoJ0fTlfe5kWhTFFnleAWibFkUAj2O0K1Pps1/tAfzrO4hfCdWyOfSzas/+hQd+A/2u1roBx+VSJtllWcEgcIf28j6+r/DshBcBah1vCDW/P2ssjArlig4qmoCXrYj
+     procedure_id : 1754154039197925770
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Left button up
+      // Syntax:
+      //TimerUp ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerUp()
+      
+      	bStop is boolean
+      	x is int
+      	
+      	IF ANIMATION = False THEN IMG_COMBO..Note = "1"
+      	
+      	// Disable the update
+      	IMG_COMBO..DisplayEnabled = False
+      		
+      	let DPI_20 = CoordinateEditorToScreen(20)
+      	let DPI_19 = CoordinateEditorToScreen(19)
+      	
+      	// We move to the 'down' part 
+      	x = DPI_19
+      	
+      	// Current position in the animation
+      	n is int = IMG_COMBO..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n <= 1 THEN
+      		// Stop the timer
+      		bStop = True
+      		EndTimerSys(TIMERUPID)
+      	END
+      	
+      	// Moves the image to the top
+      	dCopyBlt(IMG_ANIMSOURCE, IMG_COMBO, copySrcCopy, x, Max(0, ((n - 1) * DPI_20)), DPI_20, DPI_19, 0, 0, DPI_20, DPI_19)
+      
+      	// Re-enable the update
+      	IMG_COMBO..DisplayEnabled = True
+      	
+      	IF bStop = False THEN
+      		// Next pass
+      		n --
+      		IMG_COMBO..Note = n
+      	ELSE
+      		// Go back to rollover state
+      		IMG_COMBO..Note = 10
+      	END
+     type : 458752
+   -
+     name : OnMouseDownPop
+     internal_properties : CAAAAAgAAACaFYaNpzCrEcqK55WKdsvitxRUzIpTpb6w2hQ1NVxKK4bTcQQBUnD9YNg6uI4WtQ4s3Ly1tg61ExiUbS6kpMz9N8g6IiwKr2rGnurIarvUhxTpx2/bfEFeKkeiXNEyjDHBILc9AvfjHG6phMNC/m8SKxmtpD7r7pVem5pUEz8t4NwmUDR9fKP++pdZv3I6g3YoySfGWXI=
+     procedure_id : 1754154039197991306
+     type_code : 14
+     group : 2
+     code : |1+
+      // Summary: Event: Left button down
+      // Syntax:
+      //OnMouseDownPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   OnMouseDownPop()
+      
+      	IF IMG_POPUPPATH..State = Grayed THEN RETURN
+      	
+      	IF NOT POPUP THEN
+      		// Stop the timers that are running
+      		EndTimerSys(TIMEROVERID)
+      		EndTimerSys(TIMEROUTID)
+      		EndTimerSys(TIMERDOWNID)
+      		EndTimerSys(TIMERUPID)
+      		
+      		IF STATUS IN (Inactive, Grayed) THEN RETURN
+      		
+      		// Start the animation
+      		IMG_POPUPPATH..Note = "1"
+      		TimerSys(TimerDownPop, 1, TIMERDOWNID) 
+      		SetFocus(IMG_POPUPPATH)
+      	END		
+     type : 458752
+   -
+     name : OnMouseOutPop
+     internal_properties : CAAAAAgAAAASykZYrlxvszdMRLjw/qdHZmRCOYp79nEtfRhJ+4nPIvXW6924twdTqj8AZILU8a03aGOvzVaQhR+f5wK5cs/kJ656B9YGVpKtZFEfsw174nu1775o3TMwiVeBkGSlmpwnZAlChWbDTLu1p6kZvXG/pSVdze1GdHtfC1vofuQ5i7ebnzwvonrH7JLt0OQaKgBtJw4wTb+gUOmJFaNtJgK2at1R
+     procedure_id : 1754154039198056842
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Exit from control
+      // Syntax:
+      //OnMouseOutPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   OnMouseOutPop()
+      
+      	IF IMG_POPUPPATH..State = Grayed THEN RETURN
+      	IF POPUP AND POPHANDLER THEN RETURN
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      
+      	IF STATUS IN (Grayed) THEN RETURN
+      
+      	// Retrieve the coordinates of the mouse
+      	nSx, nSy are int
+      	nSx = LoWord(CursorPos(cpScreen))
+      	nSy = HiWord(CursorPos(cpScreen))
+      
+      	// Retrieve the handle of the control being rolled over by the mouse cursor
+      	nControlHandleRollover is int
+      	nControlHandleRollover = API("user32", "WindowFromPoint", nSx, nSy)
+      
+      	// If the control being rolled over is one of the two buttons, we don't start the rollover end animation
+      	IF NOT ControlOver() IN (IMG_POPUPPATH..Name) OR NOT nControlHandleRollover IN (HANDLEPOPUP) THEN 
+      		
+      		// Start the animation		
+      		TimerSys(TimerOutPop, 2, TIMEROUTID) 
+      		
+      	ELSE
+      		
+      		// Re-run the rollover process
+      		TimerSys(TimerOverPop, 1, TIMEROVERID) 
+      	END	
+     type : 458752
+   -
+     name : OnMouseOverPop
+     internal_properties : CAAAAAgAAABOh493VBz3fLdMWdetAQ3NLfMoo7g1c/MfB3qk/bVSm0nVRxeda1ISi3DyC6vrHvaltU7cvynAVFNXYAJRMZdhx7H8tnarrF0xwS7H8x5iGvy69Mz+qTJN8XhtUEPxOXYKkhm+Iwz9ON2yE5B6GIuhvKfnSMaqiOMEHvhur7B7OWcnJJCk1Y2eY2w/VML2pEQyEYDxKVo16eDXOGjqsyHqK8KtTE4jPYI/XExTjF8ZI1kJEKEC6SLAwuQQ+Lip/vCJ4D9oo8JfMFUldBidKLg1eapNW4Ox+2/juGY0xFj7DAPmo+Dqk2uBrC3W52RRmSSKEUO5XFs4hq/RPi9T6zKUNbD9+oPGJSZsl+UI6UiKzfm1o4UK4QM5Ua4MXM6QjsRDziIjwnE5jo29F2HMa4G0B6oVmLEq
+     procedure_id : 1754154039198122378
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Control rollover
+      // Syntax:
+      //[ <Result> = ] OnMouseOverPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: False to cancel the event
+      //
+      PROCEDURE PRIVATE   OnMouseOverPop()
+      
+      	IF IMG_POPUPPATH..State = Grayed THEN RESULT False
+      	
+      	IF POPUP THEN 
+      		
+      		// Stop the timers that are running
+      		EndTimerSys(TIMEROVERID)
+      		EndTimerSys(TIMEROUTID)
+      		EndTimerSys(TIMERDOWNID)
+      		EndTimerSys(TIMERUPID)
+      		
+      		IF STATUS IN (Grayed) THEN RESULT False
+      		
+      		TimerSys(TimerDownPop, 1, TIMERDOWNID) 
+      		
+      		IF POPHANDLER = False THEN
+      			sControl is string = MYROOT.m_Control..FullName
+      			SendMessage(Handle(), WM_WDELEMENTPOP + MYID, &sControl,  MYID)
+      		END
+      		
+      		RESULT False
+      	END
+      
+      	// We only start the animation if needed
+      	IF IMG_POPUPPATH..Note = "" THEN
+      		
+      	 	// Stop the timers that are running
+      	 	EndTimerSys(TIMEROVERID)
+      	 	EndTimerSys(TIMEROUTID)
+      	 	EndTimerSys(TIMERDOWNID)
+      	 	EndTimerSys(TIMERUPID)
+      	 	
+      	 	IF STATUS IN (Grayed) THEN RESULT False
+      	 	
+      	 	// Start the animation	 	
+      	 	IMG_POPUPPATH..Note = 1
+      	 	TimerSys(TimerOverPop, 2, TIMEROVERID) 
+      	END
+     type : 458752
+   -
+     name : OnMouseUpPop
+     internal_properties : CAAAAAgAAADE98+LLY1Upl0qamD2YAiqWxreMZYlsCYorzFZOtdRmEkV/YlFgQQ6A9cukmzZwmiVr5avlcmHcbmVqYw3Ota/F1KvDMPNXd8f2mjxP2MQJUktkFG3X0NNyXsS74e+d5SSzmLvhko9ZbcXTsx4wOB7MttUxIjcvGx9wRTZa+tUF8T1IpGoBEqYRB70y1vzjxGQw5PzbI3E2KpV/PEaEQUBMA==
+     procedure_id : 1754154039198187914
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Event: Left button up
+      // Syntax:
+      //OnMouseUpPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   OnMouseUpPop()
+      
+      	sControl is string
+      
+      	IF IMG_POPUPPATH..State = Grayed THEN RETURN
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      	
+      	IF STATUS IN (Inactive, Grayed) THEN RETURN
+      
+      	// Stop the timers that are running
+      	EndTimerSys(TIMEROVERID)
+      	EndTimerSys(TIMEROUTID)
+      	EndTimerSys(TIMERDOWNID)
+      	EndTimerSys(TIMERUPID)
+      
+      	// If no popup is opened
+      	IF NOT POPUP THEN
+      		
+      		// Start the animation
+      		TimerSys(TimerUp, 1, TIMERUPID) 
+      		
+      		// If an object is associated with the control
+      		IF MYROOT <> Null THEN
+      
+      			sControl = MYROOT.m_Control..FullName
+      			
+      			// If the popup button was clicked
+      			IF _EVE.hWnd = HANDLEPOPUP THEN	
+      				// Send a message for the popup opening			
+      				SendMessage(Handle(), WM_WDELEMENTPOP + MYID, &sControl, MYID)
+      			ELSE
+      				// Send a message for the path change
+      				SendMessage(Handle(), WM_WDELEMENTCLICK + MYID, &sControl, MYID)	
+      			END
+      		END
+      	ELSE		
+      		// Start the animation
+      		TimerSys(TimerUp, 1, TIMERUPID) 	
+      		
+      		// If an object is associated with the control
+      		IF MYROOT <> Null THEN
+      			
+      			sControl = MYROOT.m_Control..FullName
+      			
+      			// If the popup button wasn't clicked
+      			IF NOT _EVE.hWnd = HANDLEPOPUP THEN	
+      				SendMessage(Handle(), WM_WDELEMENTCLICK + MYID, &sControl, MYID)	
+      			END	
+      		END
+      	END
+     type : 458752
+   -
+     name : TimerDownPop
+     internal_properties : CAAAAAgAAAB0z7CGmZBy4faGO2WqGgu+g3Dk/FKPeW50bsBFheBS3xJHQYwJVgTlfCRWiDaiFWrIcDRlNkIBw6QwQT58KGyRAzTqAsSeExJqYv62QMn6YQLfxaH5ArfUUD3Y0neQAqunbg2fQEUJQnRnoonwNLXc6V/rrhRpTPPs4eAKyX0DMppEdi6bCkk02L3vzcDA+bN1PtmUjwQ=
+     procedure_id : 1754154039198253450
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Left button down
+      // Syntax:
+      //TimerDownPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerDownPop()
+      
+      	IF ANIMATION = False THEN IMG_POPUPPATH..Note = "10"
+      
+      	// Disable the update
+      	IMG_POPUPPATH..DisplayEnabled = False
+      		
+      	// We move to the 'down' part
+      	IMG_POPUPPATH..XImage 	= 15 
+      	
+      	// Reassign the width
+      	IMG_POPUPPATH..ImageWidth 	= IMG_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_POPUPPATH..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n >= 10 THEN
+      		// Stop the timer
+      		EndTimerSys(TIMERDOWNID)
+      	END
+      	
+      	// Moves the image to the bottom
+      	IMG_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_POPUPPATH..ImageHeight 	= IMG_POPUPPATH..Height
+      	
+      	// Re-enable the update
+      	IMG_POPUPPATH..DisplayEnabled = True
+      	
+      	// Next pass
+      	n ++
+      	IMG_POPUPPATH..Note = n
+     type : 458752
+   -
+     name : TimerOutPop
+     internal_properties : CAAAAAgAAAD6dSZwbw6f2XRki2lW6LNqxbI+MgbFISZOsDDJGW7iR3CtG0rZqOSZ/obyUNZ0oRq+jmZbfgRR494aUeYMGkz9tcZQZPDM+47EzM7N9SJpEgeU9IIGq1DvvdLNXdgFvdhEk6TYbU7yLWGcNyhJocz1etju+9UeGb6xLi35/jY259MNtUdkR5bz6cZI0FUxFEnrtEcm+ZI=
+     procedure_id : 1754154039198318986
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Rollover end
+      // Syntax:
+      //TimerOutPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerOutPop()
+      
+      	bStop is boolean
+      
+      	IF ANIMATION = False THEN IMG_POPUPPATH..Note = "1"
+      
+      	// Disable the update
+      	IMG_POPUPPATH..DisplayEnabled = False	
+      	
+      	// We move to the 'rollover' part
+      	IMG_POPUPPATH..XImage = 60
+      	
+      	// Reassign the width
+      	IMG_POPUPPATH..ImageWidth 	= IMG_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_POPUPPATH..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n <= 1 THEN
+      		// Stop the timer
+      		bStop = True
+      		EndTimerSys(TIMEROUTID)
+      	END
+      	
+      	// Moves the image to the top
+      	IMG_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_POPUPPATH..ImageHeight 	= IMG_POPUPPATH..Height
+      
+      	// Re-enable the update
+      	IMG_POPUPPATH..DisplayEnabled = True
+      		
+      	IF bStop = False THEN
+      		// Next pass
+      		n --
+      		IMG_POPUPPATH..Note = n
+      	ELSE
+      		// We can start a rollover animation again
+      		IMG_POPUPPATH..Note = ""
+      	END
+     type : 458752
+   -
+     name : TimerOverPop
+     internal_properties : CAAAAAgAAAB0z7CGmZBy4faGO2WqGgu+g3Dk/FKPeW50bsBFheBS3xJHQYwJVgTlfCRWiDaiFWrIcDRlNkIBw6QwQT58KGyRAzTqAsSeExJqYv62QMn6YQLfxaH5ArfUUD3Y0neQAqunbg2fQEUJQnRnoonwNLXc6V/rrhRpTPPs4eAKyX0DMppEdi6bCkk02L3vzcDA+bN1PtmUjwQ=
+     procedure_id : 1754154039198384522
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation" Rollover
+      // Syntax:
+      //TimerOverPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerOverPop()
+      
+      	IF ANIMATION = False THEN IMG_POPUPPATH..Note = "10"
+      
+      	// Disable the update
+      	IMG_POPUPPATH..DisplayEnabled = False	
+      	
+      	// We move to the 'Rollover' part
+      	IMG_POPUPPATH..XImage = 60 
+      	
+      	// Reassign the width
+      	IMG_POPUPPATH..ImageWidth 	= IMG_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_POPUPPATH..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      
+      	IF n >= 10 THEN
+      		// Stop the timer
+      		EndTimerSys(TIMEROVERID)
+      	END
+      	
+      	// Moves the image to the bottom
+      	IMG_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_POPUPPATH..ImageHeight 	= IMG_POPUPPATH..Height
+      	
+      	// Re-enable the update
+      	IMG_POPUPPATH..DisplayEnabled = True
+      	
+      	// Next pass	
+      	n ++
+      	IMG_POPUPPATH..Note = n
+     type : 458752
+   -
+     name : TimerUpPop
+     internal_properties : CAAAAAgAAAAUu9nG6oqvDjgRCQCJFT0+qYOnk+uzi5HgNi3BmSYwkiQsHIjMBrb9RG2EQVqZo/XfgIBSzHJpZDb3zG4GVKrmzQRF4cpEBrK7sFL1Oao3fbQm056RJdCL6kVDkCMxQw6O4ZN+YIA4j7C5mZl+Ka4vKrybR5pCCYI4K7ey8dZy/0hO3aboBDPyScRbgLl2p8J0+aElw+aC9YXaK5s8FuJcDgaZbg==
+     procedure_id : 1754154039198450058
+     type_code : 14
+     group : 2
+     code : |1-
+      // Summary: Animation: Left button up
+      // Syntax:
+      //TimerUpPop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE   TimerUpPop()
+      
+      	bStop is boolean
+      	
+      	IF ANIMATION = False THEN IMG_POPUPPATH..Note = "1"
+      	
+      	// Disable the update
+      	IMG_POPUPPATH..DisplayEnabled = False	
+      	
+      	// We move to the 'down' part 
+      	IMG_POPUPPATH..XImage = 15
+      	
+      	// Reassign the width
+      	IMG_POPUPPATH..ImageWidth = IMG_POPUPPATH..Width
+      	
+      	// Current position in the animation
+      	n is int = IMG_POPUPPATH..Note
+      	IF n > 10 THEN n = 10
+      	IF n < 1 THEN n = 1
+      	
+      	IF n <= 1 THEN
+      		// Stop the timer
+      		bStop = True
+      		EndTimerSys(TIMERUPID)
+      	END
+      
+      	// Moves the image to the top
+      	IMG_POPUPPATH..YImage 	= Max(0, ((n - 1) * 20)) 
+      	
+      	// Reassign the height
+      	IMG_POPUPPATH..ImageHeight 	= IMG_POPUPPATH..Height
+      		
+      	// Re-enable the update
+      	IMG_POPUPPATH..DisplayEnabled = True
+      	
+      	IF bStop = False THEN
+      		// Next pass
+      		n --
+      		IMG_POPUPPATH..Note = n
+      	ELSE
+      		// Go back to rollover state
+      		IMG_POPUPPATH..Note = 10
+      	END
+     type : 458752
+   -
+     name : PathAdd
+     procedure_id : 1754154039198515594
+     type_code : 14
+     code : |1-
+      // Summary: Add an element to the path
+      // Syntax:
+      //[ <Result> = ] AddPath (<sPath> is string, <sCaption> is string [, <vIdentifier> is variant [, <sInputCaption> is string [, <oImage> is Image]]])
+      //
+      // Parameters:
+      //	sPath (ANSI string): Path of the element to add or empty string ("") if the element must be located at the root
+      //	sCaption (ANSI string): Caption of the element to add
+      //	vIdentifier (variant - default value=""): Element identifier
+      //	sCaptionInEdit (ANSI string - default value=""): Caption of the element that will be used for the input
+      //	oImage (Image - default value=0): Path of the image associated with the element
+      // Return value:
+      // 	boolean: True if the element was added, False otherwise
+      //
+      PROCEDURE PUBLIC PathAdd(LOCAL sPath is string, LOCAL sCaption is string, LOCAL vIdentifier is Variant = "", LOCAL sCaptionInEdit is string <useful> = "", oImage is an Image = Null)
+      
+      	pclElement is cElement dynamic
+      
+      	// Add the element
+      	IF MyParameters[4]..Default THEN
+      		pclElement = MYROOT.AddChild(sPath + [TAB] + sCaption, vIdentifier)
+      	ELSE
+      		pclElement = MYROOT.AddChild(sPath + [TAB] + sCaption, vIdentifier, MyParameters[4])
+      	END
+      		
+      	// If the element was successfully created
+      	IF pclElement <> Null THEN
+      			
+      		// Defines the image	
+      		IF oImage <> Null _AND_ oImage..Valid THEN
+      			pclElement.SetImage(oImage)
+      		END
+      		
+      		RESULT True
+      	END
+      
+      RESULT False
+      
+      
+      END :
+      	IF MYROOT.m_arrChild..Occurrence = 0 THEN
+      		// By default, no element
+      		IMG_POPUPPATH..XImage = 30
+      		IMG_POPUPPATH..ImageWidth = IMG_POPUPPATH..Width
+      		IMG_POPUPPATH..State = Grayed
+      	ELSE
+      		// By default, no element
+      		IMG_POPUPPATH..XImage = 60
+      		IMG_POPUPPATH..ImageWidth = IMG_POPUPPATH..Width
+      		IMG_POPUPPATH..State = Active
+      	END
+     type : 458752
+   -
+     name : PathDisplay
+     internal_properties : CAAAAAgAAAApGVTkWyVKtNyq/IdzVHj6MQQFhA5e4J3fjRTZaGhACWsxa9S95tPGE9x/GTaPVDTdzHnzvK629xWXQ36PdM1QBPV7AqXo+R2Pa71Vn7DLkc6NF+R8/tmEU0khwX7S/6Y5YQ5Rvh3hmuzvegUO4CuOt50RuB4b2vHq7x5wlY8/9s/n025nQTWtW2HE5F6YVIgqS9wv9vYMIpX0CpxHuAx+LwWt3s6QOxzfLVxeKvlAErWV9XBRt50AxWIlT2N0xU42iCIS9q0=
+     procedure_id : 1754154039198581130
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the display
+      // Syntaxe :
+      //[ <Résultat> = ] PathDisplay ( [<sCurrentPath>])
+      //
+      // Paramètres :
+      //	sCurrentPath : Path to display
+      
+      // Return value:
+      //	boolean: True is the path has been displayed, False otherwise
+      PROCEDURE PRIVATE PathDisplay(LOCAL sCurrentPath = CURRENTPATH)
+      
+      	oControl	   is Control
+      	pclElement is cElement dynamic
+      	arrElement is array of cElement dynamic
+      	nPosX	   is int
+      	nYPos	   is int
+      	nWidth   is int
+      	nSubscript	   is int
+      	arrChild	   is array of cElement dynamic
+      	nDiff	   is int
+      	nSubscript1st is int
+      	
+      	MySelf..DisplayEnabled = False
+      	IMG_POPUPPATH..DisplayEnabled = False
+      	
+      	TRUNCATEDPATH = False
+      	IMG_POPUPPATH = "ExplorerBar\Images\btn-path-popup-anim.png"
+      	
+      	// Retrieve the objects to display in order
+      	MYROOT.GetElements(sCurrentPath, arrElement)
+      	
+      	let DPI_01 = CoordinateEditorToScreen(1)
+      	
+      	// Start position
+      	nPosX = IMG_ICON..Width + IMG_POPUPPATH..Width + DPI_01 + CONTAINER..X
+      	nYPos = DPI_01 + CONTAINER..Y
+      	
+      	// Delete all the controls
+      	FOR i = 1 _TO_ ARRCONTROLS..Occurrence
+      		ControlDelete(ARRCONTROLS[i])
+      	END
+      	
+      	ArrayDeleteAll(ARRCONTROLS)
+      	
+      	IF arrElement..Occurrence > 0 THEN
+      	
+      		// Read the objects
+      		FOR EACH ELEMENT pclElement of arrElement
+      			
+      			// Retrieve the element's control
+      			oControl <- pclElement.m_Control
+      			nSubscript ++
+      			
+      			// If the control doesn't exist
+      			IF oControl = Null _OR_ ControlExist(oControl) = False THEN
+      				
+      				// Get a unique control name
+      				sControlName is string = "IWC_ELEMENT_" + GetIdentifier()
+      				WHILE ControlExist(sControlName)
+      					sControlName = "IWC_ELEMENT_" + GetIdentifier()
+      				END
+      				
+      				ControlClone(IWC_ELEMENTPATH, sControlName, nPosX, nYPos)
+      				oControl <- {sControlName, indControl}
+      				oControl..Value = pclElement.m_sCaption
+      				
+      				// Give the control's name to the object
+      				pclElement.SetControl(oControl)
+      			ELSE
+      				
+      				// Place the object
+      				oControl..X = nPosX
+      				oControl..Y = nYPos
+      				oControl..Value = pclElement.m_sCaption		
+      			END
+      			
+      			// Animation management
+      			oControl.SetAnimationActive(ANIMATION)
+      			oControl.SetID(MYID)
+      			oControl.SetClick(SeekProcedure(CONTAINER..Name + ".OnClick"))
+      						
+      			IF nSubscript = arrElement..Occurrence THEN
+      				// Retrieve the object's children
+      				arrChild = pclElement.GetChild()
+      				IF arrChild..Occurrence = 0 THEN
+      					// No child, the popup button should not be displayed
+      					oControl.SetNoPopup(True)
+      				ELSE
+      					oControl.SetNoPopup(False)
+      				END
+      			END
+      			
+      			// Next position
+      			nWidth = oControl.GetWidth()
+      			oControl..Width = nWidth
+      	
+      			// Assign the object and the state
+      			oControl.SetObject(pclElement)
+      			oControl.SetStatus(STATUS)
+      	
+      			// If the control cannot be entirely displayed, delete one or more controls at the beginning of the path
+      			IF nPosX + nWidth >= IMG_COMBO..X - CONTAINER..X THEN
+      				IF ARRCONTROLS..Occurrence > 0 THEN
+      					
+      					nDiff = 0
+      					nSubscript1st = 0
+      					
+      					// Define the control from which everything can be displayed
+      					FOR i = 1 _TO_ ARRCONTROLS..Occurrence
+      						nDiff += ARRCONTROLS[i]..Width	
+      						IF NOT (nPosX + nWidth - nDiff >= IMG_COMBO..X - CONTAINER..X) THEN
+      							nSubscript1st = i
+      							BREAK
+      						END
+      					END
+      					
+      					// If we couldn't figure out from which control to start
+      					IF nSubscript1st = 0 _OR_ nSubscript1st = ARRCONTROLS..Occurrence THEN
+      						
+      						// We delete all the controls
+      						FOR i = 1 _TO_ ARRCONTROLS..Occurrence
+      							ControlDelete(ARRCONTROLS[i])
+      						END
+      						
+      						// Clear the control list
+      						ArrayDeleteAll(ARRCONTROLS)
+      						
+      						// Place the object again
+      						nPosX = IMG_ICON..Width + IMG_POPUPPATH..Width + DPI_01 
+      						oControl..X = nPosX + CONTAINER..X
+      						
+      						// If the path cannot be entirely displayed, we shrink its width
+      						IF nPosX + nWidth >= IMG_COMBO..X - CONTAINER..X THEN
+      							nWidth = IMG_COMBO..X - (nPosX + CONTAINER..X)
+      							oControl..Width = nWidth
+      						END					
+      						
+      					ELSE
+      						
+      						nDiff = 0
+      						
+      						// Delete all the controls up to the selected subscript
+      						FOR i = 1 _TO_ ARRCONTROLS..Occurrence
+      							IF i <= nSubscript1st THEN
+      								nDiff += ARRCONTROLS[i]..Width
+      								ControlDelete(ARRCONTROLS[i])
+      							ELSE
+      								// Otherwise place the other ones
+      								ARRCONTROLS[i]..X -= nDiff
+      							END
+      						END
+      						
+      						// Delete entries in the array
+      						FOR i = nSubscript1st _TO_ 1 step -1
+      							ArrayDelete(ARRCONTROLS, i)
+      						END
+      						
+      						// Place the object again
+      						nPosX -= nDiff
+      						oControl..X = nPosX + CONTAINER..X		
+      						
+      						// If the path cannot be entirely displayed, we shrink its width
+      						IF nPosX + nWidth >= IMG_COMBO..X - CONTAINER..X THEN
+      							nWidth = IMG_COMBO..X - (nPosX + CONTAINER..X)
+      							oControl..Width = nWidth
+      						END				
+      					END
+      					
+      					
+      				ELSE
+      					// The oath cannot be displayed entirely, therefore we reduce its width
+      					nWidth = IMG_COMBO..X - (nPosX + CONTAINER..X)
+      					oControl..Width = nWidth
+      				END
+      				
+      				
+      				TRUNCATEDPATH = True
+      				IMG_POPUPPATH = "ExplorerBar\Images\btn-back-bar-anim.png"
+      			END
+      	
+      			// Keep the control
+      			oControl.SetWidth(nWidth)
+      			ArrayAdd(ARRCONTROLS, oControl)
+      					
+      			// Next position
+      			nPosX += nWidth		
+      		END
+      	
+      	END
+      	
+      	// Keep the current path
+      	CURRENTPATH = sCurrentPath
+      	
+      	// Keep the path displayed for the input
+      	IF arrElement..Occurrence > 0 THEN
+      		
+      		// Retrieve the last object displayed
+      		pclElement = arrElement[arrElement..Occurrence]
+      		COMBO_EXPLOREHISTORY = Replace(pclElement.GetPath(True), TAB, SEPARATOR)
+      		
+      		// Icon of the object
+      		IMG_ICON = dSaveImagePNG(pclElement.m_Image_status, inMemory)
+      	ELSE
+      		
+      		// No current path
+      		COMBO_EXPLOREHISTORY = ""
+      		// Default icon
+      		IMG_ICON = "ExplorerBar\Images\btn-icon.png"
+      	END
+      		
+      	// Make all the displayed controls visible
+      	FOR ALL ELEMENT oControl of ARRCONTROLS
+      		oControl..Visible = True
+      	END
+      	
+      	IMG_POPUPPATH..DisplayEnabled = True
+      	MySelf..DisplayEnabled = True
+      	
+      RESULT (arrElement..Occurrence > 0)
+     type : 458752
+   -
+     name : OnClick
+     internal_properties : CAAAAAgAAADA4iRlJPfTT93c1EbZPFe7NiwpiiiLv8uDoJ79kZ2I1Doto0b4F7dxmR1f9rcOHMbTvKLZPd7RxUTAs9RjUOiiEdE38V6TeJdfLh9Tv1IuwDBgz/F6ycsbBqcIaZpFJqBvc4sf5d7Xv2xD5GxpZ8uLdRYbqBdgbsRq04hZemxVEbwzzBKUO63X1jdHUq9xZOv4YZBN5Q==
+     procedure_id : 1754154039198646666
+     type_code : 14
+     group : 4
+     code : |1-
+      // Summary: Callback when clicking the button
+      // Syntax:
+      //[ <Result> = ] OnClick ( [<sControlName> is string [, <nID>]])
+      //
+      // Parameters:
+      //	sControlName (string): Clicked control
+      // 	nID: Identifier 
+      // Return value:
+      // 	boolean: True
+      //
+      PROCEDURE PRIVATE   OnClick(sControlName  is string = StringRetrieve(_EVE.wParam, srASCIIZAddress), nID = _EVE.lParam)
+      	
+      	pclElement is cElement dynamic
+      	
+      	IF nID <> MYID THEN RESULT True
+      
+      	IF sControlName <> "" THEN
+      
+      		// Close the previous popup
+      		IF WinStatus(POP_ELEMENT) <> NotFound THEN 
+      			Close(POP_ELEMENT)
+      		END
+      
+      		// Retrieve the object
+      		pclElement = ExecuteProcess(sControlName + ".GetObject", trtProcedure)
+      	
+      		IF pclElement <> Null THEN
+      			
+      			// Check whether the element is part of the bar
+      			IF MYROOT.IsChild(pclElement) = False THEN RESULT True
+      			
+      			// End of the popup's life
+      			EndPopup()
+      			
+      			// Retrieve the object's path
+      			sPath is string
+      			sPath = pclElement.GetPath()
+      			
+      			IF sPath <> "" THEN
+      				IF Callback(sPath) THEN
+      					// Display the path
+      					PathDisplay(sPath)					
+      				END
+      			END
+      		END
+      	END
+      	
+      RESULT True
+     type : 458752
+   -
+     name : OnPopup
+     internal_properties : CAAAAAgAAADJYCZo3sGq1VCYX58YM6VS6YlyO3YZ3516H/4U3TbQzFOU+nT1CaiXInxBatq8Ith015ARMfWiN/16trHW2UD/sW4oT7kv9boQz5e5fRi+yt2Jy/KY6aPUCKqxf3ftomG+1E09jQeU8Gj/DZTAlTwyY91BRKnx+lRVvoxsFuAIsmNve0II+d73291fWwofieSIJTj/VZBdQPUIna9NYxOWWQtPGCuIEHJdx4M9lmwb1tdLJwoYw45IL0JHArBD9IjqMgRMw2BAwQ==
+     procedure_id : 1754154039198712202
+     type_code : 14
+     group : 4
+     code : |1-
+      // Summary: Callback during the click on the popup button
+      // Syntaxe :
+      //[ <Résultat> = ] OnPopup ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Traitement automatique des exceptions :   exécuter le bloc de code CAS EXCEPTION:
+      //
+      
+      // Return value:
+      // 	boolean: True to let the events pass
+      // Automatic process of exceptions:   run CASE EXCEPTION:
+      PROCEDURE PRIVATE OnPopup()
+      	
+      	pclElement is cElement dynamic
+      	sPath	   is string
+      	sControlName  is string = StringRetrieve(_EVE.wParam, srASCIIZAddress)
+      	oControl	   is Control
+      	bRoot	   is boolean
+      	bTruncates   is boolean
+      	
+      	IF _EVE.lParam <> MYID THEN RESULT True
+      	
+      	IF ExtractString(sControlName, lastRank, ".") = IMG_POPUPPATH..Name THEN
+      		bRoot = True
+      		bTruncates = TRUNCATEDPATH
+      	END
+      
+      	IF sControlName <> "" THEN
+      		
+      		// Close the previous popup
+      		IF WinStatus(POP_ELEMENT) <> NotFound THEN 
+      			
+      			// If it is the same control, do nothing
+      			IF POP_ELEMENT.gpclElement.m_Control..FullName = sControlName THEN
+      				RESULT False	
+      			END
+      			
+      			// Inform the control that we are closing the popup
+      			IF ExtractString(POP_ELEMENT.gpclElement:m_Control..FullName, lastRank, ".") <> IMG_POPUPPATH..Name THEN
+      				WHEN EXCEPTION IN
+      					oInternalWin is Control <- POP_ELEMENT.gpclElement.m_Control
+      					oInternalWin.SetPopupOpen(False, False)		
+      				DO
+      					//
+      				END
+      			ELSE
+      				// The root does not own the popup anymore
+      				POPHANDLER = False	
+      			END
+      				
+      			Close(POP_ELEMENT)
+      		ELSE
+      			// End of the popup's life
+      			EndPopup(False)
+      		END
+      		
+      		// Retrieve the object
+      		IF bRoot THEN
+      			pclElement = MYROOT
+      		ELSE
+      			WHEN EXCEPTION IN
+      				pclElement = ExecuteProcess(sControlName + ".GetObject", trtProcedure)
+      			DO
+      				pclElement = Null
+      			END
+      		END		
+      		
+      		IF pclElement <> Null THEN
+      			
+      			// Check whether the element is part of the bar
+      			IF NOT bRoot _AND_ MYROOT.IsChild(pclElement) = False THEN RESULT True
+      			IF CallbackPop(pclElement.GetPath(), pclElement.GetPath(True)) = False THEN RESULT True
+      			
+      			// Inform the element that a popup is opened
+      			FOR ALL ELEMENT oControl of ARRCONTROLS
+      				oControl.SetPopupOpen(True, (oControl..FullName = sControlName))
+      			END
+      			
+      			// A popup is open
+      			POPHANDLER = bRoot
+      			POPUP = True
+      			
+      			// Check whether the element has children
+      			IF pclElement.HasChild() = False THEN 
+      				RESULT True
+      			END
+      			
+      			// If the path is truncated when it is displayed, a virtual path must be re-created for the popup
+      			IF bTruncates THEN
+      				
+      				bElement1st is boolean
+      				pclElement1st is cElement dynamic
+      				pclElement = new cElement(MYROOT, "")
+      				
+      				IF ARRCONTROLS..Occurrence > 0 THEN
+      					// Retrieve the first element displayed
+      					pclElement1st = ARRCONTROLS[1].GetObject()
+      				ELSE
+      					pclElement1st = Null
+      				END
+      				
+      				// Retrieve the objects to display in order
+      				arrElement is array of cElement dynamic
+      				MYROOT:GetElements(CURRENTPATH, arrElement)
+      				
+      				FOR i = arrElement..Occurrence _TO_ 1 step -1
+      					
+      					// If it is the object that is currently displayed first
+      					IF bElement1st = False _AND_ arrElement[i] = pclElement1st THEN 
+      						bElement1st = True
+      						CONTINUE 
+      					END
+      					
+      					// As long as we haven't passed the first control displayed, we continue
+      					IF bElement1st = False THEN CONTINUE
+      					
+      					// Add the element as a child
+      					ArrayAdd(pclElement.m_arrChild, arrElement[i])
+      				END
+      				
+      				// The current path is the root
+      				sPath = ExtractString(CURRENTPATH, 1)
+      				
+      			ELSE
+      				// The current path is the full path
+      				sPath = CURRENTPATH
+      			END
+      									
+      			x, y are int
+      			oControl <- {sControlName, indControl}
+      			
+      			// Calculate the popup's coordinates
+      			x = oControl..X + (bRoot = False ? oControl..Width - CoordinateEditorToScreen(32) ELSE 0)
+      			y = oControl..Y + oControl..Height - CoordinateEditorToScreen(1)
+      			
+      			// Add the window's coordinates
+      			x += WinInXPos()
+      			y += WinInYPos()
+      			
+      			// Opens the popup
+      			pPopupEnded is PROCEDURE = SeekProcedure(CONTAINER..Name + ".OnPopupEnded")
+      			OpenChild("POP_ELEMENT," + y + "," + x + NoFocus, pclElement, sPath, pPopupEnded,  MYID)
+      			
+      		END
+      	END
+      
+      RESULT False
+      
+      CASE EXCEPTION:
+      	RESULT False
+     type : 458752
+   -
+     name : DefineRealPath
+     procedure_id : 1754154039198777738
+     type_code : 14
+     code : |1-
+      // Summary: Attempt to figure out the path corresponding to what was entered by the user
+      // Syntax:
+      //[ <Result> = ] DefineRealPath (<sPathEntered> is string)
+      //
+      // Parameters:
+      //	sEnteredPath (string): Path entered by the user
+      // Return value:
+      // 	string: Found path or empty string ("") if the value entered is invalid
+      //
+      PROCEDURE PRIVATE  DefineRealPath(LOCAL sPathEntered is string)
+      	
+      	sPathFound is string
+      	
+      	// Replace the displayed separators with the internal separators
+      	sPathEntered = Replace(sPathEntered, SEPARATOR, TAB)
+      	
+      	// Remove the separator at the end of the string
+      	IF sPathEntered[[Length(sPathEntered)]] = TAB THEN sPathEntered[[Length(sPathEntered)]] = ""
+      	
+      	// Remove double separators
+      	WHILE Position(sPathEntered, TAB + TAB) > 0
+      		sPathEntered = Replace(sPathEntered, TAB + TAB, TAB)
+      	END
+      	
+      	// Try to find a path
+      	sPathFound = MYROOT.DefineRealPath(sPathEntered)
+      	
+      RESULT sPathFound
+     type : 458752
+   -
+     name : Callback
+     procedure_id : 1754154039198843274
+     type_code : 14
+     code : |1-
+      // Summary: Call the user procedure
+      // Syntax:
+      //[ <Result> = ] Callback (<sPath>)
+      //
+      // Parameters:
+      //	sPath: Path that will be displayed
+      // Return value:
+      // 	boolean: True is the path can be displayed, False otherwise
+      //
+      PROCEDURE PRIVATE Callback(LOCAL sPath)
+      
+      	bCallback is boolean = True
+      
+      	// If the WL procedure was defined
+      	IF CALLBACKCLICKWL <> Null THEN
+      		
+      		WHEN EXCEPTION IN
+      			// Call the WL procedure
+      			bCallback = CALLBACKCLICKWL(sPath)
+      		DO
+      			bCallback = True
+      		END
+      				
+      	END
+      	
+      RESULT bCallback
+     type : 458752
+   -
+     name : SetClickProcedure
+     procedure_id : 1754154039198908810
+     type_code : 14
+     code : |1-
+      // Summary: Specify the WLanguage user procedure that will be called when selecting an element
+      // Syntax:
+      //SetClickProcedure (<WLProcedure> is procedure)
+      //
+      // Parameters:
+      //	WLProcedure (procedure): Full name of the WLanguage procedure. This procedure MUST NOT open a window or a dialog box)
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetClickProcedure(ProcedureWL is PROCEDURE)
+      
+      	// Keep the name of the procedure
+      	CALLBACKCLICKWL = ProcedureWL
+     type : 458752
+   -
+     name : EndPopup
+     procedure_id : 1754154039198974346
+     type_code : 14
+     code : |1-
+      // Summary: Indicates the end of the popup lifetime
+      // Syntax:
+      //EndPopup ([<bEvent>])
+      //
+      // Parameters:
+      //	bEvent (default value=1): True if the popup closure is due to an event, False if it is manually forced
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PRIVATE  EndPopup(LOCAL bEVENT = True)
+      
+      	oControl is Control
+      
+      	IF POPHANDLER _AND_ POPUP THEN
+      
+      		// The root does not own the popup anymore
+      		POPHANDLER = False
+      		POPUP = False
+      		
+      		IF WinStatus(POP_ELEMENT) <> NotFound THEN
+      			// Closes the popup
+      			Close(POP_ELEMENT)
+      		END
+      	
+      	END
+      	
+      	// Reset the root to its initial state
+      	IF bEVENT THEN OnMouseOutPop()
+      	
+      	// Tell the elements that the popup is closed
+      	FOR ALL ELEMENT oControl of ARRCONTROLS
+      		oControl.SetPopupOpen(False, False)
+      	END
+     type : 458752
+   -
+     name : OnPopupEnded
+     internal_properties : CAAAAAgAAAAb3eCnDKb1w9ybqlvh9ippeY1Wf8Hi4SgW1ctVoV8MxQ9auSx3hGg39s/ISGdTErq9M4KPFdjvUBjqvhClGCTuPJfFMKH2ytPZKiei9jU/Avzw7B3Lwz90SLqVgDQBQMJmUcm67mpEzKsw54qJ45pVxcc+weRtEKTZFcVZZVIil8jqhr8nuwFVVryLvecoYvvSL5zb4WSyyuTnbAAh8U7Qu9a8F5G7V60LVBtGBRlNcRnlCqM9cvHm3BoDBMrsbBvBCHv2BX+KuF6py9sb1O6wY4tDnVVmn8Jufc/LqljTPk5Jjrb/jUMGeI5J58AOrnDqiVHvVfj9QrXCIm24/EYo8pCZSXVqAXZL1vsoHW5Bqv+HK9L929JT
+     procedure_id : 1754154039199039882
+     type_code : 14
+     group : 4
+     code : |1-
+      // Summary: Processes the popup return
+      // Syntax:
+      //[ <Result> = ] OnPopupEnded ([<sPath> [, <nID>]])
+      //
+      // Parameters:
+      //	sPath: Path selected in the popup
+      //	nID: Identifier of the bar
+      // Return value:
+      // 	boolean: // 	None
+      //
+      PROCEDURE PRIVATE OnPopupEnded(sPath = StringRetrieve(_EVE.wParam, srASCIIZAddress), nID = _EVE.lParam)
+      
+      	IF NOT nID IN (0, MYID) THEN RESULT True
+      
+      	// End of the popup's life
+      	EndPopup()
+      
+      	IF sPath <> "" THEN
+      				
+      		IF Callback(sPath) THEN
+      			// Display the new path
+      			PathDisplay(sPath)			
+      		END
+      		
+      	END		
+     type : 458752
+   -
+     name : SetSeparator
+     procedure_id : 1754154039199105418
+     type_code : 14
+     code : |1-
+      // Summary: Define the new separator for input
+      // Syntax:
+      //SetSeparator (<sSeparator> is string)
+      //
+      // Parameters:
+      //	sSeparator (string): New element input separator
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetSeparator(LOCAL sSeparator is string)
+      
+      	SEPARATOR = sSeparator
+      
+      	// Refreshes the display
+      	PathDisplay()
+     type : 458752
+   -
+     name : PathDelete
+     procedure_id : 1754154039199170954
+     type_code : 14
+     code : |1-
+      // Summary: Delete an element
+      // Syntax:
+      //[ <Result> = ] PathDelete (<sPath> is string)
+      //
+      // Parameters:
+      //	sPath (string): Path of the element to delete
+      // Return value:
+      // 	boolean: True if the element was deleted, False otherwise
+      //
+      PROCEDURE PUBLIC PathDelete(LOCAL sPath is string)
+      	
+      	bReturn is boolean
+      	bReturn = MYROOT:DeleteChild(sPath)
+      	
+      	IF bReturn THEN		
+      		IF sPath = CURRENTPATH _OR_ Position(CURRENTPATH, sPath) > 0 _OR_ Position(sPath, CURRENTPATH) > 0 THEN
+      			// Refreshes the display
+      			CURRENTPATH = sPath[[TO PositionOccurrence(sPath, TAB, lastRank) - 1]]
+      			PathDisplay()
+      		END		
+      	END
+      	
+      RESULT bReturn
+     type : 458752
+   -
+     name : PathDeleteAll
+     procedure_id : 1754154039199236490
+     type_code : 14
+     code : |1-
+      // Summary: Delete all the elements
+      // Syntax:
+      //PathDeleteAll
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC PathDeleteAll()
+      
+      	MYROOT:DeleteAll()
+      	
+      	// Refreshes the display
+      	CURRENTPATH = ""
+      	PathDisplay()
+     type : 458752
+   -
+     name : PathRetrieveIdentifier
+     procedure_id : 1754154039199302026
+     type_code : 14
+     code : |1-
+      // Summary: Return the identifier of the specified element
+      // Syntax:
+      //[ <Result> = ] PathRetrieveIdentifier (<sPath> is string)
+      //
+      // Parameters:
+      //	sPath (string): Element path
+      // Return value:
+      // 	variant: Identifier of the element or blank string ("") if the element was not found
+      //
+      PROCEDURE PUBLIC PathRetrieveIdentifier(LOCAL sPath is string)
+      
+      	vIdentifier is variant
+      	
+      	// Retrieves the identifier
+      	vIdentifier = MYROOT:RetrieveIdentifier(sPath)
+      	
+      RESULT vIdentifier
+     type : 458752
+   -
+     name : PathModify
+     procedure_id : 1754154039199367562
+     type_code : 14
+     code : |1-
+      // Summary: Modify an element in the path
+      // Syntax:
+      //[ <Result> = ] PathModify (<sPath> is string [, <sCaption> is string [, <vIdentifier> is variant [, <sCaptionInEdit> is string [, <sImage> string ]]]])
+      //
+      // Parameters:
+      //	sPath (string): Full path of the element to modify
+      //	sCaption (string - default value=""): New caption of the element (default constant in order not to modify)
+      //	vIdentifier (variant - default value=""): New identifier of the element (default constant to not modify)
+      //	sCaptionInEdit (string - default value=""): New caption of the element that will be used for the input (default constant if you don't want to modify)
+      //	sImage (string - default value=""): New path of the image associated with the element (default constant to not modify)
+      // Return value:
+      // 	boolean: True if the element was modified, False otherwise
+      //
+      PROCEDURE PUBLIC PathModify(LOCAL sPath is string, *)
+      
+      	pclElement is cElement dynamic
+      	bReturn is boolean
+      	
+      	IF MyParameters..NbReceived = 1 THEN
+      		// We need to modify at least one parameter
+      		RESULT False
+      	END
+      			
+      	// Modify the element
+      	pclElement = MYROOT.ModifyChild(MyParameters)
+      	bReturn = (pclElement <> Null)
+      	
+      	IF bReturn THEN
+      		
+      		IF CURRENTPATH = sPath THEN
+      			
+      			CURRENTPATH = pclElement:GetPath()	
+      			// Refreshes the display
+      			PathDisplay()			
+      		ELSE 
+      			IF Position(CURRENTPATH, sPath) > 0 THEN
+      				
+      				CURRENTPATH = pclElement:GetPath() + [TAB] + CURRENTPATH[[Length(sPath) + 1 TO]]
+      				// Refreshes the display
+      				PathDisplay()				
+      			END
+      		END		
+      		
+      	END
+      
+      RESULT bReturn
+     type : 458752
+   -
+     name : CallbackPop
+     procedure_id : 1754154039199433098
+     type_code : 14
+     code : |1-
+      // Summary: Call the user procedure
+      // Syntax:
+      //[ <Result> = ] CallbackPop (<sPath> is string, <sEditPath> is string)
+      //
+      // Parameters:
+      //	sPath (ANSI string): Path whose popup will be displayed
+      //	sInputPath (ANSI string): Input path
+      // Return value:
+      // 	boolean: True if the popup can be opened, False otherwise
+      //
+      PROCEDURE PRIVATE CallbackPop(LOCAL sPath is string, LOCAL sInputPath is string)
+      
+      	bCallback is boolean = True
+      
+      	// If the WL procedure was defined
+      	IF CALLBACKPOPWL <> Null THEN
+      		
+      		WHEN EXCEPTION IN
+      			// Call the WL procedure
+      			bCallback = CALLBACKPOPWL(sPath, Replace(sInputPath, TAB, SEPARATOR))
+      		DO			
+      			bCallback = True
+      		END
+      				
+      	END
+      	
+      RESULT bCallback
+     type : 458752
+   -
+     name : SetPopupProcedure
+     procedure_id : 1754154039199498634
+     type_code : 14
+     code : |1-
+      // Summary: Specify  the WLanguage user procedure that needs to be called when opening the popup on an element
+      // Syntax:
+      //SetPopupProcedure (<WLProcedure> is procedure)
+      //
+      // Parameters:
+      //	WLProcedure (procedure): Full name of the WLanguage procedure. This procedure MUST NOT open a window or a dialog box)
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetPopupProcedure(ProcedureWL is PROCEDURE)
+      
+      	// Keep the name of the procedure
+      	CALLBACKPOPWL = ProcedureWL
+     type : 458752
+   -
+     name : SetAnimationActive
+     internal_properties : CAAAAAgAAABow7TPZR6YOej4Z0n2ZLvOsUZWer5Rpaai1MxhuVKiszzRexJJTAAhsvoGUF7IuZ6ygm5jztiNQ9o2VTZERvw5KZIYJJjw/4bQiNIf51yj0PH+7vCA1VppN1zX33pv1/YWze4OJ4g0b7NmURrjAw7z7EpAIb/g4/jzoA9DWPjwHR33L/1+SagVw+jqGp/jhhzeB+WYiwA=
+     procedure_id : 1754154039199564170
+     type_code : 14
+     code : |1-
+      // Summary: Enables or disables the animation on the elements
+      // Syntax:
+      //SetAnimationActive ([<bAnimationActive>])
+      //
+      // Parameters:
+      //	bAnimationActive (default value=1): True to enable element animation, False to disable it
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetAnimationActive(LOCAL bAnimationEnabled = True)
+      
+      	ANIMATION = bAnimationEnabled
+      	
+      	// Notify the elements
+      	FOR i = 1 _TO_ ARRCONTROLS..Occurrence
+      		ARRCONTROLS[i].SetAnimationActive(ANIMATION)
+      	END
+      	
+      	IF NOT ANIMATION THEN
+      		// Stop the timers that are running
+      		EndTimerSys(TIMEROVERID)
+      		EndTimerSys(TIMEROUTID)
+      		EndTimerSys(TIMERDOWNID)
+      		EndTimerSys(TIMERUPID)
+      	END
+     type : 458752
+   -
+     name : PathSelect
+     procedure_id : 1754154039199629706
+     type_code : 14
+     code : |1-
+      // Summary: Return the path of the element currently displayed
+      // Syntax:
+      //[ <Result> = ] PathSelect ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Path of the currently displayed element
+      //
+      PROCEDURE PUBLIC PathSelect()
+      RESULT CURRENTPATH
+     type : 458752
+   -
+     name : PathSelectPlus
+     procedure_id : 1754154039199695242
+     type_code : 14
+     code : |1-
+      // Summary: Displays an element from its path
+      // Syntax:
+      //PathSelectPlus (<sPath> is string)
+      //
+      // Parameters:
+      //	sPath (string): Path of the element to display
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC PathSelectPlus(LOCAL sPath is string)
+      
+      	// Build the path
+      	PathDisplay(sPath)
+     type : 458752
+   -
+     name : GetSeparator
+     procedure_id : 1754154039199760778
+     type_code : 14
+     code : |1-
+      // Summary: Return the separator used for input
+      // Syntax:
+      //[ <Result> = ] GetSeparator ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	string: Separator used for input (default: "\")
+      //
+      PROCEDURE PUBLIC GetSeparator()
+      RESULT SEPARATOR
+     type : 458752
+   -
+     name : GetAnimationActive
+     procedure_id : 1754154039199826314
+     type_code : 14
+     code : |1-
+      // Summary: Return the activation state of element animation
+      // Syntax:
+      //[ <Result> = ] GetAnimationActive ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if element animation is enabled, False otherwise
+      //
+      PROCEDURE PUBLIC GetAnimationActive()
+      RESULT ANIMATION
+     type : 458752
+   -
+     name : SetStatus
+     procedure_id : 1754154039199891850
+     type_code : 14
+     code : |1-
+      // Summary: Define the bar's state
+      // Syntax:
+      //SetStatus (<nStatus>)
+      //
+      // Parameters:
+      //	nStatus: Status of the element (Active, Grayed, Disabled)
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC SetStatus(LOCAL nStatus)
+      
+      	IF STATUS <> nStatus THEN
+      
+      		// Keep the state
+      		STATUS = nStatus
+      		IMG_ICON..State = STATUS
+      		OPT_IW_Modify_Address..State = STATUS
+      		
+      		SWITCH STATUS
+      			CASE Active, Inactive
+      				IMG_POPUPPATH..XImage = 0
+      				IMG_COMBO..XImage = 38
+      				
+      			CASE Grayed
+      				IMG_POPUPPATH..XImage = 30
+      				IMG_COMBO..XImage = 38
+      				
+      			OTHER CASE
+      				// Active by default
+      				SetStatus(Active) 
+      				RETURN
+      		END
+      			
+      		IMG_POPUPPATH..YImage = 0
+      		IMG_COMBO..YImage = 0
+      		
+      		// Reassign the height and width
+      		IMG_POPUPPATH..ImageWidth = IMG_POPUPPATH..Width
+      		IMG_POPUPPATH..ImageHeight = IMG_POPUPPATH..Height
+      	
+      		IMG_COMBO..ImageWidth = IMG_COMBO..Width
+      		IMG_COMBO..ImageHeight = IMG_COMBO..Height
+      		
+      		// Gives the same status to all the elements
+      		FOR i = 1 _TO_ ARRCONTROLS..Occurrence
+      			ARRCONTROLS[i].SetStatus(STATUS)
+      		END
+      		
+      	END
+     type : 458752
+   -
+     name : GetStatus
+     procedure_id : 1754154039199957386
+     type_code : 14
+     code : |1+
+      // Summary: Return the state of the bar
+      // Syntax:
+      //[ <Result> = ] GetStatus ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	integer: Status of the bar (Active, Disabled or Grayed)
+      //
+      PROCEDURE PUBLIC GetStatus()
+      RESULT STATUS
+     type : 458752
+   -
+     name : PathFromTreeview
+     internal_properties : CAAAAAgAAADryS2kfikk6HAfow4qRlmxEnB5P8mztUp1r3NDU274MhOF6Igh4W5CLb2sQgI4CGw8C/1BNsvW0qGGm9tqDnRDyCRmNNxuxEsFuMbwpGSp9Man/ZmUE3ja3ApaP+iYGqsddhaPtl4lQo7EHS8Z+H53lA5nP//irjz53v7rH/3Rpbe7MCaCzQlRKrIhl6BKojiJuyoP8aMlSBaI+uh2XQ==
+     procedure_id : 1754154039200022922
+     type_code : 14
+     code : |1-
+      // Summary: Transfer the content of a tree into the address bar (the identifiers are kept, the current bar's menu will be erased)
+      // Syntax:
+      //[ <Result> = ] PathFromTreeview (<Treeview>)
+      //
+      // Parameters:
+      //	Tree: Name of the treeview control (with or without quotes)
+      // Return value:
+      // 	boolean: True if the content of the treeview has been transfered, False otherwise
+      //
+      PROCEDURE PUBLIC PathFromTreeview(TreeView)
+      
+      	// The control does not exists
+      	IF ControlExist(TreeView) = False THEN
+      		RESULT False
+      	END
+      	
+      	// Empty the bar's content
+      	PathDeleteAll()
+      	
+      	// Transfer the tree's content into the bar
+      	TreeListItem(TreeView, Null, OnTreeviewTransfer)
+      	
+      	// Retrieve the element currently selected in the treeview
+      	sElement is string = TreeSelect(TreeView)
+      	
+      	// Select the bar's element
+      	PathDisplay(sElement)
+      	
+      	INTERNAL PROCEDURE OnTreeviewTransfer(LocalTreeView, LOCAL sBranch is string, LOCAL sCaption is string, *)
+      	
+      		// Remove final TAB
+      		IF sBranch[[Length(sBranch)]] = TAB THEN sBranch[[Length(sBranch)]] = ""
+      		
+      		// Add the branch into the path
+      		PathAdd(sBranch, sCaption, TreeIdentifier(LocalTreeView, sBranch + sCaption))	
+      	
+      		// Continue the read operation
+      		RESULT True
+      	END
+      	
+      RESULT True
+     type : 458752
+   -
+     name : RefreshPath
+     procedure_id : 1754154039200088458
+     type_code : 14
+     code : |1+
+      // Summary: Refresh the bar display
+      // Syntax:
+      //RefreshPath ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PUBLIC RefreshPath()
+      
+      	// Refresh the display
+      	PathDisplay()
+     type : 458752
+   -
+     name : PathFromFile
+     internal_properties : CAAAAAgAAABw+MFZkA9/h7K94N5/rkNg7+qlo7HR9NewoA6+hUcMWWpSXqZnnmYSKyID0Oxvpfaa/WeazymTrnvuOK4q1vgSU99EsRJZb6s4t8fL1UeJwcBz3O2p7LFOKI343nl6xKnLChGTaAvfiIq1gMMixNs+SS+jLlg3GzRfXGuHDBe9cNMNzQ+8OZoH48DSUlc7+pbW444fGrasYgPiOOZhRC50ZuYWjoYT
+     procedure_id : 1754154039200153994
+     type_code : 14
+     code : |1-
+      // Summary: Transfer the content of a data file in the address bar
+      // Syntax:
+      //[ <Result> = ] PathFromFile (<sPath> is string, <SourceFile> is string, <DisplayedSourceItem> is string, <StoredSourceItem> is string, <SourceKeyItem> is string, <LinkedFile> is string, <LinkedKeyItem> is string [, <DisplayedLinkedItem> is string [, <StoredLinkedItem> is string]])
+      //
+      // Parameters:
+      //	sPath (string): Root path where the data will be added. If this parameter is an empty string (""), the current content of the bar will be erased before the bar is filled)
+      //	SourceFile (string): Name of the data file that will be used to read the 'high level' elements
+      //	DisplayedSourceItem (string): Name of the items that will be used for the caption of the elements
+      //	StoredSourceItem (string): Name of the item that will be used for the identifier of the elements. This parameter can be empty ("") if no value must be stored
+      //	KeySourceItem (string): Name of the item that will be used for the link with the linked file. This parameter can be empty ("") if no linked file is specified
+      //	LinkedFile (string): Name of the data file linked to the source file that will be used to read the elements and the sub-levels. Specify an empty string ("") if no linked file is used
+      //	LinkedKeyItem (string): Name of the item that will be used for the link with the source file. This parameter can be empty ("") if no linked file is specified
+      //	DisplayedLinkedItem (string - default value=""): Name of the item that will be used for the caption of the elements
+      //	StoredLinkedItem (string - default value=""): Name of the item that will be used to identify elements. This parameter can be empty ("") if no value needs to be stored
+      // Return value:
+      // 	boolean: True if the data was successfully imported, False otherwise
+      // Note:
+      //  The source file and the linked file can be the same data file. 
+      //  Simply specify a source key and a linked key that will be used to filter the elements
+      //
+      PROCEDURE PUBLIC PathFromFile(LOCAL sPath is string, LOCAL SourceFile is string, LOCAL DisplayedSourceItem is string, LOCAL StoredSourceItem is string, LOCAL SourceKeyItem is string, LOCAL LinkedFile is string, LOCAL LinkedKeyItem is string, LOCAL DisplayedLinkedItem is string = "", LOCAL StoredLinkedItem is string = "")
+      
+      	dsSourceFile, dsLinkedFile are data sources
+      	nPositionCtx is int
+      
+      	IF SourceFile = "" THEN RESULT False
+      
+      	IF HFileExist(SourceFile) = False _OR_ ((LinkedFile <> "" _AND_ HFileExist(LinkedFile) OR LinkedFile = "")) = False THEN
+      		RESULT False
+      	END
+      	
+      	// Clear the bar
+      	IF sPath = "" THEN
+      		PathDeleteAll()
+      	END
+      	
+      	IF DisplayedSourceItem = "" THEN RESULT False
+      		
+      	// Simple read
+      	IF LinkedFile = "" THEN
+      		
+      		// Create an alias on the data file
+      		HAlias(SourceFile, dsSourceFile)
+      		HChangeName(dsSourceFile, SourceFile)
+      		
+      		// Read the source file
+      		FOR EACH dsSourceFile on DisplayedSourceItem
+      			
+      			// Add the element at the root
+      			IF StoredSourceItem = "" THEN
+      				PathAdd(sPath, {dsSourceFile + "." + DisplayedSourceItem, indItem})
+      			ELSE
+      				PathAdd(sPath, {dsSourceFile + "." + DisplayedSourceItem, indItem}, {dsSourceFile + "." + StoredSourceItem, indItem})
+      			END		
+      			
+      		END
+      		
+      	ELSE
+      		
+      		IF SourceKeyItem = "" THEN RESULT False
+      		IF LinkedKeyItem  = "" THEN RESULT False
+      		
+      		// If the source file and the linked file are the same file
+      		IF SourceFile = LinkedFile THEN
+      			
+      			// Create an alias on the data file
+      			HAlias(SourceFile, dsSourceFile)
+      			HChangeName(dsSourceFile, SourceFile)
+      			
+      			// Read the source file
+      			FOR EACH dsSourceFile WHERE (SourceKeyItem + "<= 0 OR " + SourceKeyItem + "= ''") on DisplayedSourceItem
+      				
+      				// Add the element at the root
+      				IF StoredSourceItem = "" THEN
+      					PathAdd(sPath, {dsSourceFile + "." + DisplayedSourceItem, indItem})
+      				ELSE
+      					PathAdd(sPath, {dsSourceFile + "." + DisplayedSourceItem, indItem}, {dsSourceFile + "." + StoredSourceItem, indItem})
+      				END
+      				
+      				// Save the Hyper File position
+      				nPositionCtx = HSavePosition(dsSourceFile)
+      				
+      				// Recursive import
+      				PathFromRecursiveFile({dsSourceFile + "." + LinkedKeyItem, indItem}, sPath + [TAB] + {dsSourceFile + "." + DisplayedSourceItem, indItem})
+      				
+      				// Restores the position
+      				HRestorePosition(nPositionCtx)
+      			END
+      			
+      			INTERNAL PROCEDURE PathFromRecursiveFile(LOCAL LinkedKeyVal is Variant, LOCAL sLocalPath is string)
+      			
+      				nLocalCtxPosition is int
+      				
+      				// Read the source file
+      				FOR EACH dsSourceFile WHERE (SourceKeyItem + "= '" + LinkedKeyVal + "'") on DisplayedSourceItem
+      					
+      					// Add the element at the root
+      					IF StoredSourceItem = "" THEN
+      						PathAdd(sLocalPath, {dsSourceFile + "." + DisplayedSourceItem, indItem})
+      					ELSE
+      						PathAdd(sLocalPath, {dsSourceFile + "." + DisplayedSourceItem, indItem}, {dsSourceFile + "." + StoredSourceItem, indItem})
+      					END
+      					
+      					// Save the Hyper File position
+      					nLocalCtxPosition = HSavePosition(dsSourceFile)
+      					
+      					// Recursive import
+      					PathFromRecursiveFile({dsSourceFile + "." + LinkedKeyItem, indItem}, sLocalPath + [TAB] + {dsSourceFile + "." + DisplayedSourceItem, indItem})
+      					
+      					// Restores the position
+      					HRestorePosition(nLocalCtxPosition)
+      				END
+      			END
+      			
+      		ELSE
+      			
+      			// Create aliases on the data files
+      			HAlias(SourceFile, dsSourceFile)		
+      			HAlias(LinkedFile, dsLinkedFile)
+      			HChangeName(dsSourceFile, SourceFile)		
+      			HChangeName(dsLinkedFile, LinkedFile)
+      			
+      			// Read the source file
+      			FOR EACH dsSourceFile on DisplayedSourceItem
+      				
+      				// Add the element at the root
+      				IF StoredSourceItem = "" THEN
+      					PathAdd(sPath, {dsSourceFile + "." + DisplayedSourceItem, indItem})
+      				ELSE
+      					PathAdd(sPath, {dsSourceFile + "." + DisplayedSourceItem, indItem}, {dsSourceFile + "." + StoredSourceItem, indItem})
+      				END
+      				
+      				// Read the linked file
+      				FOR EACH dsLinkedFile WHERE (LinkedKeyItem + "= '" + {dsSourceFile + "." + SourceKeyItem, indItem} + "'") on DisplayedLinkedItem
+      					
+      					// Add the element 
+      					IF StoredLinkedItem = "" THEN
+      						PathAdd(sPath + [TAB] + {dsSourceFile + "." + DisplayedSourceItem, indItem}, {dsLinkedFile + "." + DisplayedLinkedItem, indItem})			
+      					ELSE
+      						PathAdd(sPath + [TAB] + {dsSourceFile + "." + DisplayedSourceItem, indItem}, {dsLinkedFile + "." + DisplayedLinkedItem, indItem}, {dsLinkedFile + "." + StoredLinkedItem, indItem})			
+      					END					
+      				END						
+      			END		
+      		END		
+      	END
+      	
+      	// Display the path
+      	RefreshPath()
+      	
+      RESULT True
+      	
+      CASE EXCEPTION:
+      RESULT False
+      	
+      END:
+      	// Cancel the declaration
+      	HCancelAlias(dsSourceFile)
+      	HCancelAlias(dsLinkedFile)	
+      	HCancelDeclaration(dsSourceFile)
+      	HCancelDeclaration(dsLinkedFile)
+     type : 458752
+   -
+     name : SetPopupMenu
+     internal_properties : CAAAAAgAAABy/b6YOP6Y2Yg4hwkWxDvOccZ2+l7xBcYC1OxhmfIis7wRm5JpbGBBUjom0P4oed4yQs4jrjjtI/o2dTakZnw5qZK4pLjQ3ybwiPLPd4yTwOHOvoCwhWp5B6xHjwrfB2aGXf5elzjE/wP2AQrzM35jnNpQ8e9QM8iDcH+zqGggzQ3H/40uufhlE3gaCi9TdmxuTO+OgQo=
+     procedure_id : 1754154039200219530
+     type_code : 14
+     code : |1-
+      // Summary: Define the popup menu associated with the address bar
+      // Syntax:
+      //SetPopupMenu[<Menu>]
+      //
+      // Parameters:
+      // 	Menu: Complete name of the custom popup menu associated with the bar. To add a popup menu to the default menu, put the "+" or "-" sign in front of your menu name (see the documentation of ..PopupMenu). You can also use the PopupMenuDisabled and PopupMenuSystem constants.
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SetPopupMenu(Menu)
+      
+      	// Default menu
+      	IF Menu IN (PopupMenuSystem, "") THEN
+      		CONTAINER..PopupMenu = MENU_Default
+      		RETURN
+      	END
+      	
+      	// No menu
+      	IF Menu = PopupMenuDisabled THEN
+      		CONTAINER..PopupMenu = PopupMenuDisabled
+      		RETURN
+      	END
+      	
+      	// Specified menu
+      	CONTAINER..PopupMenu = Menu
+     type : 458752
+   -
+     name : OnPaint
+     procedure_id : 1754154039200285066
+     type_code : 14
+     code : |1-
+      // Summary: refresh the bar's drawing
+      // Syntax:
+      // OnPaint ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE OnPaint()
+      
+      RefreshPath()
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACnupEZbK2OyDJs8bN4jyBomuQ46944AbfyBp2jZiH+3qFJT+VvGKh+QbSELuzyiTxq87KlMyL5uHoIYWyL5KFnPa2j
+  integrate_compiled_code : true
+  original_name : FI_FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x17a1ec0e0029fa4d
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

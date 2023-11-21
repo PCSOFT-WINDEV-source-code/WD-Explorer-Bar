@@ -1,0 +1,453 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : POP_ELEMENT
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : POP_ELEMENT
+ identifier : 0x27a322530a23ea5a
+ internal_properties : CAAAAAgAAAD79xTNXTzy957d3qO+1iZwMiHtsgs0aLuFY3rdbiL9hJGGTZjUsgb5b2s1sMX4+764mpzSTZzUKPjBu6BnVkY3N1uYCrTXgZ3pvIp4GKJMy2apWPw+yXKaJzXEf2qr6vvNQfXsAvJNY8fkugAHQpEy5fr+BEiDgqnbVDcM7KiJwI+U9A3brLv+TXXupVnbU7oW4KAIkybJ761EkMaDfn1LttaqJ7pWGet57WtGaj2CDJNT8n9OwLh79lzyC2eS/Cflx1UQw6xQMwU40fsOcQA2yJs2zar7PPPfDT819SLxX5HaP3s9kWnlTIaU+CDAdkyn98WiS7lfVf0EmryMVZxzzpYfPcxFgxg4MyoI0HV73xgqHBUZna6zFCM9bD3f0WULRGgo94gcnZFxQHIW5NSR2GRv3AE0imhRYYL5QbEMxLRaNeb5VAl+ACMhWEem7oUhSIdCsPwnyvp9bvh9pB5aNUY+Ze0xKaNforteZkwn3aUI3pOGDpcDUy1fyLDw/qTwH5bZiho8+jKA+7K+yY72bPvBnoalBoghsggF4jI4uHeM9WrG+77AElUH6a3tH/TkGo7CHqzK/jpzb6bwSPVofnlDVQgxSRWi+tuR1NUcMS9HEn4+bnv+NFoegRV/Vuxur3XrhU/u/R+KP0SOaoETK/VyY57exLljOb6anYC+hnraTk6JXv1Rc5RL7dexB+b+83kfCSM+GtBPz3RCUXpmVkm0DfAgj+KyRtKKok78el2a0G01PM4MYRYLtkNtFzajugjkK3R+ZXRquEMUGE7x7b6wL2i0YwprOVuilKQWbuPuXJmOXeJgkkDRcNoJnuzUm7JaVsWefKb33plRhbAPuxlXP4DiJEoW0B+0
+ properties :
+  width : 230
+  height : 27
+  widthMin : 0
+  heightMin : 0
+ controls :
+  -
+    name : LOOP_ELEMENTS
+    identifier : 0x27a3226a0bdf41e0
+    internal_properties : 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
+    properties :
+     x : 3
+     y : 3
+     width : 224
+     height : 21
+    controls :
+     -
+       name : IMG_ICON
+       identifier : 0x27a3245c12ebdd14
+       internal_properties : CAAAAAgAAACrlRep1psNUZpIIQao8HJR2aEsx72c26nk3yabY6IeN/asspW1S/eWiEQLCvZv43LvrRxp0cnG1iV+k9G2ubozj8t+v5HrrNwGKr4jP8V/BnV42XVcopwDtozSsgdquqNg0xLhrMlvfOdY2FLYtYi02THAq/ACsVRqtwM+pqC4Y2wgNnI22SLRRk59SOhNBKw5KS3JTuZl9iEW4Xzs/oB0/e7rRYTscuowsPNBDAM/rh076A3nFkOmMZBJZH5t4qFTkEVbUHfGHSWE9egFhSN57Z7xowZpjM8FjpcJwJaYcPqcxIsW3SM84lN8HBTL5Y6qusy1mC60DyVZC0Fl/pXXbcs86rbGlx9LLp8adrJzC8iRMd1d0O8Prc1wJfzaGusZufYNmATUGeFk+7pPYsHBvW+zgpE80bLwcTXcDUz8/8rsUD/OhxciZljNRhVe3cC4WMooV20YpN+RhSXZiZlDmhK9FRJVAt/dX2v8TnPqvjzXXAB98BbboHvPjoI0nTkRMajqiN9wd4SnOJLnY0LJp558pm2gD64Ei0CRRsPrViSf1HX6+J2H5dXydfwPfRtAtqvG/d2b2BnzjVUXntQ=
+       properties :
+        x : 7
+        y : 1
+        width : 20
+        height : 20
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : STC_ELEMENT
+       identifier : 0x27a324b217362def
+       internal_properties : CAAAAAgAAACeCOw7AJ5nfJkunnLk66U76YeupfmZLrKIiZHu2WOAVWKhkhgIHDBvbNuqXUBjbaEnvcpz+2vyR4i5GRgrjzX+UgeNh6r3MzJQtnXObY0EhegVGDFuX6jbeoXZFedAynIgc9/P4xene6bdJ1S0UswuhUBy1NPm6kWWamekhycO/KPK0HX6JgplDhwpflCrJEK6ltzHFtRVLMWicHBKTWIqamtOydC9Jfz6f6+avez8NF77OVyTVEWnXGuTJskRWLRC9806VSFP5UWeu+TvNv7/ICiY675EGgj5bpMwwGdUCMMCUP5iz6jdvsdT/S66oc29djifk0MmbzBUdB/6CXrx5mLR9IOjAFd9i5M=
+       properties :
+        x : 34
+        y : 1
+        width : 187
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+    columns :
+     -
+       name : ATT_IMAGE
+       identifier : 0x27a325db225db6f1
+       internal_properties : CAAAAAgAAAA58rpnoMVBkv+G9aXuy3UTyIDibIBf3F0EgB3SSbPDV6apwT7ZDxKyJ4OOk6xPnToXoybZUmAVr+7gsDnWAwJyk1GY8SlMh5gpDHcci0QZ0FT4vFXki+3bdX9AnDFtvJ8iTfoJkiFiMB+cbrAAwntyfBbVFS6/ZNs6BQVWkg==
+       type : 3
+       content :
+        identifier : 0x2557960402315ca4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CAPTION
+       identifier : 0x27a325dc225fb701
+       internal_properties : CAAAAAgAAAB60bmnH8bUQj7htvN5E9gAmb6HYXtSD2CDIhmhOD1x4It+rcOgtKhbK3btv6g082ydS7LqbVSPh9p0+YF+ScnYgEKHDTf5PcOQd+EZTnkfwA6bzJ+uv1S3GsT1+WYY+s1WLeyDwVu0h1i3I8d7NHz0aVfwVkwQDGl5k/WKya4=
+       type : 3
+       content :
+        identifier : 0x2557960402335ca4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_BOLD
+       identifier : 0x27a325dc2261b701
+       internal_properties : CAAAAAgAAADvPnHU1JFcDPANP7w1vDYPtnyv+jPB8OanLyvGo7JLeUvfQlfhc6O5Xu2VzSvWBUU0RTi+17cQI93xblHFNGkCzENBSpC0RAaOVZlAV1G5a46Mupew9kFdy8LUHX6v2f8i1Y4fHzllnTrfFy0FO1DdkrgXAl5Jp30CG1YKieg8gZ5P7ok=
+       type : 3
+       content :
+        identifier : 0x2557960402355ca4
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        code : |1-
+         
+        type : 66049
+      -
+        internal_properties : CAAAAAgAAABvSX612SM9Eiuwex5ACwhJx1H0AIhxs59bVldMpKH3n2WQRlQjrOFxXA//QFxqLQ7bLvKs4Dj0NnSrGq+mukjim7PWBaPOQjKaPNQuXCwSmOlrWn3gBUCxJk5XrrVT4dLDd0HTsLSyLiCyUwg=
+        code : |1-
+         
+         _EVE.Return = False
+         
+         // Retrieve the coordinates of the mouse
+         nSx,nSy are int
+         nSx = MouseXPos
+         nSy = MouseYPos
+         
+         // Retrieves the row that was clicked
+         nLine is int
+         nLine = LooperInfoXY(LOOP_ELEMENTS, liLineNumber, nSx, nSy)
+         
+         IF nLine > 0 THEN
+         	
+         	IF gbLoading = False THEN
+         		
+         		// Keeps the object
+         		gpclSelection = garrElements[nLine]
+         		
+         		MyWindow..ReturnedValue = gpclSelection:GetPath()
+         		Close()
+         	END
+         	
+         END
+        type : 66050
+      -
+        code : |1-
+         
+         IF gbLoading = False THEN
+         
+         	// Keeps the object
+         	gpclSelection = garrElements[LOOP_ELEMENTS]
+         	
+         	MyWindow..ReturnedValue = gpclSelection:GetPath()
+         	Close()
+         END
+        type : 66051
+      -
+        code : |1-
+         RESULT False
+        type : 65543
+ menu :
+  name : _Menu
+  identifier : 0x27a322530a25ea5a
+  internal_properties : CAAAAAgAAAC9auouxN3CiS1UHy69pCHJU2hPQP5aPrxDpuMd+folLnKLDclr4k04UVuUGa0eBjiUure/514NXQqvoA3kcE+ZfkAwZN5wuqf91stOSc7rrooKBe5p25+yGTrLtIh9cUvTSVwZqbm0iR8jS067DZVsr/rbKIf2qwSw5b0tai1hxqUFZkxL3IAJ4aLbMzxeRNbeYxe2gATNFCMeY38BgMEzxLp73ck14CZ1r43ovvpL1z80OL3aUfeKHbCfihfJqrDOO8iqc+h05HVbYos4EhHCLmjs/KDqmIik3JDNSn0=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABRRvMh+DwKgvDLGfmIZNRnXYP26cFj8ijHlo4Jura7u/fyl3O4IpdBd1HUHwiQEi/v/Rc+W+meFtZZOR6ZkuUQiYOoMmlgUOSAJMzuv2Cor7XeppuVlht+VxgQ
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAD7PTLlIS4W5n98nzp8R7i5e40MfOit05PH6nuYqCVvN7G01uDb+HmNmLMz9BAeZc4fagrA0NQWOErx1OnkbBo4UZWoP3lo7Fzwsm54+r6UXo+9nIdO13obXHwJ4Psdk3hpmQuF5ndONiQmx5w=
+     code : |1-
+      
+      PROCEDURE POP_ELEMENT(gpclElement is cElement dynamic, gsCurrentPath is string, gWLProc is PROCEDURE = Null,  MYID is int = 0)
+      
+      MyWindow..ReturnedValue = ""
+      	
+      garrElements 	is array of cElement dynamic
+      gpclSelection	is cElement dynamic
+      gbLoading	is boolean = True
+      gnSelect		is int
+      gnMaxWidth	is int
+      
+      LOCAL
+      	pclElement	is cElement dynamic
+      	nWidth	is int
+      	
+      // Retrieve the object's children	
+      garrElements = gpclElement.GetChild()
+      
+      FOR EACH ELEMENT pclElement of garrElements	
+      	
+      	// Adds the element into the looper
+      	LooperAddLine(LOOP_ELEMENTS, pclElement.m_Image_status, pclElement.m_sCaption, ElementInPath(pclElement, gsCurrentPath))	
+      	
+      	// Calculate the maximum width needed
+      	nWidth = TextWidth(STC_ELEMENT, pclElement.m_sCaption, tSingleLine)
+      	IF nWidth > gnMaxWidth THEN gnMaxWidth = nWidth	
+      	
+      	IF ATT_BOLD[LOOP_ELEMENTS..Occurrence] THEN
+      		gnSelect = LOOP_ELEMENTS..Occurrence
+      	END	
+      END
+      
+      // Maximum width
+      gnMaxWidth += 90
+      gnMaxWidth = Max(MySelf..MinWidth, Min(gnMaxWidth, MySelf..MaxWidth))
+      POP_ELEMENT..Width = gnMaxWidth
+      //
+      // Manage the click outside the popup
+      Event(OnMouseDown, "*.*"		, WM_LBUTTONDOWN)
+      Event(OnMouseDown, "*.*"		, WM_RBUTTONDOWN)
+      Event(OnMouseDown, "*.*"		, WM_NCLBUTTONDOWN)
+      Event(OnMouseDown, "*.*"		, WM_NCRBUTTONDOWN)
+      //
+      // Manage the events to prevent the popup from gaining focus
+      Event(OnPeek, "*.*"			, WM_MOUSEACTIVATE)
+      Event(OnPeek, "*.*"			, WM_ACTIVATE)
+      Event(OnPeek, "*.*"			, WM_NCACTIVATE)
+      Event(OnPeek, "*."			, WM_ENTERSIZEMOVE)
+      
+      gnSelect = Max(1, gnSelect)
+   -
+     code : |1-
+      
+      // Adapts the size of the popup
+      WinAdaptSize(POP_ELEMENT)
+      
+      LooperSelectPlus(LOOP_ELEMENTS, gnSelect)
+      gbLoading = False
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+      // End of the popup
+      CLosePop()
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+   -
+     code : |1-
+      RESULT False
+     type : 65543
+  procedures :
+   -
+     name : ElementInPath
+     procedure_id : 1703254089682186229
+     type_code : 14
+     code : |1-
+      // Summary: Check whether an element is part of the current path
+      // Syntax:
+      //[ <Result> = ] ElementInPath (<pclElement> is cElement dynamic, <sCurrentPath> is string)
+      //
+      // Parameters:
+      //	pclElement (cElement dynamic): Element to test
+      //	sCurrentPath (string): Current path
+      // Return value:
+      // 	boolean: True if the element is part of the current path, False otherwise
+      //
+      PROCEDURE ElementInPath(pclElement is cElement dynamic, LOCAL sCurrentPath is string)
+      
+      	sPath is string
+      	nPosition is int
+      	
+      	// Retrieve the element's path
+      	sPath = pclElement.GetPath()
+      	
+      	IF sPath = sCurrentPath THEN RESULT True
+      	
+      	FOR ALL POSITION nPosition of TAB IN sCurrentPath FromEnd
+      		IF sCurrentPath[[TO nPosition - 1]] = sPath THEN
+      			RESULT True
+      		END
+      		
+      	END	
+      	
+      RESULT False
+     type : 458752
+   -
+     name : OnMouseDown
+     internal_properties : CAAAAAgAAAAaK7Us+9akReI0dZwbDf+osOfyPwKBZXT1OQSovM3oBWr1dTvLXW1steDVnaQ87u9I3bFSKjrIry7cod1MT25hPDoaI32TgiXiZdNgoH8UqXb7somO2W7DwSkeTRBv/Dt+A1X4vxSxFtNWPqXB
+     procedure_id : 1704397899628968263
+     type_code : 14
+     code : |1+
+      // Summary: Event: left button down
+      // Syntax:
+      //[ <Result> = ] OnMouseDown ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: 
+      PROCEDURE OnMouseDown()
+      
+      	// If the control that was clicked is not the looper
+      	IF _EVE.name <> "LOOP_ELEMENTS" THEN
+      		
+      		// Close the popup without returning a value
+      		MyWindow..ReturnedValue = ""
+      		Close(POP_ELEMENT, "")
+      						
+      	END
+     type : 458752
+   -
+     name : CLosePop
+     procedure_id : 1704398238931463959
+     type_code : 14
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // CLosePop ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CLosePop()
+      
+      
+      	IF gWLProc <> Null THEN
+      		
+      		sPath is string = MyWindow..ReturnedValue
+      		
+      		// We should not be in test mode of the internal window
+      		IF Position(CurrentWin, "_SupportInternalWin") > 0 THEN 
+      			PostMessage(Handle(), WM_WDELEMENTPOPEND + MYID, &sPath, 0)
+      			RETURN
+      		END
+      		
+      		// Call the procedure managing the closing of the popup	
+      		gWLProc(sPath, MYID)
+      		
+      	END
+     type : 458752
+   -
+     name : OnPeek
+     internal_properties : CAAAAAgAAAAb3eCnDKb1w9ybqlvh9ippeY1Wf8Hi4SgW1ctVoV8MxQ9auSx3hGg39s/ISGdTErq9M4KPFdjvUBjqvhClGCTuPJfFMKH2ytPZKiei9jU/Avzw7B3Lwz90SLqVgDQBQMJmUcm67mpEzKsw54qJ45pVxcc+weRtEKTZFcVZZVIil8jqhr8nuwFVVryLvecoYvvSL5zb4WSyyuTnbAAh8U7Qu9a8F5G7V60LVBtGBRlNcRnlCqM9cvHm3BoDBMrsbBvBCHv2BX+KuF6py9sb1O6wY4tDnVVmn8Jufc/LqljTPk5Jjrb/jUMGeI5J58AOrnDqiVHvVfj9QrXCIm24/EYo8pCZSXVqAXZL1vsoHW5Bqv+HK9L929JT
+     procedure_id : 1704737863585449142
+     type_code : 14
+     code : |1-
+      // Summary: Process the activation messages
+      // Syntax:
+      //[ <Result> = ] OnPeek ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	Undefined type: // 	None
+      //
+      PROCEDURE OnPeek()
+      
+      	// Retrieve the coordinates of the mouse
+      	nPosX, nYPos are int
+      	nPosX = LoWord(CursorPos(cpScreen))
+      	nYPos = HiWord(CursorPos(cpScreen))
+      	
+      	// Prevent the window from taking focus and from being activated when it is clicked
+      	IF _EVE.wMessage = WM_MOUSEACTIVATE THEN
+      		RESULT MA_NOACTIVATE
+      	END
+      	
+      	// Prevent the window from taking focus and from being activated when it is clicked
+      	IF _EVE.wMessage = WM_ACTIVATE THEN
+      		IF _EVE.wParam = 0 _OR_ _EVE.hWnd = Handle(POP_ELEMENT) THEN
+      			RESULT False
+      		END
+      	END
+      	
+      	IF _EVE.wMessage = WM_PARENTNOTIFY THEN
+      		IF _EVE.wParam = 0	 THEN
+      			RESULT False
+      		END
+      	END
+      	
+      	IF _EVE.wMessage = WM_NCACTIVATE THEN
+      		RESULT False
+      	END
+      	
+      	// If the event took place outside the display area of the popup
+      	IF NOT (POP_ELEMENT..X <= nPosX <= POP_ELEMENT..X + POP_ELEMENT..Width _AND_ POP_ELEMENT..Y <= nYPos <= POP_ELEMENT..Y + POP_ELEMENT..Height) THEN
+      		// We simulate a click outside of the popup
+      		OnMouseDown()
+      		RESULT False
+      	END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Popup1
+resources :
+ string_res :
+  identifier : 0x17a322040032b489
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
